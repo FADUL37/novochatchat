@@ -1,8 +1,0 @@
-services:
-  - type: static
-    name: novochatchat-frontend
-    env: node
-    buildCommand: npm run build
-    startCommand: serve -s build
-    staticPublishPath: build
-    rootDir: frontend
