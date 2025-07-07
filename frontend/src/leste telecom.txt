@@ -1,0 +1,399 @@
+LESTE TELECOM
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	
+De segunda a sexta: Início às 23h | Encerramento às 8h.
+Sábados, domingos e feriados: Início às 20h | Encerramento às 8h.
+UPSOFT - NÃO
+
+SOMENTE LIGAÇÕES
+
+SOSBeta	Integrator
+Login SOSBeta: upcall
+Senha SOSBeta: Leste@2025@upcall
+
+Abertura e registro de atendimentos, com acesso à aba de equipamentos para verificação de sinal e temperatura. Possibilidade de consultar alarmes negativos e histórico de atendimentos.  Envio de boletos e códigos de barras, além de verificar se o cliente está com o serviço reduzido ou suspenso. Também é possível alterar a senha e configurar a rede Wi-Fi para equipamentos ONU Fiberhome/NOKIA.
+
+Login Integrator: upcall
+Senha Integrator: Leste@2025
+Tutorial Integrator
+
+Verificar cadastro, login PPPOE, senha PPPOE, extrato de conexões, status do plano e função para zerar mac.
+
+SCRIPT PADRÃO PARA REGISTROS:
+
+Nome de quem entrou em contato:
+Dados cadastrais confirmados? (endereço, e-mail, telefone, opt-in):
+Qual foi a solicitação/reclamação:
+O que identificamos nas verificações:
+O que foi feito para solucionar:
+
+SEMPRE INFORMAR O CLIENTE SOBRE POSSIVEL TAXA DE COBRANÇA PARA TODO CHAMADO ABERTO PARA VISITA TECNICA 
+
+Em caso de visita técnica acrescentar:
+
+*Cliente ciente do prazo de até 48 horas úteis? (Embora temos equipes trabalhando todos os dias, domingos e feriados não são dias úteis).
+*Cliente ciente da existência da taxa de deslocamento técnico em caso de visita improdutiva no valor de R$80,00 e da cobrança de materiais danificados por mal uso conforme o faq? ( https://www.lestetelecom.com.br/valor-de-reposicao)
+*Quem irá receber a equipe? (MAIOR DE 18 ANOS COM DOCUMENTO EM MÃOS)
+-NOME COMPLETO E DATA DE NASCIMENTO DE QUEM IRÁ RECEBER
+-Restrição de horário para receber a equipe:
+
+Em casos de abertura de TICKET
+
+Ajustar o subtipo conforme a demanda do cliente.
+
+Exemplo: pedido de negociação de faturas de abril e maio
+
+Tipo: Financeiro | Subtipo: Retorno do Financeiro.
+
+Quais as tecnologias oferecidas pela empresa?
+R: A Leste trabalha com a tecnologia FTTH (Fiber to the Home) que leva a fibra óptica desde nossos CPD’s até dentro da casa do cliente.
+
+Quais os planos vendidos na empresa?
+R: A Leste trabalha com planos regionais com características específicas em cada cidade. Cada plano possui características específicas que podem ser dentre elas, diferença entre planos prediais e planos residenciais, acompanhar Mesh, equipamento AC ou AX. Planos que possuem fidelidade e outros planos que não possuem.
+
+ 
+
+Para a consulta de tais planos, podemos acessar o site: www. lestetelecom.com.br
+
+Quais cidades/bairros de atuação?
+R: Hoje atendemos 8 cidades de acordo com nossos mapas de viabilidade para cada cidade. São essas: Itaboraí, Tanguá, Rio Bonito, Magé, Guapimirim, São Gonçalo, Niterói e Maricá.
+
+Para consultar a viabilidade, acesse:https://www.lestetelecom.com.br/viabilidade
+
+ou
+
+Pode ser consultado o mapa de polígonos de viabilidade e áreas não autorizadas que são atualizados constantemente.
+
+Quais equipamentos utilizados?
+R: A Leste trabalha com conversores ópticos nos modelos: FIBERHOME, ZTE, NOKIA, DLINK E PADTEC.
+
+Segue link do documento de todos modelos: 
+
+Já os roteadores, são entregues de acordo com o plano BGN (Transmitem apenas a rede Wi-Fi 2.4Ghz), Wi-Fi 5 (AC) e Wi-Fi 6 (AX). A depender da disponibilidade de estoque, o cliente pode receber uma ONU que irá operar em modo Router ou uma ONU + Roteador que irão operar em modo bridge.
+
+Tais equipamentos, imagens, e tutoriais de como configurá-los podem ser consultados através do nosso FAQ em: https://www.lestetelecom.com.br/configurando-roteador
+
+Presta suporte a repetidores?
+R: Quando contratados conosco em planos MESH, sim.
+
+Hoje a Leste não presta Suporte a equipamentos particulares como um todo. Tendo em vista as possíveis interferências de sinais, próprias da tecnologia Wi-Fi , má alocação de repetidores no ambiente onde a rede é utilizada, não prestamos Suporte a esse tipo de equipamento. Em contrapartida, a Leste possui alguns planos que acompanham equipamentos Mesh em modelo de comodato. O cliente que adere a esses planos, tendo qualquer anomalia em nossos equipamentos Mesh, receberá o Suporte necessário da empresa. Vale ressaltar que os testes necessários em casos de anomalias  precisam ser realizados diretamente a partir da ONU ou roteador principal.
+
+Presta suporte a câmeras?
+R: Não prestamos Suporte a câmeras tendo em vista este ser um equipamento particular. Tendo em vista que a Leste entrega o IPV6 via CGNAT, alguns clientes podem ter dificuldades na utilização desses equipamentos, tendo em vista que geralmente tais equipamentos possuem apenas compatibilidade com IPV4. Nesses casos o cliente precisaria analisar o caso de forma particular.
+
+Qual a porta de acesso para acesso aos roteadores?
+R: Para acesso as roteadores em comodato, utilizamos a porta: 8090. Não realizamos acesso a roteadores particulares.
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: Alguns usuários padrões que utilizamos:  
+
+Login: admin / Senha: admin
+
+Login: admin1 (Admin1) / Senha: admin
+
+Login: admin / Senha: código do cliente + 6 últimos digitos do MAC (Nesse caso desconsiderar os traços)
+
+É possível informar ao cliente a senha do roteador?
+R: Em caso de equipamentos de gerência da Leste (ONU e Roteadores), não é possível informar a senha de acesso ao equipamento.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Em casos onde não é possível ter acesso ao equipamento para realizar a troca de senha, pode ser gerado uma “Visita para configuração de roteador”. Essa visita pode ser gerada caso o equipamento seja de propriedade da Leste e esteja instalado em comodato.
+
+Qual o site utilizado para testes de velocidade?
+R: Em casos de testes de velocidade, é importante que o cliente realize o teste conectando um computador via cabo diretamente ao conversor, criando um discador PPPoe no computador para esse acesso. Os sites recomendados para este teste são: speedtest.net e minhaconexao.com.br 
+
+Garantem toda a banda contratada passada por WiFi?
+R: Não garantimos toda a banda contratada via Wi-Fi tendo em vista que esse tipo de tecnologia pode sofrer diversas interferências e de que a rede é distribuída entre diferentes dispositivos.
+
+A Anatel inclusive produziu um material com este tema, que utilizamos como base na explicação ao cliente: https://sistemas.anatel.gov.br/anexar-api/publico/portal-publicar/documentos?numeroPublicacao=347492
+
+Qual DNS padrão?
+R: Utilizamos DNS automático nos equipamentos dos clientes. Portanto, na configuração dos equipamentos, este dado precisa estar sem nenhuma informação e campos como “Preencher DNS manualmente” não podem estar preenchidos e/ou marcados.
+
+Quais são as tratativas para reset?
+R: Optamos por resetar equipamentos apenas em última instância, tendo em vista que este pode fazer com que o cliente fique plenamente sem conexão. Quando isso for necessário, o cliente deve apertar o botão de reset atrás do seu roteador. Após pressionar este botão, deve então iniciar as configurações do equipamento inserindo dados como credenciais Wi-Fi, login e senha PPPoe. Temos tutoriais que podem ser acessados em nosso FAQ que dizem a respeito da configuração de cada equipamento. O FAQ pode ser  acessado através do: https://www.lestetelecom.com.br/configurando-roteador
+
+Para verificar as informações de Login/Senha PPPoE:
+
+SOSBeta
+Aba de Cliente > Descer a Tela até aparecer o Login PPPoE
+
+Integrator
+Após Acessar o Cadastro do Cliente > Aba de Plano > Clicar no Login 2x > Verificar Login e Senha na Aba Aberta
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Casos que o cliente relate sem conexão (conectado em sistema) ou lentidão, devemos transferir ticket para fila e subtipo  RETORNO SUPORTE TÉCNICO para o N2 verificar, em casos que o cliente deseja visita técnica e não identificamos nenhuma anomalia no atendimento utilizamos o subtipo "VISITA SUJEITA A COBRANÇA"
+
+EX: Lentidão → cliente informa que deseja a visita mesmo estando conectado em sistema e não identificamos anomalia na conexão → Utilizar subtipo "VISITA SUJEITA A COBRANÇA"
+
+Clientes DESCONECTADO DO SISTEMA devemos abrir subtipo LOS/FIBER VERMELHA → FILA: LOGISTICA:ROTEIRIZAÇÃO
+
+MASSIVA devemos alterar o subtipo para ÁREA FTTH (PONTO DE ROTEAMENTO) FORA DO AR e abrir ticket para SAC:SUPORTE:AREA FALHA.
+
+Em casos que já possui chamado em aberto, encerrar o ticket com o subtipo CONFIRMAÇÃO DE VISITA TECNICA
+
+Hoje em casos mais complexos, como problemas em sites específicos, jogos, anomalia ao acessar algum conteúdo e somente aquele conteúdo, escalonamos o problema para o setor do Centro de Gerenciamento de Redes (CGR). Nesses casos, devem gerar um atendimento com o subtipo “AGUARDANDO VERIFICAÇÃO DO NOC”. Esse atendimento deve ser encaminhado para a fila SAC::SUPORTE::SUPERVISÃO.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: O prazo para qualquer atendimento de visita técnica quer seja para clientes residencias ou empresas (Que possuam planos varejo) é de até 48 horas úteis.
+
+Existe setor de Agendamento ou Técnico vai direto?
+R: Após ter sido aberta a visita técnica em atendimento, a OS (ordem de serviço) do cliente é gerada a partir do nosso setor de Logística. Não é feito nenhum agendamento de horário específico e todo atendimento tem o prazo de 48 horas úteis para ser concluído.
+
+Caso o cliente tenha restrição de horário, adicionar na opção PRIORIDADE DE HORÁRIO, vide manual. 
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Em casos de visita improdutivas, é cobrado o valor de R$ 80.
+
+Em casos de equipamento danificado, será cobrado o equipamento conforme faq: https://www.lestetelecom.com.br/valor-de-reposicao + a visita de R$ 80,00.
+
+Tem plantão aos finais de semana e feriado?
+R: O atendimento do Call Center acontece 24 horas. Atendimentos de visita técnica para manutenção acontecem no horário entre 08h00 às 18h00 em todos os dias da semana, incluindo feriados.
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Em casos de visitas técnicas improdutivas, as possíveis cobranças são geradas para a próxima fatura. Em casos de mudanças de endereço/ponto, cobranças de valor proporcional, ou taxas de instalação podem ser cobrados tanto no ato da instalação ou na próxima fatura.
+
+Como prosseguir para casos de falta de interação?
+R: Caso a ligação caia durante uma tratativa que ainda não foi concluída, devemos alterar o Subtipo para RETORNO DO SUPORTE TÉCNICO e enviar o protocolo para a Fila SAC::SUPORTE::RETORNO. Dessa forma, o setor ativo retornará o contato posteriormente com o assinante.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não trabalhamos com IPTV e não prestamos suporte para serviços desse tipo. Temos em nosso FAQ um tópico que trata quanto a isso: https://www.lestetelecom.com.br/iptv
+
+A empresa fornece IP Fixo? Qual valor?  
+R: Os Ip’s fornecidos pela Leste são dinâmicos. Possuímos planos para clientes PME que acompanham IPV4 Real Válido. Esses planos são apenas para clientes PME e podem contratar a partir de R$ 150 a mais na mensalidade.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Em casos de atendimento de Mudanças de Endereço, Novo Ponto, Nova Ativação e outros atendimentos comerciais, devem ser coletados os seguintes dados: Nome Completo, Data de Nascimento, CPF, RG, Órgão Expeditor, E-mail, Telefone, Celular.
+
+Após essa coleta o atendimento deve ser classificado com o subtipo dePRÉ CADASTRO e encaminhado para a fila SAC::COMERCIAL::RETORNO. Informar ao cliente que retornaremos o contato para a consulta de viabilidade.
+
+Mudança de Endereço
+R: Em casos de atendimento de Mudanças de Endereço, Novo Ponto, Nova Ativação e outros atendimentos comerciais, devem ser coletados os seguintes dados: Nome Completo, Data de Nascimento, CPF, RG, Órgão Expeditor, E-mail, Telefone, Celular.
+
+Após essa coleta o atendimento deve ser classificado com o subtipo de PRÉ CADASTRO e encaminhado para a fila SAC::COMERCIAL::RETORNO
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+R: Sim. Os boletos possuem um prazo de validade de até 45 dias após a data de vencimento. Caso esse prazo seja ultrapassado, será necessário realizar a atualização.
+
+O envio será realizado via SOS BETA, com o subtipo: SEGUNDA VIA DE BOLETO. 
+
+Lembrando que os envios são automaticos via e-mail, sms e whatsapp. Importante confirmar se o cliente recebe para atualização cadastral. 
+
+Com quantos dias ocorre o bloqueio?
+R: A suspensão total do serviço ocorre 45 dias após o vencimento, sendo aplicada ao cadastro do cliente no 46º dia
+
+Podemos fazer o desbloqueio de confiança?
+R: Não trabalhamos com desbloqueio por confiança. A liberação do serviço ocorre somente mediante o pagamento da mensalidade e o envio do comprovante.
+
+Atualmente, contamos com uma automação no sistema que consegue identificar a intenção de pagamento do cliente e realiza a liberação de forma automática em até 30 minutos.
+
+Por quantos dias a conexão é liberada?
+R: Após o recebimento do comprovante de pagamento, liberamos o serviço por até 72 horas úteis para aguardar a compensação bancária.
+
+Possui redução de velocidade?
+R: Sim, o plano é parcialmente reduzido para 1 Mega após 15 dias do vencimento. A suspensão parcial no cadastro do cliente é aplicada no 16º dia.
+
+Qual métodos de pagamentos da fatura?
+R:  Segue as forma de pagamento. 
+
+Loja (Presencial): Pagamentos em dinheiro, com compensação imediata.
+Central do Assinante: Acesse https://portal.lestetelecom.com.br/login para:
+Realizar pagamentos via Pix ou cartão de crédito, com compensação imediata.
+Retirar o boleto com código de barras.
+Cadastrar crédito recorrente.
+Boleto (Código de Barras): Compensação em até 72 horas úteis.
+Pix (QR Code ou Pix Copia e Cola): Compensação imediata no sistema, podendo levar até 30 minutos devido à integração entre os sistemas.
+Crédito Recorrente: clientes que cadastraram o cartão de crédito na Central do Assinante e ativaram a opção de crédito recorrente terão o valor da fatura debitado automaticamente no cartão todo mês, na data de vencimento.
+Qual o procedimento para comprovante de pagamento?
+R: O cliente pode acionar a empresa pelos seguintes canais:
+
+WhatsApp: Enviar o comprovante através do número 2020-1300, passando pelo bot.
+E-mail: Direcionar o comprovante para sac@lestetelecom.com.br.
+Ambos os canais oferecem atendimento 24 horas.
+
+Como prosseguir em casos de cancelamento?
+R: Em casos de cancelamento, usar o SUBTIPO: SOLICITAÇÃO DE CANCELAMENTO via sos Beta, manter o atendimento aberto na FILA: SAC::FINANCEIRO RETORNO e informar ao cliente que retornaremos o contato em até 12 horas. 
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ERP:
+
+Sos Beta, Integrator 
+
+Central do Assinante:
+ 
+
+https://portal.lestetelecom.com.br/login
+ 
+
+ENDEREÇOS
+
+ 
+
+Possui atendimento presencial?
+R: Sim, temos 6 pontos de atendimento e recebimento.
+
+Atendimento e recebimento
+
+Maricá
+
+Endereço: Av. Vereador Francisco Sabino da Costa 119 - Loja 5 - Centro- Maricá - RJ - 24900-100​ ​
+
+Referência: No mesmo prédio da Casa & Vídeo
+
+Horários de atendimento:
+
+De segunda a sexta, das 8h às 18h.
+
+Sábado, das 9h às 18h.
+
+---
+
+ 
+
+Magé
+
+Endereço: Praça Nilo Peçanha - 45 - Loja 211 - Centro- Magé - RJ - 25900-088
+
+Referência:  No Shopping ​da praça
+
+​Horários de atendimento:
+
+De segunda a sexta, das 9h às 18h.
+
+Sábado, das 9h às 13h.
+
+​Horário de almoço:
+
+De segunda a sexta das 13h às 14h.
+
+---
+
+ 
+
+Tanguá
+
+Endereço: Rua Manoel João Gonçalves Qd C Lt 02 - Centro - Tanguá -24890-000
+
+Referência:  Ao lado da Drogarias Alexandre e da Lotérica.
+
+​Horários de atendimento:
+
+De segunda a sexta, 9h às 18h.
+
+Horários de Almoço:
+
+De segunda a sexta, das 13h às 14h.
+
+Sábado: 9h às 13h.
+
+ 
+
+----
+
+ 
+
+Rio Bonito
+
+Endereço: Avenida Sete de Maio N 50 Lj 06 - Centro - Rio Bonito - 28800-000
+
+Referência:  Edifício Henry Ford
+
+​Horários de atendimento:
+
+De segunda a sexta, das 9h às 18h.
+
+Horários de Almoço:
+
+De segunda a sexta, das 13h às 14h.​
+
+Sábado, das 9h às 13h.
+
+ 
+
+----
+
+Itaboraí
+
+Endereço:  Rua Acácio Campos dos Santos, N100, Qd 12 - Centro - Itaboraí - 24800-021
+
+Referência:  Rua atrás da antiga Nalin.
+
+​Horários de atendimento:
+
+De segunda a sexta, das 8h às 18h.
+
+Sábado, das 9h às 18h.
+
+ 
+
+----
+
+ 
+
+Atendimento e recebimento (pix e cartão)
+
+Niterói
+
+Endereço: Rua Quinze de Novembro, 08, 3º piso - Centro, Niterói
+Referência Plaza Shopping
+
+Horários de atendimento:
+
+De segunda à sábado, das 10h à 22h.
+
+Domingo, das 13h às 21h.
+
+ 
+
+CONTATOS
+
+ 
+
+TELEFONES  
+
+Principal: 2020-1300
+
+Secundário: 3940-0130 (em casos de falhas com o principal, entrar em contato através do secundário)
+
+0800 053 1300
+
+ 
+
+WHATSAPP  
+
+2020-1300
+
+ 
+
+SITE
+www.lestetelecom.com.br
+ 
+
+FACEBOOK
+
+https://www.facebook.com/LesteTelecom/
+
+ 
+
+HORÁRIOS
+Atendimento suporte técnico 24 horas
+
+ 
+
+TUTORIAL
+⇒APOSTILA SUPORTE TÉCNICO⇐
+
+⇒APOSTILA FINANCEIRO⇐
+
+⇒TUTORIAL SOS BETA⇐
+
+⇒TUTORIAL INTEGRATOR⇐
+
+downloadMedia
+É possível verificar as áreas de manunteção/massiva através do Campo “Área Falha” do SOSBeta, clicando nos 3 traços do canto superior esquerdo

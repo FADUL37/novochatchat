@@ -1,0 +1,220 @@
+Sette Fibra
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+De Segunda à Sábado das 22h às 08h
+
+Domingos e Feriados 24h
+
+*Transbordo no Telefone a partir das 20h
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	UPCHAT	SETORES
+ 
+Utilizamos OUTRAS DEMANDAS para questões comerciais/financeiras e streamings, N2 apenas para questões técnicas.
+Quais as tecnologias oferecidas pela empresa?
+R: Internet, Canais de TV,  Telefonia (chip) e SVA's (GloboPlay, Premiere, HBO Max, Looke e Deezer).
+
+Cliente que solicitar contratação ou suporte para chip, transferir o atendimento para o provedor, informando o horário de atendimento (caso não seja comercial).
+
+Clientes que entrarem em contato com problemas somente nos canais de TV ou SVA's, encaminhar ao N2, informando sempre o prazo do atendimento e que o Suporte fará contato.
+
+GloboPlay e Premiere - E-mail cadastrado no IXC recebe o link de ativação e criação de senha
+
+HBO Max e Looke - E-mail de preferência do cliente. Pode ser criado ou vinculado a uma conta já existente.
+
+Em ambos os casos é possível solicitar uma recuperação de senha pelo próprio app.
+
+Quais os planos vendidos na empresa?
+R: Podemos encaminhar os clientes que desejam contratar internet ou outros serviços ao Setor Contratar (Departamento VENDAS no OPA).
+
+Quais cidades/bairros de atuação?  
+R: Abadiânia, Anápolis, Corumbá de Goiás, Goianápolis, Nerópolis, Planalmira, Posse D'Abadia, Terezópolis de Goiás 
+
+Quais equipamentos utilizados?
+R: FIBRA: Huawei, Zte, FiberHome, Ubiquiti
+Antenas Wireless: Ubiquiti 
+
+Presta suporte a repetidores?
+R: Sim, o provedor fornece esse tipo de equipamento para venda, juntamente com instalação e suporte (Geralmente no valor de R$100, encaminhar ao departamento Atendimento)
+
+Caso o cliente tenha adquirido esses equipamentos de terceiros, o serviço de suporte é oferecido por R$30. Podemos abrir N2 nesses casos.
+
+Qual a porta de acesso para acesso aos roteadores?
+R: 80 e 8077
+
+Testar com protocolos https:// e http://
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: NÃO FORNECEM A SENHA DO EQUIPAMENTO EM COMODATO AO CLIENTE
+
+Padrão:
+
+LOGIN	se77e	se77e
+SENHA	!@#7aces	77acesso
+ 
+
+ 	HUAWEI	ZTE	FiberHome
+LOGIN	telecomadmin	multipro	admin
+SENHA	admintelecom	multipro	admin
+
+As duas senhas convencionais para esse modelo costumam ser 7&Acess@ ou !@#7aces caso nenhuma acesse confirma com cliente se de alguma forma ele tem acesso a essa ont e alterou a senha de acesso
+É possível informar ao cliente a senha do roteador?
+R: Não informar
+
+Senha do PPPoE podemos informar somente para clientes que tem o próprio roteador, para clientes que tem o equipamento em comodato não.
+
+Podemos auxiliar o cliente a reconfigurar um reset?
+R: Sim, nesses casos podemos passar a combinação do PPPoE independentemente de ser ou não comodato.
+
+Clientes com preset, geralmente a senha WiFi é: 40519377
+
+Caso o cliente esteja com preset e não seja possível acessar a rede dessa forma, podemos tentar resetar novamente para entrar nas configurações padrões de fábrica e configurar do zero, orientando o cliente com PPPoE, etc.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Abrir N2, caso tiver necessidade de visita o setor responsável irá verificar (se haver taxa o N2 irá informar)
+
+Qual DNS padrão?
+R: Não configurar
+
+Somente em casos necessários: 143.0.252.10 e 143.0.252.20
+
+Qual o sinal ideal?
+R: Até RX -25dBm
+
+Abaixo disso, podemos encaminhar ao N2
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Sim, mas encaminhamos somente para N2. O provedor faz o controle e encaminha para N3, quando necessário.
+
+Ao abrir N2 não informar sobre visita, informar que abriu um CHAMADO e que a equipe responsável vai dar retorno.
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Abrir N2
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: O primeiro contato será feito em até 24h úteis
+
+Quando a OS está AGENDADA, podemos usar o campo "DATA RESERVA" como referência para orientar o cliente, informando somente o dia e nunca o horário/período.
+
+Existe setor de agendamento ou o técnico vai direto?
+R: Sim, ao abrirmos N2 devemos informar que o setor responsável entrará em contato no prazo e não que será o técnico diretamente.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Sim, é cobrado o valor de 30 reais 
+
+Tem plantão aos finais de semana e feriado? 
+R: Sim, Plantão de Técnico N3: 
+
+De Segunda a Sexta	Das 08h as 21h
+Sábado	Das 08h às 16h
+Domingo	Das 08h as 14h
+Caso tiver alguma urgência, informar no grupo. 
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Feito de forma flexível, pode ser de forma imediata ou então para a próxima fatura 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Realizar as configurações para verificar conexão em geral, caso mesmo assim manter pode orientar o cliente sobre as orientações da ANATEL
+
+Caso cliente insistir sobre questão, pode abrir N2 e transferir o atendimento, informando o horário do provedor.
+
+A empresa fornece IP Fixo? Qual valor?
+R: Sim.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Pode abrir N2, é cobrado R$60.
+
+Mudança de Endereço - Solicitar o novo endereço e abrir N2. Caso esteja por chat e dentro do horário do provedor, podemos encaminhar ao Departamento Suporte do Provedor (Contact Center). É cobrado R$100 à vista ou R$120 parcelado.
+
+FINANCEIRO E COMERCIAL
+Clientes “AGUARDANDO ASSINATURA” devem ser encaminhados ao provedor para validar o aceite do contrato
+
+ORIENTAÇÃO PARA ATENDEIMENTO A CLIENTES DE STREAMING QUE NÃO CONSEGUEM ACESSAR OS APLICATIVOS:
+
+Verificar Fidelidade Contratual:
+
+Antes de qualquer ação, informar a supervisão para verificar se o cliente ainda está dentro do período de fidelidade contratual.
+
+Caso o período de fidelidade já tenha expirado:
+
+Informar ao cliente que a fidelidade contratual não está mais em vigor.
+
+Avisar que a equipe responsável entrará em contato em dia útil para dar continuidade ao atendimento.
+
+Proceder com o atendimento padrão, conforme os procedimentos internos estabelecidos para essa situação.
+
+Podemos enviar fatura?
+R: Sim 
+
+Podemos fazer o desbloqueio de confiança?
+R: Sim
+
+Desbloqueio de confiança é permitido somente uma vez no mês. 
+
+Com quantos dias ocorre o bloqueio?
+R: 8 dias após o vencimento (Bloqueio total é feito somente em dia útil)
+
+Possui redução de velocidade?
+R: Sim
+
+É feito a redução de velocidade após 1 dia do vencimento.
+
+Pode realizar a liberação, 1 vez a cada 30 dias.
+
+Qual métodos de pagamentos da fatura?
+R: Via fatura, cartão e o pix via qr code que está no boleto.
+
+Solicitar o comprovante para dar baixa no pagamento via pix
+
+Qual o procedimento para comprovante de pagamento?
+R: Abrir OS para envio de comprovante
+
+Informações da empresa
+ 
+
+IXC	https://ixc.se77e.com.br/login.php
+CENTRAL DO ASSINANTE	https://ixc.se77e.com.br/central_assinante_web/login
+ 
+
+ENDEREÇOS	
+Avenida Engenheiro Roberto Muller - Número 576 QD 19 - Centro (Corumbá)
+
+Rua Itapeva, QD36, LT18, Apt 01, SN, Vila Santa Rosa - (Senador Canedo)
+
+Av. Otacílio Fernandes De Lima Qd.08 Lt.02 Sala 06 Centro (Abadiânia)
+
+Av. Brasil Norte, 505 - Centro - Brasil Park Shopping (Anápolis)
+
+Avenida 24 de Agosto, Q3, L6 Acima da academia Unique - Jardim Alexandrina (Anápolis)
+
+Av. Camila Delfina de Jesus, n26-A Centro (Goianápolis)
+
+ 
+
+Possui atendimento presencial?
+R: Sim
+
+ 
+
+TELEFONE	
+(62) 4051-9377 - Goiás
+
+(61) 3686-7700 - Brasília
+
+SITE	https://settefibra.com.br/
+FACEBOOK	https://www.facebook.com/Se77etelecom
+ 
+
+HORÁRIO DA LOJA (E DEMAIS SETORES)
+
+De Segunda a Sexta	Das 08h as 18h
+Sábado 	Das 08h ao 12h
+ 
+
+HORÁRIO DO SUPORTE INTERNO
+
+De Segunda a Sábado	Das 08h as 22h

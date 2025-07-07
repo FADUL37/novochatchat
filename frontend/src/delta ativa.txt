@@ -1,0 +1,292 @@
+Delta Ativa  Taió - SC
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+De Segunda à Sábado das 22h às 08h
+
+Sábado após às 18h
+
+Domingo 24h
+
+UPSOFT - OK
+
+SOMENTE LIGAÇÕES
+
+IXC
+Quais as tecnologias oferecidas pela empresa?
+R: Fibra, Rádio,  Canais de TV,  Telefonia Fixa 
+
+Quais os planos vendidos na empresa?
+R: Possuem duas categorias
+
+Residencial: Onde não garante que o cliente tenha ip público.  A maioria é cgnat. No residencial o upload é menor
+
+Premium: a pessoa terá ip público sempre. Prioridade no suporte e no atendimento das OS. E o upload é  maior nos Planos de 300 400 e 500mb  igual ao download. Planos de 700m e 1 gb upload de 500mb.
+
+O plano do cliente pode ser residencial e 300 por 50. Mas se for Premium e 300 por 300.
+
+Quais cidades/bairros de atuação?  
+R: Taió, Camboriú, Ituporanga, Ibirama, Presidente Getúlio
+
+OBS: Cidades Ibirama e Presidente Getúlio se trata de outra empresa separada, onde são filhos dos donos da Delta Ativa, e não prestamos suporte porém utilizam o mesmo nome de empresa. Caso alguém entre em contato das duas cidades, repassar o número: 47-3522-7779 para receber atendimento.
+
+Quais equipamentos utilizados?
+ 
+
+ONU NOKIA	ROTEADORES TP-LINK	MERCUSYS	RÁDIO
+G-1425G-A
+G-2425G-A
+G-2425G-B	EC220-G5
+Archer-C5
+TL-WR840N	Mercusys AC12-G
+Mercusys AC12	
+Antenas ubiquiti em geral;
+
+Litebeam
+Airgrid
+Nanobeam
+Powerbeam
+Entre outras;
+
+Esses são os mais comuns, alguns clientes em especifico irão ter outros modelos como um Huawei ax3 por exemplo ou um intelbras RG1200
+
+Qual a porta de acesso para acesso aos roteadores?
+ 
+
+FIBRA
+
+RÁDIO
+
+ONT NOKIA	8080 ou https:// com porta :443	ANTENAS	45810, 45811
+MERCUSYS	8888	 
+ALGUNS ROTEADORES INTELBRAS	8080, 8089, 8081	 
+OUTROS ROTEADORES (CASOS RAROS)	https com a porta 8443	 
+Qual usuário e senha padrão para acesso aos equipamentos?
+PADRÃO: Nome do cliente
+Exemplo: joaovitordasilva é o cliente, a senha do roteador vai ser joao, joao1, joaodelta, joao00 tanto usuário como senha
+
+Alguns roteadores não foram alterados e ainda sim estão com usuario e senha admin admin
+
+ 
+
+ONT NOKIA - SENHA MASTER	RÁDIO TAIÓ	RÁDIO CAMBORIÚ
+USUÁRIO	SENHA	USUÁRIO	SENHA	USUÁRIO	SENHA
+AdminGPON
+
+AdminGPON
+
+ALC#DLTA
+
+ALC#FGU
+
+dtntt
+
+ 
+
+dtnt
+
+38921teN
+
+38921t
+
+38921Ten
+
+38920
+
+38921
+
+dta145
+
+admin
+
+dta756
+
+dta594
+
+dta478
+
+delta
+
+dta423
+
+dta261
+
+É possível informar ao cliente a senha do roteador?
+R: Sim, somente quando a senha ser nome do cliente e estar registrado no IXC
+
+NÃO INFORMAR: Clientes via rádio, senha de ONU, senha master 
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R:  Orientar o cliente a levar até a loja, pois não é cobrado. Caso cliente solicitar visita técnica até a residência, será cobrado. 
+
+Caso o cliente preferir levar até a loja, orientar para tomar cuidado ao retirar o conector e não apertar os botões.
+
+Qual DNS padrão?
+R: Clientes referentes as filiais de Taió e Ituporanga utilizar: 
+
+DNS Primário: 177.221.67.253
+DNS Secundário: 177.221.71.253
+ 
+
+Clientes referentes a filial de Camboriú utilizar: 
+
+DNS Primário: 177.221.71.253
+DNS Secundário : 177.221.67.253
+
+Quais são as tratativas para reset?
+R: Pode orientar o cliente a reconfigurar
+
+Caso seja necessário a visita técnica, orientar o cliente a levar até a loja, pois não é cobrado. Caso cliente solicitar visita técnica até a residência, será cobrado.
+
+Qual o nível de sinal ideal?
+R: Entre RX -15 e -30dBm
+
+Fora desse nível, podemos gerar N3
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Sim, possui N2 e N3
+
+Encaminhar TODAS as Ordens de Serviço abertas no grupo para sinalização das mesmas (incluir a Cidade do cliente).
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: 48h 
+
+Clientes que possuem o plano premium possuem mais urgência (não precisa informar)
+
+Alguns clientes com Link Dedicado tem o Plantão Técnico 24/7 e possuem um Alerta no IXC com tal informação. Nesses casos, encaminhar no grupo para urgência no atendimento.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Técnico irá analisar no local, caso o cliente questione pode informar o valor de 40 reais. 
+
+Tem plantão aos finais de semana e feriado?  
+ 
+
+Segunda a Sexta	Das 18h às 22h
+Sábado	Das 12h às 20h
+Domingo	Das 08h às 20h
+Sempre que for aberto O.S., enviar no grupo do WhatsApp que o pessoal do plantão irá realizar o atendimento.
+
+Geralmente, realizam no mesmo dia chamados abertos até 1h antes do término do plantão por conta do tempo de deslocamento dos técnicos (Chamados abertos Seg a Sex até às 21h e Sab e Dom até às 19h).
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Pode ser realizado via pix, ou pelo cartão de crédito
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Possui alguns canais de TV, verificar antes de orientar o cliente
+
+O aplicativo que o cliente usa se chama ITTV Plus. Se pedirem se funciona a globo dizer que não.  Recomendamos somente Firestick ou Roku. Preferencialmente o firestick.  
+Se a TV for smart, passar o nome do app e o cliente deve testar a capacidade e disponibilidade do app na TV.
+
+Obs: chamados de travamento do ITTV. Encaminhar ao N2 nosso se não resolvido. 
+
+Caso não se tratar dos canais da Delta Ativa, passar ao cliente as orientações da ANATEL
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Abrir OS OUTRAS DEMANDAS - ALTERAÇÃO CADASTRAL para o setor comercial verificar.
+
+Informar ao cliente que o setor responsável irá retornar o contato para passar as informações.
+
+FINANCEIRO E COMERCIAL
+Podemos enviar fatura?
+R: Sim. Também pode retirar a fatura pela Central do Assinante, pelo aplicativo da Delta Ativa e pelo número do WhatsApp de TAIO.
+
+Informar que pagamento por pix pode compensar no mesmo momento.
+
+Podemos fazer o desbloqueio de confiança?
+R: Sim. Não liberar manualmente 
+
+O bloqueio ocorre 30 dias após o vencimento, sendo 45 dias desde o vencimento do boleto conforme as orientações da Anatel. Os clientes recebem avisos por e-mail e por SMS que estão em atrasos.
+
+Sempre que realizar um desbloqueio de confiança devemos abrir a OS de OUTRAS DEMANDAS - RENEGOCIAÇÕES para que o financeiro do provedor verifique a respeito do cliente
+
+Possui redução de velocidade?
+R: Sim
+
+Não fazer.
+
+Após 15 dias de vencimento da fatura ocorre a redução de velocidade, e 30 dias o bloqueio da conexão.
+
+Qual métodos de pagamentos da fatura?
+R: Via fatura 
+
+Caso o cliente solicitar efetuar o pagamento via pix, solicitar para retornar o contato em horário comercial com o setor financeiro. 
+
+Qual o procedimento para comprovante de pagamento?
+R: Caso o cliente informe que está tendo problemas com o pagamento ou com a baixa do mesmo, podemos encaminhar para OUTRAS DEMANDAS - RENEGOCIAÇÕES
+
+Como prosseguir em casos de cancelamento?
+R: Caso a retenção não seja efetiva, encaminhar para OUTRAS DEMANDAS - RETENÇÃO, informando o motivo do cancelamento e orientando o cliente a aguardar retorno do setor responsável.
+
+Informações da empresa
+Possui atendimento presencial?
+R: Sim
+
+CIDADE
+
+ENDEREÇO
+
+HORÁRIO DE ATENDIMENTO
+
+COBERTURA
+
+ITUPORANGA
+
+(Filial 2)
+
+Rua Castelo Branco, n 155, centro, ao lado da Itupel embalagens	
+Segunda à sexta das 08h às 12h e das 13h30 às 18h
+
+Sábado das 08h às 12h
+
+Petrolândia (Apenas no Rio Antinhas Curva da Vaca)
+
+Aurora (Santa Tereza apenas até o Motel/Hotel Mississipi)
+
+Imbuia (até o Parque da Femive)
+
+Sendo fibra em todas as localidades.
+
+TAIÓ
+
+(Matriz)
+
+Rua Victor Konder 517 - Bairro Victor Konder ao lado mercado CS	
+Segunda à Sexta das 08h às 12h e das 13h às 19h
+
+Sábado das 08h às 12h
+
+Mirim Doce (Via Rádio e Fibra)
+
+Salete (Via Rádio e Fibra)
+
+Vargem I (Via Rádio e Fibra)
+
+Vargem II (Via Rádio e Fibra)
+
+Himasa (Via Rádio e Fibra) HCR (Via Rádio)
+
+Passo Manso (Via Rádio e Fibra)
+
+CAMBORIÚ
+
+(Filial 1)
+
+Rua José Francisco Bernardes 733 - Segundo andar sala 202 bairro Areias	
+Segunda à Sexta das 08h às 12h e das 13h às 19h
+
+Sábado das 08h às 12h
+
+Balneário Camboriú uma parte do bairro Nova Esperança.
+
+Sendo fibra em todas as localidades.
+
+CONTATOS
+
+TAIÓ (Matriz)	47 3562 1254 (WhatsApp)
+CAMBORIÚ (Filial 1)	47 3365 6112
+ITUPORANGA (Filial 2)	47 3533 1254
+UNIDADE PRESIDENTE GETÚLIO	47 3522 7779
+UNIDADE IBIRAMA
+CENTRAL DO ASSINANTE	https://ixc.deltaativa.com.br/central_assinante_web/login
+SITE	https://www.deltaativa.com.br/
+FACEBOOK	https://www.facebook.com/deltaativainternettaio/?_rdc=1&_rdr

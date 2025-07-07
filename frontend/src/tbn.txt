@@ -1,0 +1,174 @@
+TBN
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	
+Segunda à Sexta das 18h às 23h59
+
+Sábados das 12h as 23h59
+
+Domingos e Feriados das 08h as 23h59
+
+ 
+
+IXC	OPA
+ 
+CASOS DE FALTA DE INTERAÇÃO, ENCERRAR APENAS NO FINAL DO EXPEDIENTE
+ 
+
+Quais as tecnologias oferecidas pela empresa?
+R: RADIO, FIBRA, VOIP
+
+Quais os planos vendidos na empresa?
+Deixar os atendimentos comerciais na fila, que um vendedor de plantão nosso irá assumir.
+
+Quais cidades/bairros de atuação?
+R: Jataí, Israeelandia, aporé, iporá
+
+Quais equipamentos utilizados?
+ZTE F6600P , F670L V1 e V9, tp-link archer c5
+
+Presta suporte a repetidores?
+Não
+
+Presta suporte a câmeras?
+Não
+
+Qual a porta de acesso para acesso aos roteadores?
+123
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+multipro/#Tbn123  ou multipro/multipro ou root/rootdesk
+
+É possível informar ao cliente a senha do roteador?
+Não
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Não e cobrado, mas quando nao for possivel alterar a senha, abrir atendimento para o setor de Noc
+
+Qual o site utilizado para testes de velocidade?
+Okhla Speed Test
+
+Garantem toda a banda contratada passada por WiFi?
+Não, pois depende do dispositivos que está testando
+
+Qual DNS padrão?
+45.237.120.210/45.237.120.211
+
+Quais são as tratativas para reset?
+Não temos
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Utilizam outras nomenclaturas. Encaminhamos demandas pelo sistema somente para o NOC (questões técnicas) e FINANCEIRO. Demais situações podemos transferir para os respectivos setores e/ou sinalizar no grupo.
+
+OBS: Agendamentos mandar recado no grupo
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+24 Horas
+
+Existe setor de Agendamento ou Técnico vai direto?
+Técnico vai direto
+
+Qual o custo da visita técnica caso seja improdutiva?
+Sem custo
+
+Tem plantão aos finais de semana e feriado?
+Sim
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Não tem custo
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Não
+
+A empresa fornece IP Fixo? Qual valor?  
+Sim, mas apenas em planos corporativos, a partir de R$ 299
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Abrir um Atendimento para o setor de Noc com prioridade critica
+
+Mudança de Endereço
+Abrir um Atendimento para o setor de Noc com prioridade critica
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Sim
+
+Com quantos dias ocorre o bloqueio?
+5
+
+Podemos fazer o desbloqueio de confiança?
+Não, informar o cliente como fazer pelo whatsapp
+
+Por quantos dias a conexão é liberada?
+24 horas
+
+Possui redução de velocidade?
+Não
+
+Qual métodos de pagamentos da fatura?
+Boleto e pix
+
+Qual o procedimento para comprovante de pagamento?
+Não temos
+
+Como prosseguir em casos de cancelamento? Abri um atendimento para Noc
+INFORMAÇÕES DA EMPRESA
+ 
+
+Possui atendimento presencial?
+R: 
+
+ENDEREÇOS
+
+ Rua Dr. Plinio Camargo	471 
+ Setor Santo antonio	 
+ 	 
+ 	 
+HORÁRIOS DE ATENDIMENTO
+
+LOJAS FÍSICAS
+
+08:00 - 11:30 13:30-18:00
+
+VISITAS TÉCNICAS
+
+08:00 - 11:30 13:30-20:00
+
+SUPORTE TÉCNICO	
+24hrs
+
+FINANCEIRO / COMERCIAL	
+24 hrs
+
+CONTATOS
+
+TELEFONE
+
+64 3051-6601
+
+WHATSAPP
+
+64 99283-4153
+
+CENTRAL DO ASSINANTE
+
+URL
+
+https://ixc.tbntelecom.com.br/central_assinante_web/login
+
+LOGIN
+
+pegar no cadastro do cliente no ixc
+
+SENHA
+
+ pegar no cadastro do cliente no ixc
+SITE
+
+www.tbntelecom.com.br
+
+E-MAIL
+
+contato@tbntelecom.com.br

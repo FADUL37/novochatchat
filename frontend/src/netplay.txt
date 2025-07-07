@@ -1,0 +1,139 @@
+NETPLAY
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	 
+UPSOFT - OK
+
+CHAT E LIGAÇÕES
+
+IXC	OPA
+Quais as tecnologias oferecidas pela empresa?
+R: FIBRA OPTICA E DSL
+
+Quais os planos vendidos na empresa?
+R. DE 100MB A 1GB
+
+Quais cidades/bairros de atuação?
+R: SOMENTE ARAÇATUBA - TODOS OS BAIRROS
+
+Quais equipamentos utilizados?
+R. ROTEADORES RESIDENCIAIS, EMPRESARIAIS (MIKROTIK E SOPHOS) E MODENS DSL 
+
+Presta suporte a repetidores?
+R. NÃO
+
+Presta suporte a câmeras?
+R. NÃO
+
+Qual a porta de acesso para acesso aos roteadores?
+R. 80, 443, 3952 
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R. user: admin senha: forever
+
+É possível informar ao cliente a senha do roteador?
+R. NÃO
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R. NÃO É COBRADO
+
+Qual o site utilizado para testes de velocidade?
+https://www.speedtest.net/pt (SELECIONAR O SERVIODOR NETPLAY)
+
+Garantem toda a banda contratada passada por WiFi?
+R. NÃO
+
+Qual DNS padrão?
+177.72.8.5 E 177.72.8.6
+
+Quais são as tratativas para reset?
+R. OPÇÃO 1 -  SE O CLIENTE TIVER CONHECIMENTO TECNICO PARA TAL, INFORMAR O USER PPPOE E SENHA, O RESTANTE POR CONTA DO CLIENTE (SEM CUSTO)
+
+     OPÇÃO 2 - SE O CLIENTE PREFERIR LEVAR ATÉ A LOJA (RUA BOLIVIA, 940) EM HORARIO COMERCIAL (SEM CUSTO)
+
+     OPÇÃO 3 -  SE O CLIENTE DESEJA VISITA NO LOCAL, SERÁ COBRADO R$ 80,00
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R. INFORMAR NA ORDEM DE SERVIÇO QUE NO ATENDIMENTO N1 O PROBLEMA NÃO FOI RESOLVIDO E NECESSÁRIO N2 VERIFICAR ANTES DE PASSAR PARA N3
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+RESIDENCIA ATÉ O DIA SEGUINTE (ÚTIL)
+CORPORATIVO LINK DEDIDCADO (4 HORAS) FAVOR INFORMAR NO GRUPO 
+
+Existe setor de Agendamento ou Técnico vai direto?
+TODAS O.S ABERTAS PELA UPCALL SERÁ FILTRADA PARA DESTINAR O SETOR E TECNICO APTO AO CLIENTE EM QUESTÃO
+
+Qual o custo da visita técnica caso seja improdutiva?
+R$ 80,00 RESIDENCIAL
+r$ 120,00 CORPORATIVO
+
+Tem plantão aos finais de semana e feriado?
+SOMENTE EM CASO MASSIVO OU LINK DEDICADO 
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+BOLETO OU PIX
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+NÃO, E NÃO PRESTAMOS SUPORTE
+
+A empresa fornece IP Fixo? Qual valor?  
+SIM, R$ 69,90
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+ABRIR O.S PADRÃO INFORMANDO A NECESSIDADE DO CLIENTE, NO DESCRITIVO DA O.S O SETOR INTERNO IRÁ PASSAR VALORES E AGENDAMENTO
+
+Mudança de Endereço
+ABRIR O.S PADRÃO INFORMANDO A NECESSIDADE DO CLIENTE, NO DESCRITIVO DA O.S O SETOR INTERNO IRÁ PASSAR VALORES E AGENDAMENTO
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+R. NÃO
+
+Com quantos dias ocorre o bloqueio?
+R. 30
+
+Podemos fazer o desbloqueio de confiança?
+R. SIM
+
+Por quantos dias a conexão é liberada?
+R. ATÉ AS 6H DO DIA SEGUINTE 
+
+Possui redução de velocidade?
+SIM, APÓS 15 DIAS 
+
+Qual métodos de pagamentos da fatura?
+R. ABRIR O.S INFORMANDO A SOLICITAÇÃO DO CLIENTE, O SETOR RESPONSÁVEL RETORNARÁ EM PRIMEIRA DISPONIBILIDADE
+
+Qual o procedimento para comprovante de pagamento?
+R. ABRIR O.S INFORMANDO A SOLICITAÇÃO DO CLIENTE, O SETOR RESPONSÁVEL RETORNARÁ EM PRIMEIRA DISPONIBILIDADE
+
+Como prosseguir em casos de cancelamento?
+R. ABRIR O.S INFORMANDO A SOLICITAÇÃO DO CLIENTE, O SETOR RESPONSÁVEL RETORNARÁ EM PRIMEIRA DISPONIBILIDADE
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP: https://ixc.netplay.net.br/adm.php
+
+ Central do Assinante: https://ixc.netplay.net.br/central_assinante_web/login
+
+ 
+
+ENDEREÇOS: RUA BOLÍVIA, 940 - PLANALTO - ARAÇATUBA/SP
+
+ 
+
+Possui atendimento presencial?
+R: 
+
+TELEFONE : 18 36215152
+
+WHATSAPP: 1836215152
+
+SITE:  netplay.net.br
+
+HORÁRIOS
+seg a sexta   8h - 18h 
+Sábado          8h -  12h

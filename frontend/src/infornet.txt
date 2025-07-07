@@ -1,0 +1,290 @@
+INFORNET
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	
+Segunda à Sábado das 00h às 06h
+
+Domingos e Feriados das 00h às 08h 
+
+UPSOFT - OK
+
+SOMENTE LIGAÇÕES
+
+HUBSOFT
+Quais as tecnologias oferecidas pela empresa?
+R: Internet via fibra óptica, Internet via rádio, Telefonia fixa, TV Digital.
+
+Quais os planos vendidos na empresa?
+80 Megas
+
+250 Megas
+
+450 Megas
+
+600 Megas
+
+600 Megas + Telecine ou Globo Play ou Premiere
+
+700 Megas
+
+700 Megas + Premiere
+
+800 Megas
+
+800 Megas + Telecine e Globo Play
+
+900 Megas
+
+1 Giga
+
+Quais cidades/bairros de atuação?
+R: Acaiaca/MG, Alvinópolis/MG, Barra Longa/MG, Dom Silvério/MG, Jequeri/MG, João Monlevade/MG/ Oratórios/MG, Piedade de Ponte Nova/MG, Ponte Nova/MG, Rio Casca/MG, Rio Doce/MG, Rio Piracicaba/MG, Santa Cruz do Escalvado/MG, Santa Antônio do Grama/MG, Urucânia/MG
+
+Quais equipamentos utilizados?
+ONU ZTE F643, ONU Huawei EG8010H, ONU Huawei HG8010H, ONU ZTE F601, ONU Huawei HS8546V5, ONU Huawei EG8145X6, ONU ZTE F6600, ONU ZTE F670L, ONU Huawei EG814v5, ONU UNEE Stavix, Roteador ZTE H199A, Roteador ZTE H198A,  Roteador TP link Archer C5, Roteador TP link Archer C6, Roteador Huawei AX3 WS7100, Roteador Huawei AX2 WS7001, Roteador Huawei WS5200, Roteador TP Link Deco M4, Roteador TP Link Deco M5, Roteador Access Point Unifi U6, Roteador Access Point Unifi AC Mesh, RouterBoard Mikrotik RB750Gr3
+
+Presta suporte a repetidores?
+Roteadores adicionais instalados pela Infornet sim, repetidores conectados por meio do wifi não.
+
+Presta suporte a câmeras?
+Não
+
+Qual a porta de acesso para acesso aos roteadores?
+80 ou 443
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+🔴ONU UNEE BY STAVIX
+
+usuario : root
+
+senha: Inf@5414
+
+🔴ONU Huawei
+
+Login: Epadmin
+
+Senha: adminEp
+
+ 
+
+Login: Infornet
+
+Senha: huaweiinfornet
+
+ 
+
+Login: telecomadmin
+
+Senha: admintelecom
+
+ 
+
+🔴ONU e Roteador ZTE
+
+Login: multipro
+
+Senha: multipro
+
+          Ou
+
+Senha: Inf+id do cliente (código do cliente, ex: Inf14532).
+
+🔴TP-LINK
+
+Login: admin
+
+Senha: admin    
+
+Senha: Inf+id do cliente (código do cliente, ex: Inf14532) 
+
+Senha: infornet3
+
+Senha: id do cliente
+
+🔴ROTEADOR HUAWEI WS5200 / AX2 / AX3
+
+senha: Inf+id do cliente (código do cliente, ex: Inf14532).
+
+ ou
+
+senha: id do cliente
+
+É possível informar ao cliente a senha do roteador?
+Sim podemos informar a senha de acesso ao roteador, porem é necessário enfatizar a importância de ter cautela ao realizar qualquer alteração na configuração do dispositivo. É crucial que o cliente esteja ciente de que quaisquer configurações incorretas serão de sua responsabilidade.
+
+Além disso, é importante salientar que, caso seja necessário o deslocamento de um técnico ao local devido a configurações inadequadas, uma taxa adicional poderá ser cobrada.
+Essa taxa sendo de 40 reais.
+
+Já a senha do Wifi pode ser passada normalmente, desde que seja informado o CPF do titular do cadastro.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Não é cobrado, serviço é realizado de forma isenta.
+
+Qual o site utilizado para testes de velocidade?
+Fast.com ou speedtest.net
+
+Garantem toda a banda contratada passada por WiFi?
+Como os planos são com uma quantidade de megas bem alto, nem todos os dispositivos conectados ao roteador por meio do Wifi terão capacidade o suficiente para bater toda a banda contratada. Para isso é necessário dispositivos mais robustos, sendo assim na maioria dos casos um dispositivo somente não chegaria a uma quantidade muito alta de banda.
+
+Qual DNS padrão?
+131.100.43.246 e 131.100.41.254
+
+Quais são as tratativas para reset?
+Caso o cliente tenha resetado o seu roteador, é necessário abertura de uma Ordem de Serviço para encaminhar o técnico na residência e realizar a configurações novamente.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Suporte N1 para atendimentos em geral. Suporte N2 para atendimentos de clientes empresariais/corporativos.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+Atendimentos de SEM INTERNET:
+Link Dedicado: 4 a 12 horas
+Empresarial: 12 horas
+Corporativo: 24 horas
+Residencial zona urbana: 48 horas
+Residencial zona rural: 72 horas
+
+Atendimentos de Problema na Conexão:
+Link Dedicado: 4 a 12 horas
+Empresarial: 24 horas
+Corporativo: 48 horas
+Residencial zona urbana: 72 horas
+Residencial zona rural: 120 horas
+
+Existe setor de Agendamento ou Técnico vai direto?
+Temos setor de Agendamento
+
+Qual o custo da visita técnica caso seja improdutiva?
+Isento
+
+Tem plantão aos finais de semana e feriado?
+Ponte Nova : 08:00 hrs as 20:00 hrs
+Todas as outras cidades : 08:00 as 16:50 hrs
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Boleto, por meio do App do cliente Infornet Telecom.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+TV digital, IPTV não.
+
+A empresa fornece IP Fixo? Qual valor?  
+Sim.
+PLANO EMPRESARIAL: R$40,00 
+
+PLANO CORPORATIVO: R$50,00
+
+PLANO PESSOA FÍSICA: R$60,00
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Necessário abrir atendimento com assunto ATENDIMENTO INTERNO SUPORTE - CONTATAR CLIENTE para que o suporte diurno certifique e entre em contato com o cliente para passar os valores e abrir Ordem de Serviço.
+
+Mudança de Endereço
+Necessário abrir atendimento com assunto ATENDIMENTO INTERNO SUPORTE - CONTATAR CLIENTE para que o suporte diurno certifique e entre em contato com o cliente para passar os valores e abrir Ordem de Serviço.
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Deve ser indicado pro cliente sobre a utilização do Aplicativo Infornet Telecom, onde consegue ter acesso as suas faturas, e tambem consegue realizar o pagamento.
+Para baixar o app deve acessar o link:
+IOS: https://apps.apple.com/us/app/infornet-telecom/id1598953351
+Android: https://play.google.com/store/apps/details?id=com.hubsoft_client_app.infornet
+
+Informar o cliente que tambem consegue realizar o desbloqueio pelo chat da Infornet. Basta entrar em contato pelo número 0800 494 0336, selecionar a opção: já sou cliente, informar nome de cadastro, selecionar a opção: Financeiro, e caso queira a 2° via de boleto, deve selecionar a opção: 2° via do boleto, ou caso queira realizar o desbloqueio do seu acesso, deve selecionar a opção: Desbloqueio.
+
+Com quantos dias ocorre o bloqueio?
+15 dias após o vencimento da fatura. Exemplo: Vencimento dia 10, bloqueio ocorre no dia 25.
+
+Podemos fazer o desbloqueio de confiança?
+Informar o cliente que tambem consegue realizar o desbloqueio pelo chat da Infornet. Basta entrar em contato pelo número 0800 494 0336, selecionar a opção: já sou cliente, informar nome de cadastro, selecionar a opção: Financeiro, e caso queira a 2° via de boleto, deve selecionar a opção: 2° via do boleto, ou caso queira realizar o desbloqueio do seu acesso, deve selecionar a opção: Desbloqueio.
+
+Após isso abrir um atendimento interno com o assunto CONTATAR CLIENTE - AGENDAMENTO COM LIBERAÇÃO DE ACESSO - ATENDIMENTO INTERNO FINANCEIRO , descrevendo o que foi tratado com o cliente e deixando o atendimento com Status “Aguardando Análise”, para que o setor Financeiro verifique a respeito.
+
+Por quantos dias a conexão é liberada?
+O cliente pode ser liberado até 3 dias após a restrição (quando ocorre o bloqueio).
+Exemplo: Vencimento 10, bloqueio 25, pode ser liberado até o dia 28.
+
+Possui redução de velocidade?
+Sim, para isso deve ser aberto atendimento com assunto ATENDIMENTO INTERNO - CONTATAR CLIENTE COMERCIAL, deixando o mesmo com Status “Aguardando Análise”, para que o setor Comercial verifique a respeito.
+
+Qual métodos de pagamentos da fatura?
+Por meio do App Infornet Telecom o cliente tem opção de pagar por meio da 2° via do boleto, por meio de PIX via QR Code, e por meio do cartão de crédito.
+
+Para baixar o app deve acessar o link:
+IOS: https://apps.apple.com/us/app/infornet-telecom/id1598953351
+Android: https://play.google.com/store/apps/details?id=com.hubsoft_client_app.infornet
+
+Qual o procedimento para comprovante de pagamento?
+Cliente deve enviar o comprovante por meio do chat no número 0800 494 0336, e o atendente deve abrir um atendimento com assunto CONTATAR CLIENTE - ENVIO DE COMPROVANTE - ATENDIMENTO INTERNO FINANCEIRO , descrevendo o que foi tratado com o cliente deixando o atendimento com Status “Aguardando Análise”, para que o setor Financeiro verifique a respeito.
+
+Como prosseguir em casos de cancelamento?
+Deve ser aberto atendimento com assunto CONTATAR CLIENTE - CANCELAMENTO - ATENDIMENTO INTERNO FINANCEIRO, deixando o atendimento com Status “Aguardando Análise”, para que o setor Financeiro verifique a respeito.
+
+Atendimento deve ser aberto quando o cliente solicitar um cancelamento, deve conter todas informações passadas pelo cliente do motivo de cancelamento, juntamente com o número de contato correto.
+Prazo para contato com o cliente pelo setor financeiro é de 24 horas úteis.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP : https://infornet.hubsoft.com.br/
+
+ Central do Assinante: https://central.infornet.hubsoft.com.br/
+
+ 
+
+ENDEREÇOS :
+Rua Coronel Francisco Martins Silva, N° 98, loja C, Centro, Piedade de Ponte Nova
+Cep: 35382-000
+
+Rua Jose Borges de Morais, N° 56/ Sala 6, Centro, Alvinopolis
+CEP: 35950-000
+
+Praça presidente Vargas, N° 87/loja 2, Centro, Dom silverio
+CEP: 35440-000
+
+Rua Brasil, N° 46, Centro, Rio Piracicaba
+CEP: 35940-000
+
+Praça Jose Ribeiro da Costa, N°34, loja B, Centro, Rio casca
+CEP: 35370-000
+
+Rua Santo Antonio, N° 23, loja 01, Santo Antonio 1, Ponte Nova
+CEP: 35430-191
+
+Rua José Pedro dos Santos, N° 89, Carneirinhos, João Monlevade
+CEP: 35930-479
+
+ 
+
+Possui atendimento presencial?
+R: Sim
+
+CONTATOS
+
+ 
+
+TELEFONE  : 0800 494 0336
+
+WHATSAPP  : 0800 494 0336
+
+SITE : https://infornetfibra.com/
+
+FACEBOOK: 
+
+ 
+
+HORÁRIOS
+
+Segunda a sexta
+Atendimento Suporte Técnico: 06:00 as 23:59 hrs
+Atendimento Comercial, Agendamento, Financeiro: 08:00 as 18:00 hrs
+Atendimento UP Call: 00:00 as 05:59 hrs
+
+Sábado
+Atendimento Suporte Técnico: 06:00 as 23:59 hrs
+Atendimento Comercial, Agendamento, Financeiro: 08:00 as 12:00 hrs
+Atendimento UP Call: 00:00 as 05:59 hrs
+
+Domingo e Feriado
+Atendimento Suporte Técnico: 08:00 as 23:59 hrs
+Atendimento Comercial, Agendamento, Financeiro: Sem atendimento
+Atendimento UP Call: 00:00 as 07:59 hrs

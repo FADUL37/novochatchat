@@ -1,0 +1,263 @@
+FACILITI
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	Segunda à Sábado das 18h às 08h
+Sábados das 12h às 08h de Segunda
+UPSOFT - OK
+CHAT E LIGAÇÕES
+
+IXC	OPA
+Quais as tecnologias oferecidas pela empresa?
+R: Internet fibra óptica
+
+Quais os planos vendidos na empresa?
+Planos Urbanos
+70MB - 69,90 (FacilitiPlay 1 tela + Qualifica)
+300MB - 89,90 (FacilitiPlay 2 telas + Qualifica + 2 Apps à escolha)
+600MB - 109,90 (FacilitiPlay 5 telas + Qualifica + 3 Apps à escolha)
+900MB - 129,90 (FacilitiPlay 5 telas + Qualifica + 4 Apps à escolha)
+
+Urbano c/ GloboPlay
+200MB - 119,90 (FacilitiPlay 1 tela + Qualifica + GloboPlay)
+450MB - 129,90 (FacilitiPlay 4 telas + Qualifica + GloboPlay)
+600MB - 139,90 (FacilitiPlay 5 telas + Qualifica + GloboPlay)
+900MB - 149,90 (FacilitiPlay 5 telas + Qualifica + GloboPlay)
+
+Planos Rurais
+40MB - 139,90 (FacilitiPlay 2 telas + Qualifica + 1 App à escolha)
+50MB - 149,90 (FacilitiPlay 2 telas + Qualifica + 1 App à escolha)
+100MB - 169,90 (FacilitiPlay 2 telas + Qualifica + 1 App à escolha)
+400MB - 189,90 (FacilitiPlay 2 telas + Qualifica + 1 App à escolha)
+
+Rural c/ GloboPlay
+300MB - 179,90 (FacilitiPlay 2 telas + Qualifica + GloboPlay)
+600MB - 199,90 (FacilitiPlay 2 telas + Qualifica + GloboPlay)
+
+CORPORATIVO URBANO
+100 MEGA  R$439,70
+300 MEGA  R$639,70
+
+NÃO TRANSFERIR. ENCAMINHAR NO GRUPO OS RECADOS EM CASO DE CONTRATAÇÃO.
+
+Quais cidades/bairros de atuação?
+R: Centro, Bocaina, Vila Esperança, Eldorado, São Henry, Vila Nova, Paraíso, Usina, Centro, Garapa, Porto, Novo Porto, Rhodia, Balancé, Calçadinha, Vila São José, Tribo, Piteira, Feem, São Geraldo, Piabas, Curato, Macabuzinho, Vila Barata, Vila Tavares, Poaia, Capelinha, Carapebus, Ingazeira, Lameiro, Maria Amália, Santa Maria, Ubás, Assentamento Prefeito Celso Daniel, Cabiúnas, Retiro, Amorosa, Osório, Agulha, Barro Vermelho, Triunfo, Loreti, Agrovila.
+
+Quais equipamentos utilizados?
+Roteador de 2 antenas (para planos até 70 mega - urbano ou rural)
+Roteador de 4 antenas (para planos acima de 100 mega - urbano ou rural) 
+Vão em comodato roteador e ONU onde o cliente na contratação o cliente assina o contrato e deve ter cuidado durante o uso.
+
+Presta suporte a repetidores?
+Somente a repetidores feitos pela Faciliti. Neste caso é cobrado visita técnica no valor de 50,00 mais material usado.
+
+Pode indicar a rede mesh ao cliente onde o mesmo pagará 29,90 mensal por cada ponto. Em caso de mais dúvida por parte do cliente fazer o atendimento para nossa atendente retornar o contato em horário comercial.
+
+Presta suporte a câmeras?
+Instalada por um técnico que não seja da empresa , não.
+
+Temos parceria com a Camerite, mas temos uma pessoa responsável. Neste caso fazer o atendimento para nosso atendente retornar o contato em horário comercial.
+
+Qual a porta de acesso para acesso aos roteadores?
+Não é necessário. Qualquer informação sobre roteador é passado por nós em horário comercial.
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+Não é necessário. Qualquer informação sobre roteador é passado por nós em horário comercial.
+
+É possível informar ao cliente a senha do roteador?
+Não. Somente a empresa tem acesso aos equipamentos. 
+Qualquer informação sobre roteador é passado por nós em horário comercial.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+É necessário abrir um atendimento com o assunto INFORMAÇÕES GERAIS. Que um de nossos atendentes em horário comercial retornará o contato, para informá-lo se é necessário a visita com o valor de 50,00 ou se temos acesso ao equipamento interno onde não há cobrança.
+
+Qual o site utilizado para testes de velocidade?
+Speedtest
+Orientamos a realizar o teste no 5G
+
+Garantem toda a banda contratada passada por WiFi?
+Não, nenhum roteador WiFi garante 100% da banda contratada, pois o WiFi é um meio de transmissão compartilhado e sujeito a diversas interferências e limitações. Mesmo com equipamentos de ponta, a velocidade pode ser reduzida por vários fatores.
+
+Qual DNS padrão?
+200.142.176.13, 200.142.176.14
+
+Quais são as tratativas para reset?
+Se for roteador o cliente não pode resetar o roteador
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+O provedor utiliza outras nomenclaturas para os encaminhamentos. Utilizamos, portanto:
+
+SEM CONEXÃO
+LENTIDÂO
+TRIAGEM - OUTRAS DEMANDAS
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+Nosso prazo de atendimento para plano residencial é de 24h à 48h úteis a partir da solicitação, podendo se estender à 72h conforme a demanda.
+Nosso prazo de atendimento para o plano corporativo é em até 4 horas.
+Para Assuntos de OUTRAS DEMANDAS (Que não são Conexão e Lentidão), o provedor retorna em horário comercial pela manhã.
+ORDEM DE SERVIÇO ABERTA  ✅​
+
+Prezado(a) cliente,
+
+Nosso prazo de atendimento é de 24h à 48h úteis a partir da solicitação, podendo se estender à 72h conforme a demanda.
+
+Informamos que, se o problema identificado for de natureza técnica na conexão de internet, o atendimento será realizado sem custos adicionais. No entanto, caso seja constatado um problema doméstico, má utilização ou qualquer modificação feita pelo cliente que resulte em perda de conectividade, incluindo situações em que o lacre de segurança esteja rompido, será aplicada uma cobrança de R$ 50,00 pela visita técnica, além do valor do material utilizado.
+
+Existe setor de Agendamento ou Técnico vai direto?
+Existe um setor de agendamento, o call center/recepção abre a ordem de serviço, onde outro setor encaminha para os técnicos realizarem os atendimentos. 
+Ativação, mudança de endereço e visita técnicas são agendadas. 
+Sem acesso e acesso lento tem o prazo de atendimento de acordo com o plano residencial ou corporativo, também de acordo com a disponibilidade do cliente.
+
+Qual o custo da visita técnica caso seja improdutiva?
+Informamos que, se o problema identificado for de natureza técnica na conexão de internet, o atendimento será realizado sem custos adicionais. No entanto, caso seja constatado um problema doméstico, má utilização ou qualquer modificação feita pelo cliente que resulte em perda de conectividade, incluindo situações em que o lacre de segurança esteja rompido, será aplicada uma cobrança de R$ 50,00 pela visita técnica, além do valor do material utilizado.
+
+Tem plantão aos finais de semana e feriado?
+Somente o atendimento do call center, que é de 24 horas.
+O suporte técnico é de segunda à sexta de 08 às 18 horas. 
+Sábado de 08 até às 12 horas. 
+Domingo e feriado não tem atendimento  de suporte técnico.
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto? 
+ Pix, boleto, dinheiro e débito (na recepção) ou cartão de crédito pela central do assinante.
+Cliente com financeiro em dia, o valor pode ser lançado para próxima fatura.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Trabalhamos com CDNTV. Sim, damos suporte.
+Fazemos a instalação por link se a tv do cliente for smart ou locamos o aparelho por 29,90 mensal.
+
+A empresa fornece IP Fixo? Qual valor?  
+Sim. No valor de 99,88 mensal, sem desconto.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Em caso de contratação abrirá Leads, que em horário comercial nossa equipe fará contato. Caso não tenham acesso as Leads, podem fazer o atendimento com o assunto INFORMAÇÕES GERAIS, que em horário comercial nossa equipe fará contato. Também serve para o estudo de viabilidade em algumas áreas rurais.
+
+Sendo outro assunto deverá ser aberto um atendimento com o assunto INFORMAÇÕES GERAIS, que em horário comercial nossa equipe fará contato para agendamento.
+
+Mudança de Endereço
+Podem passar as informações, mas o ideal é nosso atendente abrir o processo de acordo com nosso processo.
+
+MUDANÇA DE ENDEREÇO RURAL E URBANO
+Valor:
+* R$80,00 à vista.
+* R$100,00 em 2x de R$50,00 (estando com o financeiro em dia)
+
+Condições de Parcelamento:
+* Primeira parcela no ato da solicitação.
+* Segunda parcela por boleto no próximo vencimento.
+
+Equipamentos:
+* Devem ser levados cuidadosamente para o novo endereço por conta do cliente.
+
+Atendimento:
+* A mudança de endereço ocorre mediante agendamento prévio.
+
+Metragem da Fibra
+
+A Empresa fornece 100 metros de fibra, passando de 100 metros o cliente paga R$ 1,00 o metro. Caso passe, o valor pode ser dividido na fatura !
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Não, deverá orientar o cliente a entrar na central do assinante. Para acessar a central do assinante, por gentileza clique no link abaixo:
+https://central.faciliti.com.br/central_assinante_web/login
+
+🔺 Login: *CPF/CNPJ do(a) titular sem pontuação e sem traço*
+🔺 Senha: *CPF/CNPJ do(a) titular sem pontuação e sem traço*▪️ Na opção FATURAS clique EM AÇÕES 🔍​.
+▪️ Clique na opção desejada para pagamento.
+
+- OPÇÃO PIX:
+▪ Forma de pagamento por QRCODE;
+▪ Forma de pagamento por chave aleatória (lembrando que a chave só fica disponível por 5 minutos, passando deste tempo será necessário iniciar o procedimento novamente, fechando a página do PIX e abrindo novamente. Assim será gerado uma nova chave PIX aleatória).
+
+- BOLETO
+▪ Clique na lupa 🔍​ para abrir a fatura do mês desejado;
+▪ Clique na opção LINHA DIGITÁVEL para copiar o código de barras ou clique na FATURA para baixar ou imprimir.
+
+- DESBLOQUEIO
+▪️​ Clique em contrato e depois no cadeado do lado direito da aba para liberação temporária com a duração de 3 dias.
+
+(Na central do assinante o cliente pode realizar desbloqueio por confiança e temos 3 opções de pagamento. ( pelo código de barra/ cartão de credito/ PIX).
+
+Com quantos dias ocorre o bloqueio?
+Para planos FTTH bloqueia com duas faturas vencidas
+Para planos Combo APPs o bloqueio é feito com 15 dias após o vencimento
+
+Podemos fazer o desbloqueio de confiança?
+Não. Para desbloquear a conexão é pela central do assinante, orientar que o cliente realize o passo a passo abaixo;
+▪️​ Acessar a central do assinante pelo link https://central.faciliti.com.br/central_assinante_web/login
+▪️​ No LOGIN e SENHA colocará o CPF (sem pontos e sem traço)
+▪️​ Clique em contrato e depois no botão de liberação temporária com a duração de 3 dias.
+
+Caso o cliente não consiga, a UpCall deverá fazer o atendimento com o assunto INFORMAÇÕES GERAIS para nossa equipe verificar em horário comercial.
+
+Por quantos dias a conexão é liberada?
+Mediante ao pagamento via boleto precisa aguardar o pagamento compensar no banco.
+Via PIX, o pagamento compensa no nosso banco  de 4 a 24 horas. 
+Na recepção, a conexão é liberada na mesma hora.
+
+Possui redução de velocidade?
+Não. Cliente com o financeiro em atraso não tem redução de velocidade, ele terá o bloqueio total da conexão. de acordo com o plano contratado.
+Lembrando que:
+Para planos FTTH bloqueia com duas faturas vencidas
+Para planos Combo APPs o bloqueio é feito com 15 dias após o vencimento
+
+Qual métodos de pagamentos da fatura?
+Pix, boleto, dinheiro, débito.
+Cartão de crédito, na central do assinante (podendo parcelar em até 2x) 
+
+PASSO A PASSO PARA REALIZAR O PAGAMENTO COM O CARTÃO DE CRÉDITO
+▪️ ​Acessar: https://central.faciliti.com.br/central_assinante_web/login
+▪️​ Login e senha CPF sem pontos e sem traço
+▪️​ Do lado esquerdo, clique no símbolo $
+▪️​ Clique em carregar faturas no contrato desejado;
+▪️​ Ao lado da fatura, clique na lupa e escolha a opção cartão de crédito;
+▪️​ Adicione as informações do cartão de crédito e efetue o pagamento.
+
+Qual o procedimento para comprovante de pagamento?
+Abrir atendimento com o assunto INFORMAÇÕES GERAIS para o departamento do FINANCEIRO, descrever o que o cliente solicitou e anexar em arquivo do atendimento o comprovante. Não sendo possível librar a conexão em caso de bloqueio.
+
+Como prosseguir em casos de cancelamento?
+Fazer atendimento para nossa atendente retornar em horário comercial, fazendo a retenção de cancelamento. Pois temos processo a seguir. 
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP:  IXC - https://central.faciliti.com.br/adm.php
+
+Central do Assinante
+
+https://central.faciliti.com.br/central_assinante_web/login
+
+ENDEREÇOS
+
+Conceição de Macabu - RJ
+
+AV. Vitor Sence, 61 - Centro
+
+Possui atendimento presencial?
+R: Sim
+
+CONTATOS
+faciliti@faciliti.com.br
+
+TELEFONE  
+(22) 2779-9100
+0800 - 123 - 4041
+
+WHATSAPP  
+(22) 2779-9100
+
+SITE 
+
+https://faciliti.com.br/bandalarga/
+
+FACEBOOK
+
+HORÁRIOS
+
+ATENDIMENTO TÉCNICO:
+Segunda à sexta: 08:00 às 18:00
+Sábado: 08:00 às 12:00
+Domingo e feriado: não trabalham
+
+SUPORTE CALL CENTER: 24 horas

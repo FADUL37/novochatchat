@@ -1,0 +1,149 @@
+VMAX
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	 
+UPSOFT - EM DESENVOLVIMENTO
+
+SOMENTE LIGAÇÕES
+
+ 
+
+VOALLE	SAT
+Acesso Voalle  - Consulta de Contrato/Financeiro e Abertura de Protocolo
+Login: 892.045.610-09
+Senha: Upcall2025@
+
+Padrão de Abertura de Protocolo
+
+Acesso SAT - Consulta de Alertas Massivos e Autenticação dos Clientes
+Login: upcall@vmax.com.br
+Senha: oXOYgPGRXQSH
+
+Quais as tecnologias oferecidas pela empresa?
+R: Via rádio, FTTH Epon e Gpon. Telefonia PABX, Telefone IP e residencial.
+
+Quais os planos vendidos na empresa?
+R: De 120Mb à 1Gb. Telefonia corporativa e residencial e TV.
+
+Quais cidades/bairros de atuação?
+R: Itatiba, Atibaia, Nazaré Paulista, Bom Jesus dos Perdões, Piracaia, Campinas, Vinhedo, Valinhos e Louveira.
+
+Quais equipamentos utilizados?
+R: Antena, Roteadores, ONUs, Telefones IP e Routerboard. 
+
+Presta suporte a repetidores?
+R: Sim.
+
+Presta suporte a câmeras?
+R: Apenas auxílio e orientações. Não mexemos nessa tecnologia para reparos.
+
+Qual a porta de acesso para acesso aos roteadores?
+R: Não fará acesso remoto. Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: Não fará acesso remoto.
+
+É possível informar ao cliente a senha do roteador?
+R: Sim, no SAT constam esses dados, quando localizado cadastro do cliente.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Qual o site utilizado para testes de velocidade?
+R: Recomendamos o Speedtest by Ookla ou Fast.com
+
+Garantem toda a banda contratada passada por WiFi?
+R: Não. Somente via cabo direto da ONU ou roteador. Sempre cabeado a entrega na totalidade.
+
+Qual DNS padrão?
+R: 189.14.80.245
+
+189.14.80.246
+
+Quais são as tratativas para reset?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Suporte presencial 48 horas residencial e corporativo 8 horas. Se atendimento encaminhado para nossa tratativa, dentro de 24hrs para retorno.
+
+Existe setor de Agendamento ou Técnico vai direto?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Tem plantão aos finais de semana e feriado?
+R: Sim, todos os dias da semana.
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Sim, homologado pela ANATEL.
+
+A empresa fornece IP Fixo? Qual valor?  
+R: Sim, valor a partir de R$ 180,00. 
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R:  Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Mudança de Endereço
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+R: Podem.
+
+Com quantos dias ocorre o bloqueio?
+R: 30 dias de atraso ocorre bloqueio.
+
+Podemos fazer o desbloqueio de confiança?
+R: Não.
+
+Por quantos dias a conexão é liberada?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Possui redução de velocidade?
+R: 15 dias de atraso a velocidade é reduzida.
+
+Qual métodos de pagamentos da fatura?
+R: Boleto e Pix.
+
+Qual o procedimento para comprovante de pagamento?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+Como prosseguir em casos de cancelamento?
+R: Em necessidades como essa, que influenciam na solução do atendimento, solicitamos que abra um atendimento para a equipe (RELACIONAMENTO ATENDIMENTO N1) e informe ao cliente que o caso está sendo direcionado para ANÁLISE e que em breve a equipe de atendimento avançado entrará em contato via telefone para finalizar o atendimento e prestar uma solução.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP : Voalle
+
+ Central do Assinante : https://vmaxdigital.com.br/minhavmax/
+
+ 
+
+ENDEREÇOS
+
+Endereço comercial: Rua Antonio Carlos Gilii, n°11, Jardim Santo Antonio - Itatiba SP.
+
+Possui atendimento presencial?
+R: Sim, segunda à sexta das 08h às 18h, sábados das 08h às 12h.
+
+ 
+
+CONTATOS: (11) 4894-8000 - 0800 778 0088
+
+TELEFONE : (11) 4894-8000 - 0800 778 0088
+
+WHATSAPP : (11) 4894-8000
+
+SITE: https://vmax.com.br/
+
+FACEBOOK: VMAX Digital

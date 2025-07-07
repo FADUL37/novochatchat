@@ -1,0 +1,233 @@
+Topnet
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+Segunda à Sábado das 21h às 09h
+
+Sábado das 19h às 09h de Domingo
+
+Domingos e Feriados das 16h30 às 09h
+
+UPSOFT - SIM
+
+SOMENTE CHAT
+
+CONTROLLR	SZCHAT	SETORES
+Sempre transferir ou passar no grupo clientes fora do horário com outras demandas, e não pedir para o cliente retornar no dia seguinte
+
+Quais as tecnologias oferecidas pela empresa?
+R: Fibra
+
+Quais os planos vendidos na empresa?
+R: 100, 300, 600 Megas e 1000MB (1GIGA)
+
+Quais cidades/bairros de atuação?  
+R:
+
+Quais equipamentos utilizados?
+R: Huawei, Fiberhome
+
+Os aparelhos utilizados podem variar de acordo com o estoque  e são compatíveis com o plano contratado. 
+Os equipamentos podem ser trocados desde que sejam em comodato.
+
+Presta suporte a repetidores?
+R: Sim, provedor inclusive oferece esses equipamentos para a venda e suporte (No Controllr terá ele cadastrado, se for o caso)
+
+Caso o cliente adquira de forma terceirizada, pode ser aberto OS, informando de que o técnico vai avaliar a situação e validar a respeito da manutenção/instalação/configuração, pois cada caso varia.
+
+Qual a porta de acesso para acesso aos roteadores?
+R: 7979, 8080, 80
+
+Anteriormente, o acesso no Controllr era feito por “IPv4 Cfg”, agora acessamos por “IPv4 Last”.
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+ 
+
+EQUIPAMENTO	LOGIN	SENHA
+Padrão 7979 ou 8080	
+topnet
+
+admin
+
+admin
+
+topnet123
+
+topnet@123
+
+admin
+
+admin123
+
+porta 80 Huawei	 	
+topnet@123#
+
+topnet@123
+
+admin
+
+Fiberhome	
+Epuser
+
+admin
+
+root
+
+user
+
+admin
+
+userEp
+
+%0|F?H@f!berhO3e
+
+adminHW
+
+user1234
+
+admin
+
+Smart OLT	
+telecomadmin
+
+Epuser
+
+Epadmin
+
+admintelecom
+
+userEp
+
+adminEp
+
+Se não tiver acesso ao cliente informar no grupo, caso o provedor não der retorno em 20m pode abrir atendimento.
+
+É possível informar ao cliente a senha do roteador?
+R: Não informar 
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Podemos abrir OS, não é cobrado 
+
+Qual DNS padrão?
+ 
+
+Quais são as tratativas para reset?
+R: Pode abrir atendimento, na primeira visita não é cobrado, mas caso seja reincidente é cobrado taxa. (verificar no sistema para informar o cliente corretamente) 
+
+Qual site (padrão da empresa) utilizado para medir velocidade?
+R: https://www.speedtest.net/pt
+
+Como orientar o cliente após a abertura de O.S.?
+R: Nessa situação, a orientação é de que será feito a solicitação de uma assistência técnica remota com a equipe especializada. Caso necessário, será agendada a visita com o prazo de 24h a 48h partindo da data da solicitação do atendimento.
+
+Confirmar o contato e a disponibilidade de horário e colocar as informações na ordem.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: 48h em outros casos
+
+24h para sem conexão
+
+Informar que o setor responsável vai entrar em contato pela manhã para confirmação.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: 30 Reais
+
+Esclarecer ao cliente que somente em casos de mal uso 
+
+Tem plantão aos finais de semana e feriado?  
+R: Sim, somente para casos de cliente sem conexão (informar o prazo de 24h)
+ 
+
+Sábado	Até às 20h (Último agendamento até às 18h)
+Domingo e Feriados	Das 09h às 17:30
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Pagamento deve ser realizado de forma imediata via cartão ou em dinheiro
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não presta suporte, orientar o cliente sobre as orientações da ANATEL 
+
+A empresa fornece IP Fixo? Qual valor?  
+R:  Sim, o plano de 1GB inclui IP Fixo.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Abrir OS de ALTERAÇÃO DE AMBIENTE, é cobrado.
+
+Para mudança de ponto, se usar cabo novo o valor é R$ 100,00, caso não use cabo novo o valor fica R$ 50,00.
+
+Quando o cliente solicita troca de equipamento, abrir atendimento com a tarefa Suporte, e relatar no texto a solicitação do cliente, que será repassado ao setor responsável internamente. 
+
+FINANCEIRO E COMERCIAL
+Podemos enviar fatura?
+R: Sim 
+
+Podemos fazer o desbloqueio de confiança?
+R: Sim, com apenas UMA fatura em atraso. Com 7 dias de vencimento da fatura há o bloqueio automático, o cliente tem até três dias para solicitar e desbloquear. 
+
+Após 3 dias que houve o bloqueio, não liberar em confiança.Com comprovante de pagamento, pode liberar após os 3 dias (apenas confirmar se é do mês atual).
+
+As liberações de confiança são apenas de, no máximo, 3 dias, que totalizam 10 dias após o vencimento da fatura. Ou seja, se o cliente entrar no 8º dia de atraso, é possível liberar por apenas mais 2 dias. Se entrar no 9º, apenas por 1. E no 10º devemos encaminhar ao financeiro do provedor.
+
+Sempre colocar o nome do atendente e o motivo da liberação ao desbloquear o cliente.
+
+Na autenticação sempre aparece IP com início 100 ou 172.
+
+100 - quando está liberada a conexão
+
+172 - quando está bloqueado
+
+Possui redução de velocidade?
+R: Não 
+
+Qual métodos de pagamentos da fatura?
+R: Pagamento somente por boleto bancário ou Pix Qr code via central do assinante/boleto.
+
+OBS: Mesmo que haja a opção de pix no sistema, enviar somente a fatura
+
+Qual o procedimento para comprovante de pagamento?
+R: Não é necessário anexar no sistema. O mais importante é identificar se o cliente fez o pagamento do boleto correto e caso ele esteja bloqueado, colocar o informe de pagamento para liberar a conexão.
+
+Podemos incluir pelas opções “Anotações - Enviar Anexo” no Controllr.
+
+Informações da empresa
+ 
+
+CENTRAL DO ASSINANTE
+
+URL: http://www.topnetsp.com.br/client
+
+LOGIN: Nome completo com letra minúscula e sem espaços
+
+SENHA: CPF sem ponto
+
+ 
+
+APLICATIVO	https://play.google.com/store/apps/details?id=com.medianet.topnetapp&pcampaignid=web_share
+ENDEREÇO	Avenida Dom Pedro de Alcântara Nº 68 - Vila São Pedro
+São Bernardo do Campo - SP
+ 
+
+Possui atendimento presencial?
+R:  Sim
+
+ 
+
+WHATSAPP	1198651-8074
+TELEFONE	114339-2610 
+SITE	http://www.topnetsp.com.br/
+ 
+
+HORÁRIO DE ATENDIMENTO INTERNO
+Segunda a Sábado	Das 09h as 22h
+Domingo	Das 09h as 17:30
+ 
+
+HORÁRIO DA LOJA
+Segunda a Sábado	Das 09h as 17h30
+Controllr 
+ERP utilizado por alguns provedores
+
+Manual do Controllr: https://wiki.brbyte.com/wiki/Controllr
+
+Video manual:
+
+https://www.dropbox.com/scl/fi/4azy8wy2cvl5rvbzd2or6/topnetmanual.mp4?rlkey=d7wsstdo4ybpu3sifb4sgt09k&st=z7eqg0gt&dl=0

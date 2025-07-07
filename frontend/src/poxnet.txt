@@ -1,0 +1,193 @@
+POXNET
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	 
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	OPA	SETORES
+Quais as tecnologias oferecidas pela empresa?
+R: Serviço de internet via fibra óptica, link empresarial e residencial, serviços de Tv Stream e plataforma de cursos.
+
+Quais os planos vendidos na empresa?
+Consultar com o departamento comercial. 
+
+NÃO ENCERRAR ATENDIMENTOS DE CONTRATAÇÃO NO CHAT. INFORMAR SOBRE HORÁRIO DE ATENDIMENTO E TRANSFERIR AO COMERCIAL.
+
+Quais cidades/bairros de atuação?
+R: Sorocaba, Votorantim, Salto de Pirapora, Iperó e Araçoiaba da Serra. 
+
+Quais equipamentos utilizados?
+Modem ONU Intragrada e Roteador.
+
+Presta suporte a repetidores?
+Somente no plano com ponto adicional, repetidor particular não damos suporte. 
+
+Presta suporte a câmeras?
+Não. 
+
+Qual a porta de acesso para acesso aos roteadores?
+80, 8080, 8181 e 8182. 
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+ONU ZTE user multipro pwd multipro, ONU CIANET user adminisp pwd adminisp, outros aparelhos com quantidade inferior. 
+
+É possível informar ao cliente a senha do roteador?
+Não, consta em contrato o acesso exclusivo somente do provedor e proficionais capacitados para suporte. 
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Não, porém podemos fazer uma segunda alternativa de troca com nosso time interno. 
+
+Qual o site utilizado para testes de velocidade?
+https://www.minhaconexao.com.br/?server_id=005936 ou fast.com
+
+Garantem toda a banda contratada passada por WiFi?
+Não, somente no cabo. 
+
+Qual DNS padrão?
+177.86.16.9 principal 8.8.8.8 secundário. 
+
+Quais são as tratativas para reset?
+Apenas reinício do aparelho. 
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Empresas que possuem contratos com conexão Bridge sem PPPoE. 
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+Corporativo 4 Horas a partir da abertura do chamado. Residencial 48 Horas de acordo com a Anatel, nossos processos internos dá disponibilidade de agendamento dentro de 24 Horas. 
+
+Existe setor de Agendamento ou Técnico vai direto?
+Suporte faz agendamento somente das ordens do departamento técnico. Comercial e Financeiro possuem setor próprio de agendamento. 
+
+Qual o custo da visita técnica caso seja improdutiva?
+R$ 85,00
+
+Tem plantão aos finais de semana e feriado?
+Equipe técnica 12X36, 3 operando em Sorocaba e região e 1 em Salto. 
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Direto na fatura e pode ser divido em negociação com o departamento responsável. 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Temos nosso serviço de TV Stream por APP, serviços terceiros ou TVBox não prestamos suporte. 
+
+A empresa fornece IP Fixo? Qual valor?  
+Apenas no plano corporativo Full, valores somente em negociação. 
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Mudança de ponto, encaminhar a ordem de serviço do atendimento para o setor de agendamento. Instalação, indicar nossos canais de atendimento para o comercial fazer o LEAD. Valores deveram ser informados direto pelo setor responsável. 
+
+Mudança de Endereço
+Encaminhar a ordem de serviço do atendimento para o setor de agendamento.
+
+FINANCEIRO E COMERCIAL
+Podemos enviar fatura?
+Não.
+
+Para acessar os boletos o cliente tem 03 opções:
+
+-Departamento Financeiro via Chat
+
+-Site poxnet.com.br na opção "área do cliente" tem a opção de 2ª via de boletos
+
+-Acessando o canal de atendimento do OPA (Chat) da Pox via Celular (Whats) também tem a opção para ter aceso aos boletos.
+
+Com quantos dias ocorre o bloqueio?
+30 Dias.
+
+Podemos fazer o desbloqueio de confiança?
+Não, somente o cliente via central do assinante, feito uma vez prazo de 90 dias para novo desbloqueio de confiança. 
+
+Por quantos dias a conexão é liberada?
+4 Dias.
+
+Possui redução de velocidade?
+Sim, com 15 dias de atraso. 
+
+Qual métodos de pagamentos da fatura?
+Pix e boleto
+
+Qual o procedimento para comprovante de pagamento?
+Cliente entra em contato direto com o departamento financeiro. 
+
+Como prosseguir em casos de cancelamento?
+Indicar o cliente entrar em contato com o departamento financeiro no horário de atendimento. 
+
+ 
+
+INFORMAÇÕES DA EMPRESA
+ Central do Assinante
+
+URL https://www.poxnet.com.br/cliente
+
+LOGIN email do titular 
+
+SENHA cpf do titular 
+
+NOSSOS APPs POXNET
+
+ 
+
+ENDEREÇOS
+
+MATRIZ 
+
+Av. Gen. Osório, 655 - Trujilo, Sorocaba - SP, 18060-501
+
+FILIAL 
+
+Rua Francisco de Barros Leite, 664 - Jardim Aurea, Salto de Pirapora - SP, 18160-000
+
+ 
+
+Possui atendimento presencial?
+R: Sim.
+
+ 
+
+CONTATOS
+
+ 
+
+TELEFONE 
+
+(15) 3331-6565 (15) 3232-3652 
+
+ 
+
+WHATSAPP  
+
+(15) 3232-3652 (15) 9 9790-8200
+
+ 
+
+SITE 
+
+https://www.poxnet.com.br/
+
+ 
+
+FACEBOOK
+
+HORÁRIOS
+
+Lojas horário comercial. 
+
+Atendimento suporte 24 horas. 
+
+Atendimento Comercial seg a sex dás 8 às 22h, sáb 8 às 16h e dom 9 às 18h.
+
+Atendimento Financeiro seg a sex dás 8 às 18h e sáb 8 às 18h.
+
+Renovação: de segunda a sexta-feira, das 09h às 18h; sábado das 08h às 12h (não atua no domingo).
+
+Financeiro: de segunda a sexta-feira, das 08h às 18h; sábado das 08h às 12h (não atua no domingo e feriados).
+
+Retenção (Cancelamento): de segunda a sexta-feira, das 08h às 18h; sábado das 08h às 12h (não atua no domingo e feriados).
+
+Importante: Para atendimentos administrativos relacionados a Financeiro e Retenção, quando um cliente acessa o sistema OPA e solicita atendimento fora do horário estabelecido, o atendimento é encerrado, e o Cliente informado (gentilmente solicitado) a retornar no próximo dia/horário útil.
+
+Ocorrendo demandas sobre esses departamentos (passou pelo Fluxo do Suporte Técnico ou Comercial, equivocamente), peço a gentileza de verificar a possibilidade de comunicar ao cliente sobre a continuidade do atendimento, conforme as opções abaixo:
+1.) O cliente prefere retornar o contato (encerrar o atendimento);
+2.) Caso deseje a continuidade, informar que o atendimento será transferido, sendo retomado no próximo dia/horário útil.

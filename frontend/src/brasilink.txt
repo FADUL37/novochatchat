@@ -1,0 +1,133 @@
+Brasilink
+Horário de Atendimento da UPCALL (GMT -3)	
+Segunda à Quinta das 22h às 07h30
+Sexta das 17h30 às 18h de Sábado
+Sábado das 22h às 08h de Domingo
+Domingo das 18h às 07h30 de Segunda
+UPSOFT - OK
+CHAT E LIGAÇÕES
+IXC	OPA	SETORES
+Quais as tecnologias oferecidas pela empresa?
+R: Fibra e rádio
+Quais os planos vendidos na empresa?
+R: 100, 300 e 500 megas
+VIÇOSA (SÍTIO)	 TIANGUA-  A CIDADE VAI ESTAR EM COREAÚ
+Viçosa (interior) | Internet Fibra - 5Mbps
+Viçosa (interior) | Internet Fibra - 10Mbps
+Viçosa (interior) | Internet Fibra - 20Mbps
+Viçosa (interior) | Internet Fibra - 40Mbps
+Araquem internet fibra- 100MB
+Araquem internet fibra- 50MB
+Araquem internet fibra- 30MB
+Em caso de solicitações de Upgrade de Planos e Renovação de Contrato durante Horário Comercial, podemos transferir ao Setor Suporte do Provedor (Suporte Interno) via Chat e abrir Encaminhar para Outras Demandas no IXC. Fora de Horário, abrir Encaminhar para Outras Demandas e encerrar o atendimento.
+Em caso de solicitações de Contratação devemos transferir ao Setor Comercial dentro do horário do provedor e enviar um recado no grupo do provedor fora dele.
+Presta suporte a repetidores?
+R: Provedor oferece planos com repetidores (P3: Oferece um segundo roteador para maior alcance de sinal; P4: Oferece dois aparelhos com Rede Mesh e WiFi 6) 
+Caso o cliente compre um repetidor ou segundo/terceiro roteador por conta própria, o provedor realiza o servidor de configuração e instalação, porém é cobrada a taxa de R$60 que vem na próxima fatura. Abrir N3 e passar o mesmo prazo das outras visitas, porém, entendendo que como não se trata de falta de conexão, a prioridade é menor. SEMPRE CONFIRMAR O VALOR DA TAXA
+Quais cidades/bairros de atuação?
+R: Viçosa do Ceará, Tiangua, Cocal e Rio Verde.
+Quais equipamentos utilizados?
+R: Tplink, Tenda, Multilaser, Greatek, Mercusys, Zte, Ont Nokia,
+Quais os usuários da VPN?
+R: Tianguá, Viçosa e Cocal - internoBRASILINK
+Rio Verde - GO - internoBK
+CASO NÃO TENHA ACESSO, ENCAMINHAR NO GRUPO
+Qual a porta de acesso para acesso aos roteadores?
+R: 8080, 8085
+Sempre testar http:// e https://
+CASO NÃO TENHA ACESSO, ENCAMINHAR NO GRUPO
+Qual usuário e senha padrão para acesso aos equipamentos?
+Equipamentos e Acesso
+Portas: 8080, 8085
+Acesso: http:// e https://
+ZYXEL: admin / brasi70
+ONT NOKIA COCAL: AdminGPON / ALC#FGU
+TP-Link / Intelbras: admin / admin
+Greatek 1800: super / super123
+Huawei: brasi70
+Diversos: pnbl / brasi70
+ZTE:
+- multipro / d7@xSb*R39ba ou xR*qJBh#0@h2
+- user / zte#ca199a@
+- admin / mlr#ca807RE@ ou bras!@
+Caso não tenha acesso remoto, devemos abrir OS de acordo com a demanda do cliente e comunicar no grupo para que no próximo dia o provedor verifique se já consegue liberar. 
+É possível informar ao cliente a senha do roteador?
+R: Não
+Qual DNS padrão?
+R: 191.7.213.230  e 191.7.213.231
+Quais são as tratativas para reset?
+R: Somente encaminhar visita técnica, abrir OS
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Abrir visita técnica para efetuar a troca (Não é cobrado)
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Sim, possui N2 e N3
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Abrir N2
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R:24h úteis
+Após abertura da OS, encaminhar o protocolo da mesma ao cliente (Protocolo gerado dentro do IXC)
+Sempre confirmar o telefone de contato com o cliente. O Técnico vai direto até o local e não entram em contato com antecedência para marcar horário.
+Qual o custo da visita técnica caso seja improdutiva?
+R: Haverá cobranças somente se o cliente for reincidente
+OBS: Técnico informa valor no momento da visita
+Tem plantão aos finais de semana e feriado?  
+R: EXTERNO
+Sábado	Das 18 às 20:30hrs
+Domingo	Das 08 às 12hrs
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Setor financeiro entra em contato para negociar
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não. Caso haja necessidade podem fazer cabeamento porém encaminhar a Outras Demandas (fora do horário) ou Transferir ao Comercial (dentro do expediente) para informar sobre valores.
+A empresa utiliza o IPV6?  
+R: Sim
+A empresa fornece IP Fixo? Qual valor?  
+R: Sim. Valor: 25 Reais
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Encaminhar para Outras Demandas fora do horário e transferir ao Comercial dentro do expediente
+Serviço de passagem de cabo e troca de equipamento de local só é feito de segunda a sexta com a equipe de instalação.
+Mudança de Endereço - Abrir Outras Demandas
+FINANCEIRO E COMERCIAL
+Clientes que solicitarem renegociação de fatura, pode abrir OUTRAS DEMANDAS e orientar que a equipe retornará durante expediente
+Podemos enviar fatura?
+R: Sim, ou indicar para acessar na central do assinante
+Pagamentos via pix possui direto na fatura
+Podemos utilizar o atalho / dentro do OPA para encaminhar QR Code e fatura pelo chat.
+Com quantos dias ocorre o bloqueio?
+R: 10 dias após o vencimento.
+Podemos fazer o desbloqueio de confiança?
+R:  Sim, com apenas 1 fatura em atraso e 1 vez por vencimento. Caso possua 2 faturas em atraso, realizar somente mediante ao comprovante de pagamento.
+Se tiver mais faturas encaminhar para Outras Demandas fora do horário e transferir ao financeiro dentro do expediente do provedor.
+Bloqueio ocorre com 15 dias de atraso.
+O desbloqueio de confiança é válido por 2 dias
+Utilizar o recurso do desbloqueio DE CONFIANÇA. Realizar desbloqueio MANUAL somente com comprovante de pagamento e se o DE CONFIANÇA não estiver disponível.
+Possui redução de velocidade?
+R: Não
+Qual o procedimento para comprovante de pagamento?
+R: Anexar ao atendimento (N1) registrado. Não precisa encaminhar para o financeiro ou abrir OS de Encaminhar Comprovante, geralmente dá baixa em 24h.
+Como prosseguir em casos de troca de titularidade?
+R: Abrir OUTRAS DEMANDAS.
+OBS.: É necessário que o novo titular compareça presencialmente à recepção, portando um documento de identificação. Além disso, é obrigatório apresentar um contato atualizado do titular atual, para que possamos dar andamento ao processo.
+Como prosseguir em casos de cancelamento?
+R: Caso a tratativa de retenção não seja bem sucedida, abrir OUTRAS DEMANDAS - CANCELAMENTO e orientar o cliente que o setor responsável retornará o contato.
+INFORMAÇÕES DA EMPRESA
+ENDEREÇOS
+Tianguá
+Rua deputado Manoel Francisco, 800 - Centro
+Viçosa do Ceará
+Rua Professor João Viana, N° 40, Próximo a lotérica - Centro
+Cocal
+Av Raimundo Alves Pereira, N° 984 - São Pedro
+HORÁRIO DE ATENDIMENTO
+Segunda à Quinta das 07h30 às 18h
+Sexta das 07h30 às 17h30
+TELEFONE
+0800 775 1010
+CENTRAL DO ASSINANTE
+URL https://atendimentoixc.brasilink.net.br/central_assinante_web/login
+LOGIN
+CPF
+SENHA
+6 primeiros dígitos do CPF
+SITE
+http://www.brasilink.net.br/
+Fora de horário não utilizam setores, apenas abertura de OUTRAS DEMANDAS

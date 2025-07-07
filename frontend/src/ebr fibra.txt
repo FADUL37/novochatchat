@@ -1,0 +1,177 @@
+EBR Fibra
+ 
+
+Horário de atendimento do Call Center (GMT -3)	
+De Segunda à Sexta das 18h às 08h
+
+Finais de Semana 24/7 
+
+UPSOFT - OK
+
+CHAT E LIGAÇÕES
+
+IXC	OPA
+Quais as tecnologias oferecidas pela empresa?
+R: Fibra óptica
+
+Quais os planos vendidos na empresa?
+150, 650 e 1G
+
+Quais cidades/bairros de atuação?
+R: Serra, Vitoria, Vila Velha, Cariacica, Aracruz, Ibiraçu e Viana.
+
+Quais equipamentos utilizados?
+ONT, ONU, Roteador WIFI e Mikrotik
+
+Presta suporte a repetidores?
+Não 
+
+Presta suporte a câmeras?
+Não
+
+Qual a porta de acesso para acesso aos roteadores?
+8888
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+Senha Padrão: Novaebr@123
+
+EQUIPAMENTO	LOGIN	SENHA
+HUAWEI	Epadmin	
+adminEp
+
+Novaebr@123
+
+DATACOM DM986-204, DM986-414 e DM986-414Q	user	
+12345678
+
+Novaebr@123
+
+user
+
+DATACOM DM 985-102	support	support
+Maxfiber 3001G	telecom	admintelecom
+Maxfiber 1200G	telecom	admintelecom
+Mercusys / Maxprint - MW301R, AC12G, MR30G e 302A	 	
+carllmais
+
+12345678
+
+É possível informar ao cliente a senha do roteador?
+Sim
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Analisamos cada caso.
+
+Qual o site utilizado para testes de velocidade?
+https://fast.com/pt/
+https://www.speedtest.net/
+
+Garantem toda a banda contratada passada por WiFi?
+Não.
+Garantia de banda é via cabo de rede.
+Wifi fica limitado a operação do equipamento e dispositivo do cliente.
+
+Qual DNS padrão?
+189.14.192.228
+189.14.210.73
+
+Quais são as tratativas para reset?
+Não fazemos.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Sim, perda de pacote ou destinos inacessíveis.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+48 horas
+
+Existe setor de Agendamento ou Técnico vai direto?
+Sim o supervisor do suporte.
+
+Qual o custo da visita técnica caso seja improdutiva?
+80 reais
+
+Tem plantão aos finais de semana e feriado?
+Sim. aos sábados - suporte
+Sabados, domingo e feriados - NOC
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Boleto 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Não
+
+A empresa fornece IP Fixo? Qual valor?  
+Não.
+Apenas migrando para o plano empresarial
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Encaminhar para o supervisor do suporte.
+Valor 80 reais.
+
+Mudança de Endereço
+Encaminhar para o supervisor do suporte.
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Sim pode ser enviado a fatura mesmo em atraso.
+
+Com quantos dias ocorre o bloqueio?
+11, 16, 21 e 26
+
+Podemos fazer o desbloqueio de confiança?
+SIm,
+
+Por quantos dias a conexão é liberada?
+4
+
+Possui redução de velocidade?
+Não
+
+Qual métodos de pagamentos da fatura?
+Boleto e PIX
+
+Qual o procedimento para comprovante de pagamento?
+Encaminhar comprovante no grupo
+
+Como prosseguir em casos de cancelamento?
+Abrir chamado e encaminhar para o supervisor do suporte.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP  IXC
+
+ Central do Assinante
+
+ 
+
+ENDEREÇOS
+
+ 
+
+Possui atendimento presencial?
+R:  Apenas em caso de cancelamento que é feito presencialmente pelo titular em uma de nossas lojas.
+
+CONTATOS
+
+ 
+
+TELEFONE   27 2122-2122
+
+WHATSAPP  27 2122-2122
+
+SITE https://www.ebr.com.br/
+Central do assinante: https://ixc.ebr.com.br , https://sac.ebr.com.br/ ou https://nca.ebr.com.br
+
+Login: CPF (sem os pontos e traço)  Senha: 3 primeiros e 2 últimos dígitos do CPF ou CNPJ.
+
+FACEBOOK
+
+ 
+
+HORÁRIOS
+
+Segunda a sexta: 08:00 as 19:00
+Sábado: 08:00 as 17:00 

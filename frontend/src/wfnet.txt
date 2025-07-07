@@ -1,0 +1,148 @@
+WFNET
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	
+De Segunda à Sexta das 22h às 08h
+
+Aos Sábados das 17h às 08h de Segunda
+
+SOMENTE LIGAÇÕES
+
+TUTORIAL PARA ACESSO DO SISTEMA: ⇒CLIQUE AQUI⇐
+
+IP: 143.0.31.249
+
+Porta: 64712
+
+usuario: base-atendimento
+
+senha: wfnet@base2022
+
+TUTORIAIS
+⇒Guia de Atendimento⇐
+
+⇒Procedimento Financeiro⇐
+
+⇒Cliente Já Possui Chamado Aberto⇐
+
+Selecionar SEMPRE o Técnico "Y-Plantonista"
+
+Adicionar o Telefone de Contato na DESCRIÇÃO do Protocolo
+
+Quais as tecnologias oferecidas pela empresa?
+R:Fibra Optica
+
+Quais os planos vendidos na empresa?
+200 , 500 , 700 , 1Gb
+
+Quais cidades/bairros de atuação?
+R: Itapetininga , Capão Bonito , Angatuba, São Miguel Arcanjo , Sarapui, Pilar do Sul
+
+Quais equipamentos utilizados?
+ONU HUAWEI , ZTE , Ubiquiti , Roteador Tplink
+
+Presta suporte a repetidores?
+NAO
+
+Presta suporte a câmeras?
+NAO
+
+Qual a porta de acesso para acesso aos roteadores?
+NAO PRECISARÁ ACESSAR
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+NAO PRECISARÁ ACESSAR
+
+É possível informar ao cliente a senha do roteador?
+NAO
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+NAO PRECISARÁ TROCAR SENHA, ABRIR CHAMADO COM A SOLICITACAO E A EQUIPE RELAIZARA NO OUTRO DIA
+
+Qual o site utilizado para testes de velocidade?
+SPEEDTEST  , FAST.COM
+
+Garantem toda a banda contratada passada por WiFi?
+50%
+
+Qual DNS padrão?
+143.0.31.254 , 143.0.31.244
+
+Quais são as tratativas para reset?
+Equipamento configura sozinho via tr069
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+NAO
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+72h
+
+Existe setor de Agendamento ou Técnico vai direto?
+Agendamento
+
+Qual o custo da visita técnica caso seja improdutiva?
+Sem custo
+
+Tem plantão aos finais de semana e feriado?
+SIM
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+NENHUM
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Temos a watch.tv , mas se houver problema abrir chamado , e realizamos a tratativa no outro dia
+
+A empresa fornece IP Fixo? Qual valor?  
+Não
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Abrir chamado e entramos em contato com cliente no outro dia
+
+Mudança de Endereço
+Abrir chamado e entramos em contato com cliente no outro dia
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+SIM
+
+Com quantos dias ocorre o bloqueio?
+10
+
+Podemos fazer o desbloqueio de confiança?
+NAO
+
+Por quantos dias a conexão é liberada?
+10
+
+Possui redução de velocidade?
+NAO
+
+Qual métodos de pagamentos da fatura?
+BOLETO
+
+Qual o procedimento para comprovante de pagamento?
+foto do comprovante.
+
+Como prosseguir em casos de cancelamento?
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP TOPSAPP
+
+ Central do Assinante
+
+ 
+
+ENDEREÇOS
+
+ 
+
+Possui atendimento presencial?
+R: 
+
+ 
+
+TELEFONE/WHATSAPP	15 3376 8333
+SITE	https://www.wfnet.net.br/

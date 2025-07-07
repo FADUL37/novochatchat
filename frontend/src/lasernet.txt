@@ -1,0 +1,195 @@
+LaserNet
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+24/7, mas com algumas ressalvas:
+
+De Segunda à Sábado Das 08h às 18h Somente Transbordo
+
+Fora desse Período é Virado Totalmente para Upcall
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+SGP	UPCHAT	SETORES
+Quais as tecnologias oferecidas pela empresa?
+R: Fibra, Rádio
+
+Quais os planos vendidos na empresa?
+FIBRA:
+
+49,90 - 50MB
+
+59,90 - 75MB
+
+69,90 - 100MB
+
+79,90 - 200MB
+
+89,90 - 400MB
+
+99,90 - 600MB
+
+PLANOS RÁDIO:  10M – 49,90 , 20M – 59,90 , 30M – 69,90
+
+Possui taxa de instalação 
+
+Quando o cliente solicitar contratação, não devemos transferir o atendimento. Pegamos os dados básicos e encaminhamos no grupo.
+
+Quais cidades/bairros de atuação?
+R: Barroso - Fortaleza
+
+Presta Suporte a Repetidores?
+R: Possuem alguns clientes com roteador adicional como repetidor (fornecido em comodato pelo provedor). Não fornecem equipamentos com Rede Mesh.
+
+Qual a porta de acesso para acesso aos roteadores?
+9020
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R:
+
+EQUIPAMENTO
+
+LOGIN
+
+SENHA
+
+W4- 300F
+
+admin
+
+Lnt12345@
+
+W5-1200G
+
+admin
+
+Lnt12345@
+
+IWR3000
+
+-
+
+P=a5tr3NeL!w3000
+
+RG1200
+
+-
+
+P=a5tr3NeL!g1200
+
+RF1200
+
+-
+
+P=a5tr3NeL!f1200
+
+GF1200
+
+-
+
+lnt12345@
+
+RF301K
+
+-
+
+a5tr3NeL301K
+
+INTELBRAS
+
+admin
+
+Lnt12345@
+
+É possível informar ao cliente a senha do roteador?
+R: Não passar acesso padrão, caso o cliente solicitar a senha pode realizar a troca da senha de acesso ao roteador para uma de preferência do cliente e registrar no sistema
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Pode abrir OS, não é cobrado 
+
+Qual DNS padrão?
+ 
+
+Quais são as tratativas para reset?
+R: Abrir OS, não é cobrado
+
+Qual site (padrão da empresa) utilizado para medir velocidade?
+R: https://www.speedtest.net/pt
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: 48h 
+
+Registrar todos os atendimentos
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Não é cobrado, só em casos em que o cliente danificar o equipamento 
+
+Não informar o cliente, apenas em casos onde for possível constatar o dano causado
+
+Tem plantão aos finais de semana e feriado?  
+R: Não
+
+De segunda a sábado	Das 08h as 18h
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Mudança de ponto ou endereço é cobrado o valor de 20 reais, pode abrir ocorrência dentro do UPSOFT e informar o cliente que o setor responsável irá retornar o contato.
+
+Como prosseguir em casos de cancelamento?
+R: Caso cliente solicitar o cancelamento, não transferimos o atendimento. Devemos abrir uma ocorrência (Tipo de Ocorrência de acordo com assunto e as opções Gerar OS e Encerrar OS desmarcadas) no UPSOFT e informar que o setor responsável entrará em contato. 
+
+FINANCEIRO E COMERCIAL
+Caso o desbloqueio esteja indisponível, o cadastro não se aplique à liberação ou a demanda solicitada seja específica do setor financeiro, não devemos transferir atendimento. Abrimos uma ocorrência (Tipo de Ocorrência de acordo com assunto e as opções Gerar OS e Encerrar OS desmarcadas) e orientamos o cliente que será dado retorno.
+
+Podemos enviar fatura?
+R: Sim. Podemos encaminhar também o carnê, caso o cliente solicite.
+
+Podemos fazer o desbloqueio de confiança?
+R: Sim, ou orientar a acessar a Central do Assinante.
+
+NÃO LIBERAR COM MAIS DE 35 DIAS DE ATRASO, SOMENTE COM COMPROVANTE DE PAGAMENTO
+
+Não soma os dias de várias faturas, apenas considera-se da mais antiga
+
+Com quantos dias ocorre o bloqueio?
+R: Bloqueio Parcial (Redução): 30 Dias
+
+Bloqueio Total: 35 Dias
+
+Qual o procedimento para pagamento invertido?
+R: Caso o cliente realize o pagamento de um mês subsequente e deixe uma fatura já vencida em aberto por engano, o provedor não faz a inversão dos pagamentos. É realizado somente um aumento do prazo na liberação do contrato. Enviar caso no grupo dentro do horário comercial ou abrir Ocorrência fora dele (pode ser feita uma liberação no dia).
+
+Exemplo: Cliente pagou o Mês 03 e deixou o Mês 02 aberto. 
+
+Qual o procedimento para comprovante?
+R: Em relação a comprovantes de agendamento, podemos aceitá-los em feriados e finais de semana. Em dias úteis, apenas comprovantes de pagamento. Não é necessário anexar no sistema.
+
+Qual métodos de pagamentos da fatura?
+R: Fatura (com QR Code PIX no Boleto)
+
+Informações da empresa
+ 
+
+SISTEMA	 http://170.82.44.23:8000/accounts/login?
+CENTRAL DO ASSINANTE	
+https://central.lasernet.net.br/accounts/central/login
+
+Login é o CPF do cliente e a senha é o ID do contrato do cliente
+
+ 
+
+ENDEREÇO	Travessa Jonas Bezerra, 300 - Barroso - Fortaleza-CE
+ 
+
+Possui atendimento presencial?
+R: Sim
+
+ 
+
+TELEFONE	(85)3276-5247
+WHATSAPP	(85) 98887-9808
+SITE	http://170.82.44.20/
+ 
+
+HORÁRIO
+De Segunda a Sábado	Das 08h as 18h

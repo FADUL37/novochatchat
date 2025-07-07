@@ -1,0 +1,140 @@
+PLUSCOM
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	 
+UPSOFT - OK
+
+SOMENTE LIGAÇÕES
+
+HUBSOFT
+Quais as tecnologias oferecidas pela empresa?
+R: A maior parte dos clientes contratam conosco apenas internet. No entanto, também temos telefonia fixa sip disponível e estamos implantando tv, com a liberação do aplicativo da Sky. Temos alguns planos promocionais com aplicativos agregados (Max, Deezer, Looke etc)
+
+Quais os planos vendidos na empresa?
+ 
+
+Quais cidades/bairros de atuação?
+R: Apenas em São José do Rio Preto.
+
+Quais equipamentos utilizados?
+Roteadores e ONTs WIFI 6.
+
+Presta suporte a repetidores?
+Apenas quando contratados conosco. Temos alguns serviços com repetidor, essa informação estará disponível no nome do serviço.
+
+Presta suporte a câmeras?
+Não. 
+
+Qual a porta de acesso para acesso aos roteadores?
+No Hubsoft há uma funcionalidade para acesso. Basta clicar sobre o IP dentro da página de serviços e rolar o cursor até o final da página, lá há um botão para acesso. Se não funcionar, podem utilizar a porta 80, 8080 ou 8888. 
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+Usuário: Admin
+Senhas: 41412790 ou 41412790srr ou 41412790Srr. Há alguns casos específicos em que a senha foi inserida no campo de observação do sistema.
+
+É possível informar ao cliente a senha do roteador?
+Não liberamos acesso aos clientes, apenas em alguns casos pontuais. 
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Não cobramos, apenas abrimos chamado. 
+
+Qual o site utilizado para testes de velocidade?
+Speedtest e NPerf
+
+Garantem toda a banda contratada passada por WiFi?
+Sim.
+
+Qual DNS padrão?
+10.189.43.92 e 10.189.43.82
+
+Quais são as tratativas para reset?
+Quando constatado que o reset foi realizado pelo cliente, cobramos R$30,00 pela visita. 
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Não existe, podem enviar direto. 
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+Para residencial o prazo é de 48 horas e corporativo é de 8 horas (observar o serviço contratado, temos muitas empresas que contratam planos residenciais). 
+
+Existe setor de Agendamento ou Técnico vai direto?
+O agendamento é realizado internamente e após encaminhado ao técnico.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R$ 30,00
+
+Tem plantão aos finais de semana e feriado?
+Apenas para problemas que afetem mais de um cliente ou para clientes com plano dedicado. Atendimentos pontuais são agendados para o horário comercial. 
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Podem ser pagos em dinheiro ou pix, na data do agendamento. 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Não trabalhamos ou prestamos suporte. 
+
+A empresa fornece IP Fixo? Qual valor?  
+Fornecemos pelo valor de R$ 30,00.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Nesses casos, pedimos que abram atendimento no Hub para que possamos entrar em contato com o cliente posteriormente e agendar. 
+
+Mudança de Endereço
+Para mudança de endereço também pedimos que abram atendimento e informem que entraremos em contato posteriormente para agendar.
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Podem enviar. 
+
+Com quantos dias ocorre o bloqueio?
+15 dias após o vencimento. 
+
+Podemos fazer o desbloqueio de confiança?
+Podem. 
+
+Por quantos dias a conexão é liberada?
+Até 2 dias. 
+
+Possui redução de velocidade?
+Não. 
+
+Qual métodos de pagamentos da fatura?
+A fatura pode ser paga via código de barras ou qrcode pix. 
+
+Qual o procedimento para comprovante de pagamento?
+O comprovante deve ser enviado pelo WhatsApp para conferirmos e realizar o desbloqueio por aqui. 
+
+Como prosseguir em casos de cancelamento? 
+Informar que entraremos em contato para agendar a recolha dos equipamentos e verificar eventuais débitos. 
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP: https://pluscom.hubsoft.com.br
+
+ Central do Assinante: https://central.pluscom.hubsoft.com.br
+
+ 
+
+ENDEREÇOS
+
+ 
+
+Possui atendimento presencial?
+R: Antônio Lopes dos Santos, 543, Vila Toninho.
+
+CONTATOS
+
+ 
+
+TELEFONE  17 41412790 e 17 30422025
+
+WHATSAPP  17 41412790 e 17 30422025
+
+SITE www.pluscom.net.br
+
+FACEBOOK https://www.facebook.com/share/1B8YuHMpje/?mibextid=wwXIfr
+
+ 
+
+HORÁRIOS: Segunda a Sexta, das 08:00h às 18:00h e aos sábados das 08:00h às 12:00h

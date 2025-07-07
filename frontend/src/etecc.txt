@@ -1,0 +1,250 @@
+ETECC
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	
+De Segunda à Sexta das 21h às 08h
+
+Aos Sábados das 20h30 até às 09h de Domingo
+
+Aos Domingos das 17h às 08h de Segunda
+
+UPSOFT - OK
+
+SOMENTE LIGAÇÕES
+
+MK SOLUTIONS
+Quais as tecnologias oferecidas pela empresa?
+R: Roteadores dual-band (2.4Ghz e 5Ghz), redes Wi-Fi 6, Redes MESH (Link+ no caso da Huawei).
+
+Quais os planos vendidos na empresa?
+INTERNET PRÉ-PAGO (produto compra):
+Cliente necessita comprar os equipamentos - Sem fidelidade - realiza recargas em algum dos planos disponíveis para utilizar por 30 dias, não possui compromisso mensal.
+
+INTERNET LIVRE (produto comodato):
+Equipamentos em Comodato - Sem fidelidade - Possui compromisso mensal de uso enquanto estiver com os equipamentos.
+
+PLANOS RESIDENCIAIS:
+100MB – R$ 79,90
+600MB – R$ 99,90
+800MB – R$ 129,90
+ILIMITADO – R$ 149,90
+
+PLANOS COMERCIAIS (cnpj, comercio):
+100MB – R$ 99,90
+600MB – R$ 129,90
+800MB – R$ 149,90
+ILIMITADO – R$ 169,90
+
+PLANOS PROMOCIONAIS:
+Plano Gamer – R$169,90
+
+SITUAÇÃO COMERCIAL: 
+Cliente necessita efetuar o pagamento da 1ª mensalidade e a taxa de instalação fica isenta porém o cliente precisa ter TODOS os documentos solicitados.
+Instalação dentro de 48h após o pagamento da 1ª mensalidade. 
+
+Documentos Necessários:
+Rg e CPF ou CNH;
+Comprovante de residência;
+Selfie do cliente com documento ao lado do rosto (reconhecimento facial).
+
+ 
+
+
+
+ 
+
+Quais cidades/bairros de atuação?
+Cidades:
+
+Peruíbe (Maior parte, até determinada partes de bairros das extremidades como: Estância dos Eucaliptos e Balneário Caraguava).
+Itanhaém (Maior parte da cidade, com exceção de bairros muito próximos ao morro).
+Mongaguá (Maior parte da cidade, com exceção de bairros muito próximos ao morro).
+Praia Grande ( Lado morro completo, lado praia apenas até o Cidade Ocian).
+Quais equipamentos utilizados?
+Roteadores:
+
+Huawei WS5200;
+Huawei AX2 ou WS7001;
+Intelbras IWR-3000N;
+TP-Link Archer C5 AC1200.
+ONU's:
+
+FURUKAWA FK-ONU-20L;
+HUAWEI EG8010H
+CIANET CTS 2702D
+FIBERHOME AN5506 (Modelos A e B).
+ONT:
+
+HUAWEI EG8145X6
+Presta suporte a repetidores?
+R: Não prestamos suporte, nem fazemos o cabeamento de repetidores.
+
+Presta suporte a câmeras?
+R: Não prestamos suporte, também não fazemos o cabeamento de câmeras.
+
+Qual a porta de acesso para acesso aos roteadores?
+R: Por padrão utilizamos a 80, em casos de pontos adicionais usamos:  8080 ou 8081.
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: Nos roteadores que utilizamos a maioria solicita apenas senha, sendo a senha padrão: eteccinf ou o PPPoE do cliente.
+
+No caso da ONT da Huawei o padrão é:
+Username: Epadmin
+Password: adminEp
+
+É possível informar ao cliente a senha do roteador?
+R: Sim, caso o cliente solicite a senha de acesso às configurações do roteador, podemos informar, importante reforçar ao mesmo para ter atenção com as configurações realizadas pois podem deixar o mesmo sem acesso.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Caso não tenha nenhum aviso prévio ao abrir o atendimento do cliente, não é gerado custo para a visita, caso seja um cliente que já está notificado por excesso de visitar improdutivas o custo para visita é de R$90,00.
+
+Porém, ordens de serviço devem ser abertas apenas por N2.
+
+Qual o site utilizado para testes de velocidade?
+R: https://www.speedtest.net/pt
+
+Garantem toda a banda contratada passada por WiFi?
+R: Não, garantimos em contrato 80% da banda contratada porém em teste de velocidade feito em dispositivo cabeado e compatível com o plano do cliente.
+
+Qual DNS padrão?
+R: Por padrão deixamos os equipamentos sem DNS fixado, mas caso seja necessário nossos DNS são:
+
+Primário: 177.185.40.19
+
+Secundário: 138.94.85.98
+
+Quais são as tratativas para reset?
+R: Ao identificar roteador resetado tentamos a principio fazer a configuração com o cliente por telefone, caso não seja possível encaminhamos visita técnica (sem custos seguindo a mesma regra da visita para troca de senha).
+
+OBS: Temos atualmente um manual passo a passo de como fazer a configuração do roteador da Huawei através de dispositivo móvel, caso necessário pode ser feito dos demais equipamentos.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Em caso de não ser possível solucionar o problema do cliente, deixar o atendimento pendente com seguinte Processo e Subprocesso: Suporte - Ligação e soltar o resgate do atendimento que a equipe interna N2 vai verificar a solicitação.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: As visitas geralmente são feitas no mesmo dia à depender do horário de abertura do atendimento e da demanda de rota externa, para fins de informação o prazo é no máximo até o dia seguinte me casos sem acesso à internet.
+
+Demais casos no máximo no próximo dia útil. (Não encaminhamos técnicos para solicitações de lentidão/oscilação aos domingos e feriados).
+
+Existe setor de Agendamento ou Técnico vai direto?
+R: Sim existe um setor responsável por agendamento e logística das rotas dos técnicos, agendamento deve ser feito apenas pelo N2.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Só geramos custo em casos específicos avaliados pela supervisão.
+
+Tem plantão aos finais de semana e feriado?
+R: Sim temos equipe interna e externa disponível aos feriados e finais de semana.
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Boleto, PIX ou Cartão de crédito.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não trabalhamos com IPTV e não fornecemos suporte para IPTV.
+
+A empresa fornece IP Fixo? Qual valor?  
+R: Fornecemos IP Fixo mediante a disponibilidade, o valor é de R$20,00 por mês.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Ordens de serviço deve ser abertas apenas pelo suporte N2 pois é necessário a verificação da disponibilidade junto ao setor de agendamento.
+
+Mudança de Endereço
+R: Somente solicitar as informações como:
+
+- Novo endereço completo;
+
+- Ponto de referência do novo endereço;
+
+- Comprovante de residência do novo endereço (contrato de compra/aluguel serve);
+
+ 
+
+- Telefone para contato principal;
+
+- Telefone para contato secundário (se tiver).
+
+Agendamento será feito pelo N2.
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+R: Sim
+
+Com quantos dias ocorre o bloqueio?
+R: 05 dias após o vencimento.
+
+Podemos fazer o desbloqueio de confiança?
+R: Não.
+
+Por quantos dias a conexão é liberada?
+R: 48 Horas.
+
+Possui redução de velocidade?
+R: Alguns cliente com plano antigo ainda podem estar na regra de redução, mas são casos isolados.
+
+Qual métodos de pagamentos da fatura?
+R: PIX, boleto e cartão de crédito.
+
+Qual o procedimento para comprovante de pagamento?
+R: Anexar em sistema e instruir o cliente a aguardar compensação do pagamento.
+
+Como prosseguir em casos de cancelamento?
+R: Solicitar ao cliente o motivo da solicitação, em caso de ser por problemas técnicos, oferecer tratativa, caso o mesmo recuse, abrir atendimento para que o setor de retenção verifique junto ao cliente.
+
+Em casos de mudança de endereço, confirmar com o mesmo senão seria para alguma das cidades nas quais atendemos e oferecer a mudança de endereço para o cliente (não será cobrado taxa pela mudança de endereço).
+
+Em casos de problemas financeiros oferecer ao cliente um atendimento pelo setor financeiro para verificar a possibilidade de um acordo para facilitar o pagamento.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP: MK Solutions ERP
+
+Link: http://177.185.40.38:8080/mk/login/ 
+
+ Central do Assinante: https://pix.eteccnet.com.br (Login: CPF do cliente, Senha: verificar no cadastro).
+
+ENDEREÇOS:
+
+Itanhaém: Av. Condessa de Vimieiros, 71 - Centro, Itanhaém - SP, 11740-000
+Peruíbe: Av. Padre Anchieta, 1774 - Centro, Peruíbe - SP, 11750-000
+Mongaguá: Av. São Paulo, 1859 - Centro, Mongaguá - SP, 11730-000
+ 
+
+Possui atendimento presencial?
+R:  Sim
+
+CONTATOS
+
+ 
+
+TELEFONE: 13 3421-1999
+
+WHATSAPP: 13 3421-1999
+
+SITE: https://eteccnet.com.br
+
+FACEBOOK: https://www.facebook.com/EteccInf
+
+ 
+
+HORÁRIOS
+Lojas (Atendimento presencial):
+Segunda a sexta, 09h ás 18h.
+Sábado 09h ás 13h.
+Domingo fechadas.
+
+Call Center (Atendimento remoto):
+Segunda a sexta, 07h ás 21h30.
+Sábado 07h ás 21h.
+Domingo 09h ás 17h.
+
+Equipe externa (Carros e motos):
+Segunda a sexta, 09h ás 17h30.
+Sábado 09h ás 16h30.
+Domingo 09h ás 17h.
+
+ 
+
+¶TUTORIAIS MK SOLUTION
+⇒CLIQUE AQUI⇐

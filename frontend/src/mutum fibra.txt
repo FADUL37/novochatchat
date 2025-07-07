@@ -1,0 +1,174 @@
+MUTUM FIBRA
+ 
+
+Horário de atendimento da UPCALL (GMT -3)
+
+Provedor usa o Fuso Horário GMT-4
+
+De Segunda Sexta das 19h30 até as 09h30
+
+Horário de almoço das  13:30h as 15:30
+
+Sábado após o 12h até Segunda as 09h30
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	OPA	SETORES
+Quais todas as tecnologias oferecidas pela empresa? 
+R: Atualmente maior parte da área de cobertura é em fibra óptica mas algumas regiões atendemos no rádio (áreas rurais, fazendas)
+
+Quais cidades/bairros de atuação? 
+R: Cidade de Nova Mutum e Santa Rita do Trivelato todos os bairros. E Vilas como Comunidade São Manoel, Comunidade Ranchão, Comunidade Pacoval.
+
+Toda a cidade de Santa Rita do Trivelato e de Nova Mutum na fibra óptica (área urbana).
+
+Qual a porta de acesso para acesso aos roteadores?
+R: Utilizamos sistema Anlix, o Flashman e IXC ACS.
+
+ANLIX
+URL: https://anlix.mutumfibra.com.br/
+Login: upcall
+Senha: !Mutum2025@
+
+FLASHMAN
+URL: https://acs.mutumfibra.com.br/
+Login: upcall@upcall.com.br
+Senha: @MFibra$0125
+
+Como localizar o cliente pelo Flashman? 
+R: Pelo CPF, PPPoe, pelo IP do cliente ou pelo modelo do roteador ou até mesmo pelo nome do Wi-fi(nos casos via rádio).
+
+Melhor formas: usuário pppoe, se onu bridge e final do MAC dos roteadores XX:XX , sempre os últimos 4 com separação dois pontos, e o nome do wi-fi servem para todos os casos
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: ONU na porta 8010 com LOGIN: admin SENHA: admin
+
+É possível informar ao cliente a senha do roteador?
+R:Sim, se estiver o roteador cadastrado no Flashman. Aonde o mesmo irá conseguir acessar somente pelo App. (Mutum Fibra Wifi).
+
+Qual site (padrão da empresa) utilizado para medir velocidade?
+R: No suporte usamos a plataforma Anlix (localizando o cliente na plataforma).Para o cliente realizar o teste solicitar que o mesmo realize no app Mutum fibra Wi-Fi.
+
+Ou também pelo speedtest.net
+
+Qual DNS padrão?
+R:Primário 143.202.80.56 e secundário 143.202.80.57.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R:Todas as tratativas que não forem resolvidas pelo call center durante o atendimento devem ser encaminhadas para triagem do nosso N1 interno (análise do provedor). Equipe interna irá analisar e fazer contato com o cliente ou enviar para campo (N3), ou N2 (análise avançada de rede) se for o caso.
+
+Quando aberta a OS pegar números atualizados e informar ao cliente que o suporte técnico entrará em contato. 
+
+Quando o roteador do cliente está picando todas as luzes só reforça a informação de sem conexão no roteador. Há de ser analisado como qualquer caso.
+
+Na abertura do atendimento: Sempre colocar em contratos
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Informar que já foi feito todos os procedimentos e já foi encaminhado ao setor responsável, o quanto antes será resolvido. 
+
+Em últimos casos, pode informar 24 horas úteis de contato com o cliente em casos de sem conexão. 
+
+Tem plantão técnico aos fins de semana/feriados?
+R: Não. Sábado período da manhã (07:30 até 11:30)
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: De preferência não informar valor
+
+Caso o cliente questionar o valor é de R$40,00 na cidade.
+Rural o valor é deslocamento + mão de obra caso seja alguma questão causada pelo cliente.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: A troca de senha é cobrada caso não tenha o acesso pelo Flashman. (Essencial passar taxa para o cliente e informar na OS).
+
+Qual o nível se sinal ideal?
+R: RX - -15 a 22dB (sinal recebido na onu)
+
+TX - 2 a 3 dB (da onu pra olt)
+
+A empresa fornece IP Fixo? Qual valor?
+R: Sim com custo adicional de 100,00. Alguns planos já possuem o benefício do ponto extra, necessário adquirir com o comercial.
+
+Se já for cliente e quiser verificar se tem direito, registrar a OS e encaminhar pro suporte N1 interno analisar e retornar para o cliente.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo? 
+R: Nossos planos fornecem acesso ao Olé TV, que dá direito a + de 60 canais gratuitos e inclui os canais locais da cidade, quanto a iptv pirata informamos que não temos como dar suporte nem garantir funcionamento, mas tentamos resolver para os clientes na medida do possível, pois hoje muitos clientes utilizam. Porém deixar cliente ciente que problema não é a conexão mas tentar auxiliar dentro da medida. 
+
+Presta suporte para câmeras?
+R: Não, apenas fornecemos os dados do wifi para os técnicos que instalaram para o cliente possam configurar na rede as cameras.
+
+Presta suporte para repetidores?
+R: Somente para roteadores Mesh implantados pelo provedor em comodato, para planos que dão direito ao ponto adicional.
+
+Trabalha com Rede Mesh?
+R: Sim, para alguns planos que dão direito, instalamos em comodato. Quando o plano não dá direito, tem custo adicional por ponto.
+
+Atualmente a empresa já trabalha com IPV6?
+R:Sim
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Enviar para o setor de atendimento/comercial para realizar a assinatura do termo de adesão do novo ponto, informar valor dos serviços, cadastrar no sistema, antes de enviar a OS ao técnico.
+
+Mudança de Endereço
+R: Isentamos a cobrança de mudança de endereço para clientes com contratos com fidelidade vigente e que estejam adimplentes, porém tem um limite de 1 mudança sem custo a cada 6 meses.
+
+FINANCEIRO E COMERCIAL
+Podemos enviar fatura?
+R:Sim.
+
+Podemos fazer o desbloqueio de confiança?
+R:Sim, uma vez a cada 30 dias caso não tiver desbloqueio anterior. E orientar o cliente que pode realizar pela central do assinante e pelo whatsapp no menu financeiro. 
+
+Com quantos dias ocorre o bloqueio?
+R: 10 dias
+
+Possui redução de velocidade?
+R: Não
+
+Qual métodos de pagamentos da fatura?
+R: Via fatura (boleto), pix é possível gerar o Qr Code pela central do assinante ou pelo whatsapp, temos opção de débito em conta (se for banco sicredi a conta do cliente) e cartão de crédito para cobrança recorrente (cliente mesmo pode cadastrar essa opção na central do assinante).
+
+Como prosseguirmos em casos de cancelamento?
+R: Perguntar o motivo e se colocar a disposição para ajudar, caso seja questão de suporte, pedir prioridade, informar no grupo para estarmos cientes, sinalizar a OS com urgência Alta e descrever na OS (processo de suporte - call center).
+
+Tentar reter, caso cliente queira prosseguir com o cancelamento, registrar o processo de cancelamento descrevendo tudo na OS, o comercial fará contato para entender a situação e dará andamento.
+
+Qual o procedimento para comprovante de pagamento?
+R: Caso cliente enviar comprovante de pagamento, pode realizar o desbloqueio de confiança e após transferir ao setor financeiro para revisar o comprovante (orientar o cliente sobre o horário de atendimento)
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+IXC	https://ixc.mutumfibra.com.br/adm.php
+CENTRAL DO ASSINANTE	https://ixc.mutumfibra.com.br/central_assinante_web/login
+Login: CPF (completo sem traços e pontos)
+Senha: 4 primeiros números CPF
+Caso o cliente relate que esta dando erro, confere o login e podem redigitar a senha ali, como os 4 primeiro números do CPF
+
+ 
+
+ENDEREÇO
+
+ 	CIDADE	BAIRRO	RUA/Nº
+MATRIZ	Nova Mutum	Centro	Av. dos Canários, 487
+ 
+
+CONTATOS
+
+TELEFONE 	(65) 3308-1020
+WHATSAPP	
+0800 308 1020
+
+https://api.whatsapp.com/send/?phone=558003081020&text&type=phone_number&app_absent=0
+
+SITE	www.mutumfibra.com.br
+ 
+
+HORÁRIOS
+
+ATENDIMENTO
+
+DE	À	DAS	ÀS	DAS	ÀS
+Segunda	Sexta	07:30	11:30	13:30	17:30
+Sábado	 	07:30	11:30	 	 

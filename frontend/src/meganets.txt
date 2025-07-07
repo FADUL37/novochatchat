@@ -1,0 +1,203 @@
+Meganets Cuiabá- MT
+ 
+
+Horário de atendimento da UPCALL (GMT -3)
+
+Provedor usa o Fuso Horário GMT-4
+
+De Segunda à Sábado das 19h às 09h e das 12h às 13h
+
+Sábado das 13h até 09h de Segunda
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+SETORES	IXC	OPA
+Quais todas as tecnologias oferecidas pela empresa? 
+R: Somente internet fibra e rádio (rural). 
+
+No momento, não possuem disponibilidade para novos clientes Rádio
+
+Também possuem aplicativos de Streaming, caso algum cliente solicite atendimento para tal, devemos encaminhar ao provedor
+
+Quais planos são oferecidos?
+Temos os seguintes planos na Fibra Optica! 🌐🛜
+✅ 550 Mega R$109,99
+✅ 650 Mega R$119,99
+✅ 850 Mega R$139,99
+✅ 1 GB R$159,99
+💸Pagando em dias tem R$ 10,00 reais de desconto.
+🛑 Modalidades de contrato
+✅ Fidelidade de 12 meses, Sem taxa de instalação OU
+✅ Contrato de comodato sem fidelidade, Taxa de instalação no valor de R$ 400,00
+SUPORTE 24 HORAS
+PRAZO PARA INSTALAÇÃO 2 DIA ÚTIL
+
+PLANOS CORPORATIVOS
+200MB CORPORATIVO R$199,99 adesão 500,00
+400MB CORPORATIVO R$299,99 adesão 500,00
+600MB CORPORATIVO R$399,99 adesão 500,00
+800MB CORPORATIVO R$499,99 adesão 500,00
+
+Quais são os equipamentos utilizados?
+R: ONU Sumec, ONU Sumec Acoplada, ONU Think, ONU Think Acoplada, ONU Stavix, ONU Huawei, Roteador Greatek, Roteador Zyxel, Roteador Mercusys, Roteador Keo, Roteador TP Link, ZTE e Antenas e Injetores para clientes via rádio.
+
+Equipamento ZYXEL é necessário retirar também o cabo de rede durante o reinício e conectar novamente após 2 minutos.
+
+Qual a porta de acesso para acesso aos roteadores? 
+R: 8080
+
+Apenas o IP para acessar ONU Acoplada. 
+
+Qual usuário padrão desses equipamentos?  
+ 	 Usuário	 Senha
+ONU sumec	adminisp	adminisp
+ONU think	tkth	tkth ou Private.10
+Huawei	meganets	Privado.10
+Mercusys	 	Meganets
+Think wifi	tkth	tkth
+ZTE Multilaser	adminisp	adminisp
+Antena (rot radio)	meganets	Private.10
+Roteador Keo(pouco utilizado)	meganets	meganets
+Caso pegue um roteador com ZTE F660 com a senha multipro/multipro passa no grupo para equipe Meganets.
+
+É possível informar ao cliente a senha do roteador? 
+R: Não, esse acesso é restrito.
+
+Pode realizar a troca de senha da rede Wi-fi?
+R: Sim. Caso o cliente solicitar, informar da taxa no valor de R$40,00 (mesmo que seja feita remotamente) e encaminhar a N2, mesmo que a troca seja efetuada com sucesso.
+
+A Taxa no valor de R$40 vem inclusa na próxima fatura do cliente.
+
+Presta suporte a repetidores?
+R: Sim, provedor fornece repetidores para a venda e faz a instalação e configuração dos mesmos, sendo cobrada a visita e o cabeamento em alguns casos.
+
+Para repetidores que são adquiridos pelo cliente o provedor também faz a configuração, porém é necessário avaliar cada caso.
+
+Em ambos, transferir o atendimento e informar que será dado sequência durante horário comercial.
+
+Qual DNS padrão? 
+R: DNS primário 177.125.30.2 e secundário 177.125.30.3 
+
+Qual o nível de sinal ideal?
+R: Até RX -21dBm
+
+Abaixo disso, podemos gerar N3. Não devemos mencionar que será encaminhado diretamente para “VISITA TÉCNICA” e sim que será direcionado ao Setor de Agendamento para entrar em contato em horário comercial e checar a disponibilidade de encaminhar os técnicos.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3? 
+R: Sim, N2 e N3. Após abertura transferir o atendimento. 
+
+Ao abrir uma N3, sem ter constatado completamente o problema do cliente e ter a certeza de que a visita será necessária (LOS ou Equipamento Danificado), não devemos mencionar que será encaminhado diretamente para “VISITA TÉCNICA” e sim que será direcionado ao Setor de Agendamento para entrar em contato em horário comercial e checar a disponibilidade/necessidade de encaminhar os técnicos.
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Para clientes desconectados, podemos gerar N2 caso não seja possível o contato via ligação com o cliente.
+
+Para clientes conectados, se não conseguir o contato via ligação, abrir para o N2 e informar o cliente. Nos finais de semana, podemos apenas finalizar o atendimento e informar que qualquer coisa ele pode iniciar um novo atendimento.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: O N2 o prazo é geralmente é 2 horas uteis e no N3 caso no caso visita técnica é no máximo de 24 horas! 
+
+Após abertura transferir o atendimento. Nos finais de semana, informar o cliente sobre o horário de atendimento após a transferência e reforçar que todos os procedimentos já foram feitos e que seria com outro setor.
+
+Mensagem sugestiva
+
+N2	Vou te transferir para o setor responsável pelo suporte mais avançado, e eles vão dar continuidade ao seu caso no próximo período útil, só um momento por gentileza.
+N3 - Geral	Vou te transferir para o setor responsável pelo agendamento, e eles vão dar continuidade ao seu caso no próximo período útil para checar a disponibilidade/necessidade de encaminhar os técnicos, Só um momento, por gentileza.
+N3 - Casos de LOS ou Equipamento Danificado	Como em seu caso será necessária uma visita técnica, vou te encaminhar ao setor de agendamento que fará o encaixe no próximo período útil para encaminharmos a equipe até o local. Só um momento, por gentileza.
+Informações indispensáveis na OS:
+
+Localização no campo referencia.
+Não colocar melhor período (tem setor de agendamento especifico).
+Ao abrir OS informar que o setor responsável vai entrar em contato para agendar a visita
+É cobrado taxa de visita improdutiva? 
+R: Sim, o valor é de R$40,00, e sempre informar que pode haver taxa
+
+Pode instruir o cliente a reconfigurar no caso de reset?
+R: Não, abrir para o N3 em dias úteis e horário comercial de atendimento.
+
+Fora disso, podem ser abertas algumas exceções, caso clientes ameacem o cancelamento ou solicitem prioridade por se tratar de um comércio ou algo do gênero. Nesses casos, podemos sim informar a senha de acesso ao roteador, assim como todas as informações necessárias para reconfiguração do equipamento. Porém, sempre orientar que caso o cliente cause algum problema no equipamento ou retorne às configurações de fábrica, haverá uma taxa de serviço.
+
+A empresa fornece IP Fixo? Qual valor? 
+R:  Sim, é cobrado o valor a mais de $50,00 mensais. Transferir o atendimento. 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo? 
+R: Não, fazer a verificação em outros equipamentos e caso realmente for a IPTV instruir cliente a falar com o vendedor que fez a instalação da IPTV para o cliente.
+
+Atualmente a empresa utiliza o IPV6?
+R: Sim
+
+Quais os sinais padrões TX E RX?
+R: TX E RX no máximo -25/-26 porém avaliar o histórico do cliente. Algumas caixas em certas localidades tem o sinal mais alto. Caso tiver duvida enviar para o N2.
+
+FINANCEIRO E COMERCIAL
+Podemos fazer o desbloqueio de confiança? 
+R:  Após 15 dias é bloqueado. E se o cliente entrar em contato consegue realizar o desbloqueio por 5 dias com apenas 1 fatura em atraso. Sempre registrar o atendimento e transferir:
+
+Caso não consiga resolver o problema do cliente, tem que direcionar ao setor responsável para assim que voltar as atividades dar a sequência ao atendimento. 
+
+Podemos enviar fatura? 
+R:  Sim. 
+
+Caso não consiga resolver o problema do cliente, tem que direcionar ao setor responsável para assim que voltar as atividades dar a sequência ao atendimento. 
+
+Possui redução de velocidade? 
+R:  Não.
+
+Qual formas de pagamentos de boleto? 
+R: Central do assinante, segunda via pelo e-mail, também pode vir até o escritório realizar o parcelamento via cartão de crédito com acréscimo de 4% e via pix.
+
+Caso o cliente solicitar o pagamento via PIX envie a chave aleatória do sistema, pois estão desativando a chave CNPJ em breve.
+
+Você ira em editar o boleto, e copiar codigo pix
+
+
+Após enviar para o cliente a seguinte mensagem:
+
+Passo a passo de como pagar seu boleto via PIX!!
+
+COPIE TODO CÓDIGO ENVIADO.
+
+1° Passo abra seu aplicativo
+
+2° Passo abra na função PIX
+
+3° Passo ir na opção PIX COPIA E COLA
+
+4° Passo inserir o código .
+
+Qual o procedimento para envio de comprovante?
+R: Sempre abrir OS de envio de comprovante e anexar
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar? 
+R: No caso de mudança de cabeamento, podemos gerar N3 mas devemos informar o cliente que há a cobrança de R$40 pela visita técnica. Havendo necessidade de lançar um novo cabeamento, há a taxa de R$120.
+
+No caso de repetidor é feito a venda de um Mercusys que custa R$300 + taxa de visita de R$40. Podemos gerar N3.
+
+No caso de um segundo ponto, podemos encaminhar o cliente ao Setor Comercial para realizar um novo cadastro.
+
+Como é feita a parte de cancelamento?  
+R: Transferir para o Comercial dentro do horário.
+
+Fora do horário, encaminhar caso no grupo e transferir para o Agendamento.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+IXC	https://ixcsoft.meganets.com.br/login.php
+CENTRAL DO ASSINANTE	https://ixcsoft.meganets.com.br/central_assinante_web/login
+ 
+
+ENDEREÇO	AV. Newrton Rabello de Castro Q.69 N°48 BAIRRO: PEDRA 90  - CUIABÁ ao lado da loja américa JEA
+ 
+
+CONTATO	65 3044 2005
+65 99227 1726
+INSTRAGRAM	https://www.instagram.com/meganetsbandalarga/
+FACEBOOK	https://pt-br.facebook.com/meganetsbandalarga/
+ 
+
+Horário de atendimento
+Segunda a sexta das 08h às 12h e das 13h às 18h
+
+Sábado das 08h às 12h

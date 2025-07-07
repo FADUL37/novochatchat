@@ -1,0 +1,341 @@
+Vivas Telecom
+Quais as tecnologias oferecidas pela empresa?
+R: Internet Fibra, Telefonia Fixa e App TV Vivas
+
+
+Quais os planos vendidos na empresa?
+R: Depende da região, se é área urbana os planos padrão podem ser de 300Mb, 400Mb, 600Mb, 700Mb e 1Gb, rural os planos padrão podem ser de 80Mb, 100Mb e 150Mb. Porém, existem exceções descritas na planilha de valores Vivas.
+
+Quais cidades/bairros de atuação?
+R: Cidades de atuação são: Nazaré Paulista, Santa Branca, Cruzeiro, Jacareí, Lorena, São José dos Campos, Cachoeira Paulista, Guararema, Atibaia, Mogi das Cruzes, Santa Isabel, Igaratá, Caçapava, Arujá, Jarinu, Tremembé, Roseira, Taubaté, Guaratinguetá, Itatiba, Campos do Jordão, Pindamonhangaba, Potim.
+
+Quais equipamentos utilizados?
+R: Modem, Roteador e Smart Box.
+
+Presta suporte a repetidores?
+R: Não
+
+Presta suporte a câmeras?
+R: Não
+
+É possível informar ao cliente a senha do roteador?
+R: Depende, em alguns casos sim. Porém, geralmente é criada uma nova senha.
+
+Caso o cliente queira trocar a senha wi-fi e está com pendência financeira em seu contrato, pode seguir normalmente para alteração. E a senha será atualizada conforme equipamento do cliente, alguns de forma remota e outros será necessário encaminhar técnico.
+
+SOMENTE O TITULAR PODE SOLICITAR A TROCA DE SENHA
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Não há custo, desde que não haja recorrência.
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.03 - UPCALL - TÉCNICO
+Responsável: (Em Branco)
+Relatos Padrões: 1.05 - ENC - Análise Técnica
+Enviar E-mail: (Desmarcado)
+
+Quais são as tratativas para reset?
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.03 - UPCALL - TÉCNICO
+Responsável: (Em Branco)
+Relatos Padrões: 1.05 - ENC - Análise Técnica
+Enviar E-mail: (Desmarcado)
+
+Qual site é utilizado para testes de velocidade?
+R: fast.com
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: O provedor não possui encaminhamento técnico interno, separado em N2 e N3 mas possui uma setorização de demandas:
+
+TÉCNICO DE MOTO: Realiza apenas serviços internos (ambiente cliente), não possuem escada.
+TÉCNICO DE CARRO: Recomendado para atender manutenções que os técnicos de moto não conseguem.
+STATUS VERDE (IP CONECTADO) - SERVIÇO PARA TÉCNICO DE MOTO
+Sinal Óptico Acima de -25dBm (-24dBm, -23dBm, etc.)
+Reclamação de Lentidão/Oscilação de Sinal
+Reclamação de WiFi/Games/Acessos e Serviços Online
+Reclamação de VPN/Internet
+Reclamações e Serviços IPTV/Streaming/Telefonia
+Troca de Equipamento/Upgrade
+Alteração de Senha WiFI
+Configuração de Equipamento
+Troca de Titularidade
+Inclusão de Telefonia
+
+STATUS VERMELHO (OFFLINE) - SERVIÇO PARA TÉCNICO DE CARRO
+Sinal Óptico Abaixo de -25dBm (-26dBm, -27dBm, etc,)
+Sem Sinal Óptico (LOS)/Alarmado
+Mudança de Ponto de Cabo, Cabeamento Drop/Fiação
+Problema não Identificado Origem/Sem Monitoramento
+
+RELATO DO CLIENTE:
+ATENDIMENTO: (Chat/Ligação)
+STATUS: (Verde ou Vermelho)
+AUTENTICAÇÃO: (Data e Hora que a Conexão Caiu. Consultar em Extrato de Conexão)
+DESCRIÇÃO:
+SOLICITANTE: (Nome de Quem Entrou em Contato)
+TELEFONE: (Número para Retorno)
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.03 - UPCALL - TÉCNICO
+Responsável: (Em Branco)
+Relatos Padrões: 1.05 - ENC - Análise Técnica
+Enviar E-mail: (Desmarcado)
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Até 48h Corridas
+
+Prazo válido para TODOS os protocolos abertos (financeiro, comercial, suporte, etc.). Sempre informar que esse é o prazo máximo e que a equipe tenta solucionar o mais breve possível.
+
+Agendamento: Aos Sábados somente realizamos manutenções. Se cliente solicitar agendar aos sábados para mudança de endereço, cômodo ou ativação não será possível.
+
+Existe setor de Agendamento ou Técnico vai direto?
+R: Sim, realiza tentativas de contato. Caso sem sucesso, o técnico vai direto.
+
+Qual o custo da visita técnica caso seja improdutiva?
+
+Tem plantão aos finais de semana e feriado?
+R: VISITAS TÉCNICAS:
+
+- Segunda-Feira à Quinta-Feira das 08:00 às 18:00
+
+- Sexta-Feira, Sábado e Domingo das 08:00 às 17:00
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R:  É gerada nota avulsa no sistema e enviada no e-mail do cliente, possível acessar via app ou site.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não.
+
+A empresa fornece IP Fixo? Qual valor?
+R: Sim. À consultar com o setor Tratativas PJ. (ALTERAR SETOR COM BASE NA EQUIVALÊNCIA ENTRE UPCHATS)
+
+Como prosseguir em casos de falta de interação?
+R: Não finalizar o atendimento, devemos transferir ao Setor de Ociosidade (Qualquer outro setor, exceto Comercial e Contratar) para que o caso seja verificado em outro período pelo provedor.
+
+Exceto em casos onde o protocolo já foi aberto e o cliente devidamente orientado a respeito do mesmo. Bem como em situações nas quais a solicitação do cliente já foi solucionada e o atendimento registrado.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Mudança de cômodo, R$50,00, mais taxas de cabeamento se houver excedente.
+
+   Segundo Ponto, mesmo processo de nova instalação.
+
+    UpCall deve abrir OS para Upgrade/Downgrade.
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.02 - UPCALL - FINANCEIRO
+Responsável: (Em Branco)
+Relatos Padrões: 1.04 - ENC - Retorno ao Cliente
+Enviar E-mail: (Desmarcado)
+
+Troca de Cômodo/Ponto
+Realizar a identificação positiva do cliente, confirmando os seguintes dados: nome, CPF, email, endereço e telefone.
+Informar que somente o titular poderá solicitar e não poderá ter nenhuma fatura em atraso.
+Informar o valor R$ 50,00 pagamento em boleto com a próxima fatura do mês. Caso haja utilização de cabo de rede: R$7,00 metro; Caso haja utilização de cabo de fibra: R$3,00 metro.
+Registrar o atendimento e instruir o cliente a aguardar.
+Registrar no atendimento que foi informada "Informado o valor R$ 50,00 pagamento em boleto com a próxima fatura do mês. Caso haja utilização de cabo de rede: R$7,00 metro; Caso haja utilização de cabo de fibra: R$3,00 metro."
+MENSAGEM PADRÃO (ATALHO /comodoVivas) NO UPCHAT - OBRIGATÓRIA:
+Se estiver de acordo com as condições acima, será necessário o envio de um áudio do titular com as seguintes informações:
+Eu, [NOME COMPLETO], portador do CPF [CPF], solicito mudança de ponto e estou ciente das taxas pelo serviço.
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.03 - UPCALL - TÉCNICO
+Responsável: (Em Branco)
+Relatos Padrões: 1.05 - ENC - Análise Técnica
+Enviar E-mail: (Desmarcado)
+
+MUDANÇA DE ENDEREÇO
+Realizar a identificação positiva do cliente, confirmando os seguintes dados: nome, CPF, email, endereço e telefone.
+Informar que somente o titular poderá solicitar e não ter nenhuma fatura em atraso
+Instalação gratuita até 200 m da CTO (caixa no poste); se ultrapassar é cobrado 2,00/m excedente.
+Registrar no atendimento por escrito "Instalação gratuita até 200 m da CTO (caixa no poste); se ultrapassar é cobrado 2,00/m excedente."
+MENSAGEM PADRÃO (ATALHO /enderecoVivas) NO UPCHAT - OBRIGATÓRIA:
+Para dar continuidade à solicitação de mudança de endereço, gostaríamos de informar que a viabilidade do local ainda precisa ser confirmada. A  taxa de mudança de endereço é gratuita até 200 metros da CTO! Se a distância for superior a 200 metros, será cobrado R$ 2,00 por metro adicional.
+Se estiver de acordo com as condições acima, será necessário o envio de um  áudio do titular com as seguintes informações:
+Eu, [NOME COMPLETO], portador do CPF [CPF], solicito a mudança de endereço e confirmo que estou ciente das taxas aplicáveis.
+
+RELATO DO CLIENTE:
+ATENDIMENTO: (Chat/Ligação)
+SOLICITANTE: (Nome de Quem Entrou em Contato)
+TELEFONE: (Número para Retorno)
+FATURA EM ABERTO: (Sim ou Não)
+NOVO ENDEREÇO:
+CLIENTE CIENTE QUE HAVERÁ VERIFICAÇÃO DE VIABILIDADE E DA TAXA DE R$2,00/M CASO ULTRAPASSE OS 200M DA CTO.
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.03 - UPCALL - TÉCNICO
+Responsável: (Em Branco)
+Relatos Padrões: 1.05 - ENC - Análise Técnica
+Enviar E-mail: (Desmarcado)
+
+OBS: Caso o cliente entre em contato informando que há divergência no endereço de instalação, mesmo que seja decorrente de uma mudança de endereço, devido a um possível erro na hora do cadastro, é necessário solicitar o anexo de um comprovante de endereço para dar prosseguimento à solicitação (Abrir um Protocolo, caso não haja) e realizar a análise.
+
+TROCA DE TITULARIDADE
+Orientar titular a solicitar a troca de titularidade pelo e-mail comercial@vivastelecom.com.br, onde deverá enviar fotos RG (frente e verso) anexadas do antigo e do novo titular ou ir com o novo titular na loja mais próxima da Vivas que é realizada a troca de imediato mediante apresentação dos documentos necessários.
+Informe ao cliente que a solicitação de troca de titularidade deve ser feita exclusivamente pelo ATUAL titular. O protocolo da solicitação deve ser enviado para UPCALL - FINANCEIRO, contendo os seguintes dados do novo titular:
+- CPF, RG, telefone e e-mail do novo titular para o preenchimento dos termos;
+- O contrato deve estar em dia (sem débitos pendentes).
+- Tanto o antigo quanto o novo titular receberão os termos por e-mail do BackOffice, os quais devem ser preenchidos, assinados e devolvidos no prazo máximo de 7 dias, junto com uma cópia do documento com foto do novo titular, pelo mesmo e-mail.
+
+OBS.: Em caso de óbito, a solicitação deve ser feita pelo novo titular, e a cópia da certidão de óbito deve ser anexada ao protocolo ou enviada como anexo para o e-mail mencionado acima. 
+
+NÃO PODE HAVER BOLETOS EM ATRASO
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.03 - UPCALL - TÉCNICO
+Responsável: (Em Branco)
+Relatos Padrões: 1.05 - ENC - Análise Técnica
+Enviar E-mail: (Desmarcado)
+
+MUDANÇA DE PLANO
+Realizar a identificação positiva do cliente, confirmando os seguintes dados: nome, CPF, email, endereço e telefone
+Informar que somente o titular poderá realizar o procedimento e não poderá ter fatura em aberto para realizá-lo
+Registrar o atendimento na base
+Informar que o departamento responsável entrará em contato dentro do prazo de atendimento para informar os planos disponíveis
+MENSAGEM PADRÃO (ATALHO /planoVivas NO UPCHAT) - OBRIGATÓRIA:
+Para prosseguir com a atualização do plano é necessário estar de acordo com: a renovação da Fidelidade por mais 12 meses. Após esse período, o valor pode sofrer reajuste conforme o índice IGP-M. Além disso, o próximo boleto pode sofrer alteração para um valor proporcional ao que foi utilizado de cada plano.
+Se estiver de acordo com as condições acima, será necessário o envio de um  áudio do titular com as seguintes informações:
+Eu, [NOME COMPLETO], portador do CPF [CPF], solicito a atualização para o plano de [QUANTIDADE DE MEGAS] por [VALOR DO PLANO] e aceito a renovação da fidelidade de 12 meses.
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.02 - UPCALL - FINANCEIRO
+Responsável: (Em Branco)
+Relatos Padrões: 1.04 - ENC - Retorno ao Cliente
+Enviar E-mail: (Desmarcado)
+
+FINANCEIRO E COMERCIAL
+Não utilizam transferências para outras demandas que não sejam contratação ou ociosidade, somente abertura de protocolo pelo Voalle
+
+Atendimento – Financeiro, as equipes para encaminhamento são:
+Desconto, emissão de carnê ou qualquer tipo de boleto, alteração de data de vencimento, análise de duplicidade, análise de pagamento, contestação de valores, 2ª via de boleto, bloqueio temporário, acordo de mais de uma fatura em atraso ou renegociações em atraso.
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.02 - UPCALL - FINANCEIRO
+Responsável: (Em Branco)
+Relatos Padrões: 1.04 - ENC - Retorno ao Cliente
+Enviar E-mail: (Desmarcado)
+
+Podemos enviar fatura?
+R: Sim
+
+Com quantos dias ocorre o bloqueio?
+R: 20 dias de atraso.
+
+Podemos fazer o desbloqueio de confiança?
+R: Não. Se for solicitação de Desbloqueio em Confiança para Bloqueio Automático, somente pela URA do Chat ou Ligação uma vez a cada 30 dias.
+
+Com comprovante podemos realizar a liberação, mesmo que esteja com Bloqueio Administrativo. Não é necessário encaminhar a solicitação a Equipe Financeira, porém, devemos anexar o comprovante o protocolo.
+
+Caso seja Bloqueio Automático e o cliente encaminhe o comprovante, podemos realizar a liberação e devemos também anexar o documento no protocolo. 
+
+Por quantos dias a conexão é liberada?
+R: 24h
+
+Possui redução de velocidade?
+R: Não
+
+Qual métodos de pagamentos da fatura?
+R: Boleto, Pix e App que aceita cadastro de Cartão de Crédito.
+
+Qual o procedimento para comprovante de pagamento?
+R: Comprovante deve ser enviado pelo cliente via chat e deve ser verificado:
+
+Pagamento via Boleto:
+
+É comprovante ou agendamento de pagamento?
+Código de barra bate com o da fatura?
+Beneficiário é a Vivas?
+Data de vcto bate com a da fatura?
+Data de pagamento?
+Valor e juros batem com o da fatura?
+Possui código de autenticação?
+Pagamento via Pix:
+
+É comprovante ou agendamento de pagamento?
+Beneficiário é a Vivas?
+Data de vcto bate com a da fatura?
+Valor e juros batem com o da fatura?
+Data de liquidação?
+Possui código de autenticação?
+Pix geralmente a baixa é instantânea, deve ser verificado no cadastro do cliente.
+Como prosseguir em casos de cancelamento?
+R: Realizar a identificação positiva do cliente, confirmando os seguintes dados: nome, CPF, email, endereço e telefone. Informar que somente o titular poderá solicitar e não poderá ter nenhuma fatura em atraso. Registrar no atendimento o motivo do cancelamento que o cliente informou.
+
+Caso o cliente ainda não tenha tido sua rede instalado (possua Protocolo de Ativação em andamento), não é necessário gerar um Protocolo específico para o Cancelamento. Nesses casos, podemos apenas inserir um Relato no Protocolo já aberto para sinalizar ao setor responsável.
+
+MENSAGEM PADRÃO (ATALHO /cancelaVivas NO UPCHAT) - OBRIGATÓRIA:
+Para dar continuidade à solicitação de cancelamento, será necessário o envio de um áudio do titular com as seguintes informações:
+Eu, [NOME COMPLETO], portador do CPF [CPF], solicito cancelamento do plano contratado pelo motivo [se possível informe].
+
+Tipo de Solicitação: Atendimento - UPCHAT
+Equipe de Origem: 1.00 - UPCALL
+Situação: 24x7 - Vivas - 48 horas
+Status: Andamento
+Equipe: 1.02 - UPCALL - FINANCEIRO
+Responsável: (Em Branco)
+Relatos Padrões: 1.04 - ENC - Retorno ao Cliente
+Enviar E-mail: (Desmarcado)
+
+NOTA FISCAL
+Sobre a orientação a respeito da Nota Fiscal de Atibaia, se trata de uma nota fiscal de serviço, é importante destacar para o cliente que essa nota não representa uma cobrança, mas apenas um documento fiscal para fins de registro e transparência. E não precisa encaminhar o protocolo se realizarem essa orientação.
+
+A nota é enviada a toda contribuinte. O que ocorre é que em Atibaia fica a empresa de prestação de serviço de assistência técnica da VIVAS. é valido ressaltar que o envio é feito pelo email cadastrado na prefeitura, que pode ou nao estar atualizado e o cliente precisa estar devidamente cadastrado na mesma.
+
+INFORMAÇÕES DA EMPRESA
+Possui atendimento presencial?
+R: Sim.
+
+ENDEREÇOS
+ JACAREÍ	Av. Dom Pedro Primeiro, 263 - Parque dos Príncipes. Ao Lado do Depósito Planalto
+Av. dos Migrantes, 483 - Parque Meia Lua. Ao Lado da Loja Pôr do Sol
+Av. São João, 320 - São João
+CAMPOS DO JORDÃO	Rua Joaquim Correa Cintra, 285 - Vila Paulista. Próximo ao Colégio TCC
+TAUBATÉ	Rua Martin Luther King, 62 - Bairro Mourisco. Ao Lado do Restaurante Zé do Espetinho. Em Frente a Pracinha.
+PINDA	Av. Ponciano Pereira, 1211 - Jardim Eloyna
+Rua Paulo Carvalho, 41 - Conjunto Habitacional Terras de IPE 1
+Rotatória Amárcio Mazzarope, Av. Dr Francisco Lessa Jr, 1900 - Emporium Valle - Sala 16
+ITATIBA	Av. Prudente de Moraes, 167 - Centro. Próximo ao Supermercado Tescarollo
+IGARATÁ	Av. Benedito Rodrigues de Freitas, 385 - Centro, Palácio Moacir Prianti Chaves - Sala 02
+JARINU	Rua João Pessoa, 339 - Centro. Próximo a Previdência Social
+SANTA ISABEL	Av. Manoel Ferraz de Campos Sales, 333 - Centro. Em Frente a Limp Logo's Produtos de Higiene e Limpeza LTDA
+CACHOEIRA PAULISTA	Av. Coronel Domiciano, 579 - Centro
+SÃO JOSÉ DOS CAMPOS	Rua Armadores, 152 - Novo Horizonte. Em Frente a Igreja Missionária Nasci para Vencer
+ATIBAIA	Av. Jerônimo de Camargo, 5970 - Caetetuba
+HORÁRIOS DE ATENDIMENTO (RECEPÇÃO E FINANCEIRO)
+Segunda à Quinta	Das 08h às 18h
+Sexta	Das 08h às 17h
+Loja de Jacareí - São João	
+De Segunda à Quinta - Das 09h às 19h
+
+Sexta - Das 09h às 18h
+
+TELEFONE/WHATSAPP	(12) 3014-0007
+SITE	https://vivastelecom.com.br/
+CENTRAL DO ASSINANTE	URL: https://vivas.portal.7az.com.br/login
+Login: CPF (Sem Pontos ou Traços)
+Senha: CPF (Sem Pontos ou Traços)

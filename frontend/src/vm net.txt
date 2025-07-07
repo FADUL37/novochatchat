@@ -1,0 +1,284 @@
+VM NET
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+Segunda à Sábado das 18h às 09h
+
+Sábados a partir das 13h
+
+Domingos e Feriados 24h
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	OPA	SETORES
+Quais as tecnologias oferecidas pela empresa?
+Fibra Óptica
+Rede Híbrida: Somente em Guarulhos - Carmella. A distribuição é feita apenas por cabo de rede e roteador, sem fibra.
+
+CDNTV (App)
+Passo a Passo TV: ⇒CLIQUE AQUI⇐
+
+Passo a Passo Celular: ⇒CLIQUE AQUI⇐
+
+Mensagem Sugestiva: 
+
+Na loja de aplicativos do dispositivo celular pesquise por gentileza "VM NET TV"
+
+ANDROID: https://play.google.com/store/search?q=vm%20net%20tv&;c=apps
+
+IOS: https://apps.apple.com/br/app/vm-net-tv/id1611199765
+
+Após instalar, insira:
+
+Login: CPF completo (Sem pontuação)
+
+Senha: 4 Últimos digitos do CPF (Sem pontuação)
+
+WATCH / PARAMOUNT+
+Passo a Passo: ⇒CLIQUE AQUI⇐
+
+WATCH / PARAMOUNT+ / HBOMAX
+Passo a Passo: ⇒CLIQUE AQUI⇐
+
+Quais os planos vendidos na empresa?
+R: Quando o cliente solicitar contratação, transferir ao Setor Contratar.
+
+
+Sertânia - PE FILIAL
+
+Residenciais São Paulo - Matriz
+Quais cidades/bairros de atuação?
+R: Cidade de São Paulo
+
+Bairros: Jaçanã, Jardim Andaraí, Jardim Brasil (apenas algumas regiões), Jardim Julieta, Parque do Carmo, Parque Edu Chaves, Parque Novo Mundo, São Mateus, Vila Guilherme (apenas a comunidade Guatemozim), Vila Maria Baixa, Vila Medeiros.
+
+Sertânia - PE FILIAL
+
+Atendemos todos os bairros da cidade
+
+Quais equipamentos utilizados?
+R:  ONU ROUTER: Huawei V5 E V2, UNEE STAVIX, VIA REAL
+
+ONU BRIDGE:  Huawei, Think, Max print
+
+Roteadores: TPLINK 300MBPS,  MERCUSYS AC1200, TP LINK AC1200
+
+Presta suporte a repetidores?
+R: Não prestam suporte a equipamentos de terceiros. Entretanto se for do provedor, sim.
+
+Presta suporte a câmeras?
+R: Não
+
+Qual a porta de acesso para acesso aos roteadores?
+R: TPLINK: 8080
+
+Demais equipamentos não é necessário porta, apenas Liberar Acesso Web no IXC
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+ 
+
+MATRIZ - SÃO PAULO
+
+Equipamento
+
+Usuário
+
+Senha
+
+Roteador TP Link	admin	
+deusefiel
+
+Deusefiel
+
+admin
+
+Admin
+
+ONU STAVIX (UNEE)	root	Changeme_123
+ONU HUAWEI V5
+
+*Liberar Acesso Web
+
+Epadmin	adminEp
+ONU HUAWEI V2 (Preta)
+
+*Liberar Acesso Web
+
+telecomadmin	admintelecom
+ 
+
+FILIAL - PERNAMBUCO
+
+Equipamento
+
+Usuário
+
+Senha
+
+Via Real	telecomadmin	dis202122
+O provedor possui duas VPN's:
+
+internoVMNET (Clientes de SP)
+
+internoVMNETPE (Clientes de PE)
+
+É possível informar ao cliente a senha do roteador?
+R: Não informar, apenas em caso de orientação de reset.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Não é cobrado nenhum valor. Caso o acesso não esteja disponível, abrir N2.
+
+Qual DNS padrão?
+R: DNS primário: 45.162.123.2 
+
+DNS secundário: 45.162.123.3
+
+Quais são as tratativas para reset?
+R: Podemos auxiliar na reconfiguração. Caso não se obtenha sucesso, precisamos avaliar se foi o cliente que causou o reset ou queda de energia e abrir N3.
+
+Em caso de ser a primeira opção, é cobrada uma taxa de R$50.
+
+Mensagem sugestiva.
+
+OBS: Caso o cliente informe que quer cancelar se for cobrar, etc… Analisamos o histórico do cliente se é o primeiro reset, caso seja, informamos que iremos abrir uma exceção, porém se ocorrer novamente, será cobrado a visita.
+
+Qual o nível de sinal ideal?
+R: Até RX -26dBm 
+
+Abaixo disso podemos gerar N3
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Sim, existem ambos.
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Abrir N2
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Residencial: Até 48h - Fazemos o possível para atender o quanto antes. 
+
+Corporativo: Até 4h
+
+Existe setor de Agendamento ou Técnico vai direto?
+R: Possui setor de agendamento, o setor que monta a rota dos técnicos
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: R$50,00
+
+Caso seja verificada a improdutividade, podemos encaminhar o cliente ao Setor Financeiro após abertura de O.S.
+
+Tem plantão aos finais de semana e feriado?
+R: FERIADOS: Técnicos de Campo: das 9h às 13h - Quando forem escalados - iremos informar no grupo
+
+SÁBADO: Técnicos de campo: das 9h às 13h
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: Visita improdutiva: Boleto - Vencimento para após 30 dias. 
+
+Mudança de ponto: Boleto - 30/60
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não trabalham
+
+A empresa fornece IP Fixo? Qual valor?  
+R: Não mais.
+
+Para os que possuem, ou é Link Dedicado (tratar com SLA reduzido) ou são Gamers (tratar como clientes residenciais).
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir O.S.? Se sim, quais os valores? Se não, para onde enviar?
+R: Mudança de endereço e/ou ponto é com o setor comercial, é necessário transferir o atendimento.
+
+FINANCEIRO E COMERCIAL
+Para clientes de Outras Demandas que entrarem em contato via ligação, podemos encaminhar via IXC com os seguintes assuntos:
+
+Outras Demandas - Alteração Cadastral = Mudança de Endereço, Titularidade, Upgrade de Planos e etc.
+
+Outras Demandas - Renegociações = Financeiro que não conseguimos solucionar (Alteração da Data de Vencimento, Renegociação de Fatura, Desconto, etc.)
+
+Outras Demandas - Retenção = Cancelamentos
+
+Utilizar essas O.S. somente para clientes que entrarem em contato via ligação.
+
+Via chat devemos apenas transferir esses assuntos. É necessário informar o horário de atendimento (08h às 18h) quando estiver fora dele.
+
+Podemos enviar fatura?
+R: Envio da fatura ocorre com o setor financeiro, necessário transferir o atendimento, com exceção após o horário de expediente. (08h às 17h). 
+
+Com quantos dias ocorre o bloqueio?
+R: 10 dias após o vencimento do boleto
+
+Podemos fazer o desbloqueio de confiança?
+R: Sim, mediante ao envio do comprovante de pagamento. 
+
+Caso o cliente não tenha pago ainda, solicitamos para realizar o desbloqueio através do nosso aplicativo.
+
+Mensagem sugestiva:
+
+"No aplicativo VM NET TELECOM SAC, você consegue visualizar as suas faturas, contratos, desbloqueio de confiança e muito mais!
+
+Baixe agora através dos links abaixo:
+
+ANDROID: https://play.google.com/store/apps/details?id=br.com.vmnettelecom.ixc
+
+IOS: https://apps.apple.com/us/app/vm-net-telecom-sac/id1591283574
+
+Após realizar o Download, acesse a central:
+
+Usuário: CPF/CNPJ do titular (sem pontuação e espaçamento)
+
+Senha: CPF/CNPJ do titular. (sem pontuação e espaçamento)"
+
+Por quantos dias a conexão é liberada?
+R: 2 Dias
+
+Possui redução de velocidade?
+R:Sim, com 7 dias após o vencimento
+
+Qual métodos de pagamentos da fatura?
+R: Boleto -  Código de barras e PIX
+
+Qual o procedimento para comprovante de pagamento?
+R: Não é necessário abrir O.S., apenas encaminhar ao setor Financeiro via chat caso não tenha dado a baixa automaticamente.
+
+Como prosseguir em casos de cancelamento?
+R: O cancelamento é realizado pelo titular, mediante ao pagamento do débito em atraso (se tiver) com o setor financeiro, pode ser realizado via WhatsApp.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ENDEREÇOS
+
+MATRIZ	
+Avenida Serafim Gonçalves Pereira, 189 - Pq Novo Mundo - CEP: 02179000 - SP
+
+Não possui atendimento presencial
+
+FILIAL	
+Avenida Joaquim Nabuco, 246 - Centro - CEP 56600000 - Sertânia - PE
+
+Possui atendimento presencial
+
+HORÁRIO DE ATENDIMENTO
+
+Segunda à Sexta	
+Financeiro das 08h às 17h
+
+Comercial das 09h às 18h
+
+Técnicos de Campo das 09h às 18h
+
+Sábados e Domingos	
+Financeiro das 08h às 12h
+
+Comercial das 09h ás 13h
+
+Técnicos de Campo das 09h às 13h
+
+Feriados	Técnicos de Campo das 09h às 13h - Quando forem escalados será informado no grupo
+CENTRAL DO ASSINANTE	URL	https://ixc.vmnettelecom.com.br/central_assinante_web/login
+Usuário	CPF sem pontuação e espaçamento
+Senha	CPF sem pontuação e espaçamento
+TELEFONE	(11) 4810-8077
+WHATSAPP	(11) 94953-7538
+SITE	www.vmnettelecom.com.br

@@ -1,0 +1,209 @@
+VOE TELECOM
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+De Segunda a Sábado das 20h às 08h - Transbordo
+
+Sábado das 18h às 05h de Domingo - Transbordo
+
+Domingos das 05h às 20h - Integral
+
+Domingos das 20h às 08h de Segunda - Transbordo
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	OPA	SETORES
+Clientes com O.S. de Assunto “Migração de Rede” aberta e sem conexão, provavelmente não conseguiram ser atendidos pela equipe técnica ainda. Portanto, o provedor precisa reagendar uma visita para realizar a migração.
+
+Quais todas as tecnologias oferecidas pela empresa? 
+R: Fibra e rádio. 
+
+Quais os planos oferecidos pela empresa?
+Quando cliente entrar em contato para contratar, transferir o atendimento.
+
+Quais cidades/bairros de atuação? 
+R: Viana, Cariacica, Vila Velha, Vitória, Serra, Aracruz, Fundão, João Neiva, Ibiraçu, São Mateus, Jacupemba, Guaraná.
+
+Quais equipamentos utilizados? E o modelo? 
+R: Intelbras, D-Link Dir842Multilaser/Zte H196A ou H198A e TP-Link 
+
+Presta suporte a repetidores?
+R: Não, para equipamentos que são adquiridos pelo próprio cliente.
+
+Provedor oferece a opção da Rede MESH, nesses casos o cliente pode ser transferido ao COMERCIAL
+
+Quais são as portas, usuários e senhas de acesso remoto ao equipamentos? 
+R: A VOE TELECOM adquiriu alguns provedores recentemente e as informações de Login, Senha e Porta podem variar de acordo com qual era o provedor anterior do cliente. Essa informação pode ser consultada no campo TIPO DE CLIENTE no IXC
+
+Portas VOE: 80, 8080, 2013, 9999, 9090 e 8087
+
+USUÁRIOS	SENHAS
+ admin 
+ Admin	
+ 144741
+
+ 
+
+ 
+
+ voe 
+ vla
+multipro 	Voe144741
+Possíveis
+
+senhas
+
+D8Aw4b@CJ0
+
+239hvc8c
+
+34954100
+
+admin
+
+admin1
+
+bambina
+
+OBS: Senhas raramente usadas são: admin, bambina, lider2013, amneof, amneof@@, hiper, hiperconect
+
+Portas MP: 8949, 8943, 8080 e 80
+
+USUÁRIOS	SENHAS
+multipro	multipro
+dsm	030215
+dsm	020315
+Sempre que não tiver acesso pode abrir OS para habilitar o acesso remoto
+
+É possível informar ao cliente a senha do roteador? 
+R: Repassar a senha somente via ligação e apenas para o titular em linha. Deixar o cliente ciente que qualquer dano causado pelo cliente no equipamento, a visita poderá ser cobrada no valor de 100 reais!
+
+Login/Senha do PPPoE: Passar somente ao titular e deixar o mesmo ciente que caso haja alguma desconfiguração é cobrado a taxa.
+
+Pode ser utilizado as informações dentro do IXC? (Diagnóstico/Potencia resumo da ONU)
+R: Como teve compras de várias empresa, sempre confirmar no grupo caso tenha duvida. 
+
+Qual DNS padrão utilizado pela empresa?
+R: Primário: 168.121.28.10 e secundário: 168.121.28.11
+
+Em caso do cliente reset o equipamentos podemos passar o acesso PPPOE? E podemos auxiliar o cliente a reconfigurar?
+R: Sim, pode auxiliar e depois habilitar acesso remoto! Se caso não conseguir abrir OS e é cobrado taxa no valor de  $100,00.
+
+Qual o nível de sinal ideal?
+R: Entre RX -16 e -28dBm
+
+Fora desse alcance, podemos gerar N3
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3? 
+R: Sim N2 e N3. Orientar que o setor de agendamento entrará em contato, após a abertura.
+
+Para clientes sem conexão no sistema, priorizar sempre a abertura de chamados N3, mesmo em casos de falta de interação.
+
+Qual prazo do N2 e do N3? 
+R: Não informar o prazo ao cliente. Informar somente que será feito o mais breve possível e que ele deve ficar atento ao telefone pois o setor de agendamento vai entrar em contato.
+
+O Prazo Máximo para realizar o serviço é de 48 horas úteis e o de agendamento é de 24h úteis, MAS NÃO DEVEMOS INFORMAR AO CLIENTE. Caso o cliente esteja irritado, podemos informar o prazo de AGENDAMENTO e dizer que será dada prioridade.
+
+Quando na O.S. constar alguma informação sobre a CTO, como “CTO em LOS” ou “OTP acionada”, podemos passar o prazo de 24h ao cliente, pois o reparo será realizado por uma empresa terceirizada dentro desse período.
+
+Não questionar o melhor período e não informar período/horário em casos de agendamento, apenas o dia. O setor de agendamento entra em contato, mas se não tiver retorno, envia a equipe mesmo assim.
+
+Tem plantão aos finais de semana e feriado?
+R: Não há plantão dos técnicos no fim de semana.
+
+HORÁRIO DA EQUIPE TÉCNICA
+Segunda a Sábado das 08h às 17h
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Sim, tem que abrir OS e não é cobrado na primeira visita. 
+
+Qual o custo da visita técnica caso seja improdutiva? 
+R: Não informar. 
+
+Informar somente quando o cliente entrar em contato reportando que o roteador caiu e quebrou, ou que o pedreiro cortou o cabeamento, ou que foi trocar o equipamento de local e o acabou quebrando o conector e em casos de clientes que se recusam realizar os procedimentos.
+
+ Caso haja necessidade de informar e o cliente questionar o valor será de $100,00.
+
+A empresa fornece IP Fixo? Qual valor? 
+R: Sim, transferir para o comercial é valor mensal de $70,00 por Ip.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo? 
+R: Não, é informado que não prestamos suporte. Pedir ao mesmo realizar teste em outros equipamentos e pedir para o mesmo verificar com o suporte da IPTV. Devido a não ser homologado. 
+
+Utiliza IPV6? 
+R:Uma parte IPV4 e uma parte IPV6. 
+
+Como prosseguir com Mudanças de Endereço?
+R: Apenas transferir o atendimento
+
+FINANCEIRO E COMERCIAL
+Se algum cliente solicitar o envio de TODAS as faturas de um ano antecipadamente, devemos informar que não o realizamos por conta da lei. Caso o cliente insista, podemos passar as informações para Edirlann no grupo do provedor.
+
+Com quantos dias ocorre o bloqueio?
+R: 15 dias após o vencimento.
+
+Podemos fazer o desbloqueio de confiança? 
+R: Sim, podemos realizar 1 vez após os 15 dias de atraso (quando ocorre o bloqueio). Depois disso, liberar somente com o comprovante de pagamento.
+
+Pode realizar liberação manual, caso o desbloqueio esteja indisponível e o comprovante for validado.
+
+Podemos enviar fatura? 
+R: Sim.
+
+Caso algum cliente entre em contato questionando se há alguma cobrança em aberto e no sistema não constar, orientar o mesmo a procurar o setor responsável em horário comercial. Pode haver cobranças que ainda não foram cadastradas no sistema, mas que estão pendentes. Mensagem sugestiva: “Essa informação deverá ser consultada diretamente ao departamento financeiro da VOE em horário comercial.”
+
+Possui redução de velocidade? 
+R: Não 
+
+Qual métodos de pagamentos de boleto? 
+R: Somente boleto. Os boletos tem o QR Code PIX e por meio ao App Fale Voe é possível acessar até mesmo o Código Copia e Cola.
+
+Informações da empresa
+ 
+
+IXC	https://ixc.voe.net.br/adm.php 
+CENTRAL DO ASSINANTE	https://ixc.voe.net.br/central_assinante_web/
+APP FALE VOE	
+App Store: https://apps.apple.com/br/app/fale-voe/id1583577165
+
+Google Play: https://play.google.com/store/apps/details?id=br.net.voe.ixc
+
+TUTORIAL APP FALE VOE
+
+ 
+
+ENDEREÇOS
+Loja Ibiraçu	Av. João Alves da Motta Júnior  N°92 , Centro Ao lado do escritório de advocacia CEP 29670-000
+Loja Aracruz	Rua Ananias  N°30 Centro Rua da ponto informática - Ao lado da studio casa, próximo a padaria pão!
+Loja Praia Grande	Rodovia Vitória Santa Cruz,, Fundão - ES, 29187-000 S/N , AO LADO DO TINHO IMOVEIS
+Loja Vila Velha	Rua Sebastião Silveira, 24  Gaivotas
+Loja São Mateus	Rua Zozima Ancheschi Bonomo, próximo ao restaurante Arapongas
+ 
+
+HORÁRIOS DE ATENDIMENTO
+
+LOJAS	
+Segunda à Sexta das 08h às 17h
+
+1 Sábado Sim e 1 Sábado Não das 08h às 12h
+
+SUPORTE INTERNO	
+Segunda à Sexta das 08h às 20h
+
+Sábados e Feriados das 08h às 18h
+
+COMERCIAL	
+Segunda à Sexta das 08h às 18h30
+
+Sábados das 08h às 17h
+
+FINANCEIRO	
+Segunda à Sexta das 08h às 19h
+
+Sábados das 08h às 18h
+
+ 
+
+WHATSAPP	 27 4042 3544
+TELEFONE	 0800 983 2054

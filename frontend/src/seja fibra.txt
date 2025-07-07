@@ -1,0 +1,253 @@
+Seja Fibra
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+Segunda à Sexta das 17h à 22h
+
+Sábados das 12h às 22h
+
+Domingos das 09h às 22h
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	OPA	SETORES
+Alguns clientes ativos reconhecem o provedor como Caboimagem, Kaybee, MPV ou Sansara, por conta de empresas do mesmo grupo ou nomes anteriores. Outros, ligam por engano sendo de outras empresas, como TRIX, NIPPONET, NET CLARO e GIGA.
+
+Quais as tecnologias oferecidas pela empresa?
+Fibra
+TV, com 2 tipos de sinal (Via Fibra, que estão migrando e Aplicativo - Seja Fibra Play com MultiTV, que dá acesso a 3 dispositivos)
+ Alguns clientes tem só TV contratada com o provedor sem internet, eles possuem um Login de 1Kbps (Plano: SeAC) somente para cadastro
+
+Usuário e Senha da TV no IXC: Editar Cliente → Contrato → Selecionar Contrato → ⁝  → TV→ Selecionar Usuário TV
+
+(É possível alterar a senha pelo próprio App)
+
+Podemos encaminhar para N3 quando houverem problemas nos serviços de TV
+
+SVA's: Leveduca, Conta Outra Vez, Paramount Plus, Watch, PlayHub e MAX
+Podemos encaminhar para OUTRAS DEMANDAS quando houverem problemas nesses serviços
+
+Quais os planos vendidos na empresa?
+R: 600 Mega = R$89
+
+800 Mega = R$149
+
+Fibra Play Básico = R$98
+
+Fibra Play Premium = R$118
+
+Combo 600 mb + Fibra Play Básico = R$142
+
+Combo 600 mb + Fibra Play Premium = R$162
+
+Combo 800 mb + Fibra Play Básico = R$186
+
+Combo 800 mb + Fibra Play Premium = R$206
+
+Transferir ao setor Contratar
+
+Quais cidades/bairros de atuação?  
+R: Ubatuba e Caraguatuba
+
+Quais equipamentos utilizados?
+R: ONU (Fiberhome ou TPLink) e Roteador
+
+Ainda tem ONU ZTE e outras marcas na rede, mas estão fazendo alterações
+
+A maioria dos clientes tem seu próprio Roteador, portanto, não temos acesso
+
+Presta suporte a repetidores?
+R: Não realizam o suporte, mas podem indicar algum profissional para fazer o serviço.
+
+Caso o cliente esteja muito insatisfeito, podemos gerar O.S. para verificar até onde o técnico consegue solucionar.
+
+Qual a porta de acesso para acesso aos roteadores?
+R: 2389
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: 
+
+EQUIPAMENTO	LOGIN	SENHA
+ZYXEL	supervisor	
+sejafibraroot1
+
+sejafibraroot2
+
+MERCUSYS AC12G	 	
+sejafibra
+
+sejafibraroot
+
+MERCUSYS MR30	 	
+sejafibra.
+
+sejafibraroot1
+
+Mandar recado no grupo caso não tenha acesso
+
+É possível informar ao cliente a senha do roteador?
+R: Não informar
+
+Quais são as tratativas para reset?
+R: Podemos auxiliar na reconfiguração, informando o PPPoE
+
+Caso suba o cliente, mas não seja possível habilitar o acesso remoto, encaminhar o técnico para fazê-lo
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Sim, podemos encaminhar o técnico. Não é cobrado nenhum valor.
+
+Dentro do Campo Login, todos os equipamentos em comodato tem SSID e Senha cadastrados.
+
+Qual DNS padrão?
+R: DNS1: 1.1.1.1
+
+DNS2: 1.0.0.1
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Somente N3.
+
+Finalizar o atendimento ao abrir a O.S. e quando for um caso mais grave, sinalizar no grupo do provedor.
+
+Clientes que insistirem na visita técnica, ou que aparentarem ficar satisfeitos somente com uma, podemos encaminhar ao N3 sem problemas (mesmo que o caso não se enquadre nos encaminhamentos que são feitos normalmente e seja apenas para evitar a insatisfação do assinante). Só é necessário sinalizar o provedor no grupo. 
+
+Não abrem O.S. para clientes bloqueados (nem Outras Demandas)
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Abrir N3
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: 24h corridas em dias de semana
+
+48h corridas aos fins de semana
+
+Mensagem Sugestiva: 
+Nesse caso, vou abrir um chamado para que a equipe responsável entre em contato em até 24 horas corridas (ou até 48 horas corridas em finais de semana) para resolver este problema. Poderia, por gentileza, confirmar o seu número de telefone e o melhor período para que o setor entre em contato?
+
+Tem plantão aos finais de semana e feriado?
+R: Domingo a Domingo Das 08h às 20h - Manutenções
+
+Plantão Massivas - 24h
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Sem custos. Caso o equipamento tenha sido danificado, é cobrado o valor dele.
+
+Não precisa informar.
+
+Se o cliente insistir, pode abrir a N3 e não informar taxa.
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: É colocado no boleto ou parcelado no cartão
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não, podemos passar as orientações da ANATEL.
+
+Trabalham somente com Aplicativo e TV via Fibra.
+
+A empresa utiliza o IPV6?  
+R: Sim
+
+A empresa fornece IP Fixo? Qual valor?  
+R: Sim, transferir ao setor Contratar dentro do horário de atendimento do provedor e abrir OS de Outras Demandas fora dele.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: É estudado caso a caso, até de acordo com o histórico. Abrir OS de Outras Demandas
+
+Mudança de Endereço - Abrir OS de Outras Demandas.
+
+FINANCEIRO E COMERCIAL
+Clientes que informarem sobre a empresa MG Cobranças, podemos encaminhar para eles. É uma empresa de cobrança terceirizada que atende o provedor.
+
+Em caso de pausa no contrato, ou religue de contrato pausado, como proceder?
+Abrir outras demandas,  enviando para o provedor. Caso o financeiro esteja em dia podemos desbloquear e após enviar para o provedor.
+
+ 
+
+ 
+
+Podemos enviar fatura?
+R: Sim, mas priorizar orientar cliente a emitir a segunda via diretamente pelo bot do chat na opção 1 - SEGUNDA VIA DO BOLETO, logo no menu inicial.
+
+Podemos fazer o desbloqueio de confiança?
+R: Não realizam o desbloqueio em confiança.
+
+Liberar somente caso o cliente pague uma das faturas e envie o comprovante (quando existem 2 em atraso, mais que isso encaminhar ao Setor Financeiro dentro do horário do provedor e abrir O.S. de Outras Demandas fora dele)
+
+Com quantos dias ocorre o bloqueio?
+R: Com 30 dias de atraso.
+
+Com o contrato bloqueado, o cliente perde o acesso também aos apps
+
+Possui redução de velocidade?
+R: Sim. Ocorre com 15 Dias de atraso.
+
+Liberação somente mediante a comprovante
+
+Clientes ficam com 100Mbps ainda, mesmo com Redução. Caso o cliente insista que tem problemas na conexão mesmo nesse status, podemos fazer os procedimentos e encaminhar para N3 se não for solucionado.
+
+Qual métodos de pagamentos da fatura?
+R: Boleto, PIX ou Cartão (Crédito e Débito) no Escritório.
+
+Qual o procedimento para comprovante de pagamento?
+R: Não há necessidade em anexar
+
+Como prosseguir em casos de cancelamento?
+R: Caso a tentativa de retenção não seja bem sucedida: Clientes com telefones cadastrados no IXC PODEM realizar o cancelamento via telefônica, se preferirem. Podem ser encaminhados no chat também para o Setor Cancelamento dentro do horário do provedor e ser aberto OS de Outras Demandas fora dele.
+
+Clientes que não tem telefone vinculado, é necessário encaminhar documentos via chat. Transferir ao Setor Cancelamento e abrir OS de Outras Demandas.
+
+Sinalizar no grupo os casos onde a tentativa de retenção não for bem sucedida, informando se foi aberto O.S. de Outras Demandas (fora de horário) ou transferido ao Cancelamento (dentro de horário).
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+CENTRAL DO ASSINANTE	URL: https://ixc.vitortelecom.com.br/central_assinante_web/login
+Usuário: E-mail do Cadastro
+
+Senha: 1 ao 5
+
+Endereços
+
+Ubatuba	Rua Maria de Lourdes Peres dos Santos, 174 Bairro Estufa 1
+Caraguatatuba	Rua Sebastião Nepomuceno, 96 - Sumaré
+Horários de Atendimento - Loja
+
+Segunda à Sexta	Das 08h às 17h
+Sábados	Das 08h às 11h30
+Horários de Atendimento - Suporte Interno (Transferências)
+
+Segunda à Sexta	Das 08h às 17h
+Sábados	Das 08h às 12h e das 14h às 18h
+Telefone:(12) 3197-1699
+Site: https://sejafibra.net/
+Passo a Passo App
+O usuário e a senha do central do assinante estão na parte do cliente - contatos, na parte inferior
+
+Seja Fibra Play
+
+Plataforma digital de canais ao vivo.
+
+Baixe o App no seu celular:
+
+Android: https://play.google.com/store/apps/details?id=br.com.multtv.sejafibraplaymobile
+
+iOS: https://apps.apple.com/br/app/seja-fibra-play/id6473738580
+
+Acesse pelo navegador: https://play.sejafibra.net/
+
+Após instalar:
+
+- Usuário: email da central do assinante
+
+- Senha: senha da central do assinante
+
+App TV
+Sobre o Aplicativo Seja Fibra Play, pode ser acessado através de TV, celulares, notebooks e tablets com sistemas Android e iOS.
+
+Para Funcionamento na TV, é necessário que seja compatível com o sistema Android ou iOS e tenha conexão à internet para o funcionamento do aplicativo.
+
+Caso a TV não seja compatível com nenhum dos sistemas mencionados, existem várias opções de aparelhos TV Box homologados pela ANATEL que podem ser adquiridos e instalados.
+
+Watch
+O acesso a Watch deve ser feito preferencialmente através do App da própria Watch, mas é possível acessar pelo navegador através do link https://play.watch.tv.br/login

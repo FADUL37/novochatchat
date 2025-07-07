@@ -1,0 +1,193 @@
+NICK NETWORK
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	
+Segunda à Sexta das 18h às 08h
+
+Sábados das 00h às 09h e das 13h às 08h de Segunda
+
+UPSOFT - OK
+
+Chat e Ligações
+
+HUBSOFT	WHATSAPP
+Quais as tecnologias oferecidas pela empresa?
+R: Internet e telefonia. Estamos trabalhando na implantação de serviços de TV, e e-book, devemos começar ainda este mês.
+
+Quais os planos vendidos na empresa?
+Temos planos de internet de 100, 300 e 500MB residencial e corporativo;
+
+Planos de telefonia essencial (ligações nacionais ilimitadas fixo-fixo) e completo (ligações nacionais ilimitadas fixo-fixo e fixo-móvel) também residencial e corporativo; 
+
+Planos combo de 100, 300, e 500MB que comtemplam o plano de telefonia completo, residencial e corporativo; e
+Planos Dedicado a partir de 50MB mediante orçamento.
+
+Quais cidades/bairros de atuação?
+R: Jacarezinho, Santo Antônio da Platina, Ribeirão Claro, Andirá, e Barra do Jacaré, todos no Paraná.
+
+Atendemos todos bairros, exceto região rural, com exceção de Jacarezinho que atendemos o bairro Zona Rural.
+
+Quais equipamentos utilizados?
+ONU/ONT Fiberhome, e em alguns clientes roteador comodato que pode variar a marcar.
+
+Presta suporte a repetidores?
+Não.
+
+Presta suporte a câmeras?
+Não.
+
+Qual a porta de acesso para acesso aos roteadores?
+ONUs porta 80, roteadores quando possuem acesso remoto porta 8082
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+ONU - usuário admin, senha redbull1
+
+Roteador - usuário admin, senha nicknet01 ou nicknet1
+
+É possível informar ao cliente a senha do roteador?
+Se tivermos acesso ou documento sim, da ONU não informamos.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+O cliente sempre tem a opção de levar o roteador até a nossa loja para que seja configurado sem custo, em Jacarezinho, Santo Antônio da Platina e Andirá. Em Ribeirão Claro e Barra do Jacaré se for em comodato não tem custo. Para equipamento do cliente existe uma taxa de R$70,00 para configuração/deslocamento.
+
+Qual o site utilizado para testes de velocidade?
+https://www.nperf.com/pt/
+
+Garantem toda a banda contratada passada por WiFi?
+Não, há sempre a indicação de que o teste para ser eficiente precisa ser feito conectado via cabo.
+
+Qual DNS padrão?
+186.251.14.138
+186.251.14.139
+
+Quais são as tratativas para reset?
+Se o equipamento do cliente tiver sido resetado, enviamos um técnico no local.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Existe N2.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+Residencial até 48 horas
+
+Corporativo até 24 horas
+
+Dedicado até 6 horas
+
+CLIENTES QUE FOREM PREFEITURA, PASSAR O CONTATO DIRETO DO AUGUSTO (43 9142-1979) E ENVIAR O CONTATO E NOME CLIENTE AO PROVEDOR.
+
+Existe setor de Agendamento ou Técnico vai direto?
+Existe um responsável pela agenda dos técnicos.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R$30,00
+
+Tem plantão aos finais de semana e feriado?
+Não temos plantão, mas em caso de problemas generalizados o responsável pode ser sempre acionado.
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Pode ser feito o pagamento por Pix, cartão, ou o valor pode ser adicionado ao boleto da fatura da internet
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Ainda não trabalhamos, e não damos suporte.
+
+A empresa fornece IP Fixo? Qual valor?  
+Sim, R$50,00/mês.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Essa tratativa é feita pelo nosso setor de atendimento comercial (43)99140-4641.
+
+Mudança de Endereço
+Essa tratativa é feita pelo nosso setor de atendimento comercial (43)99140-4641.
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Não, sempre orientar o cliente a pegar a fatura no nosso aplicativo ou na Central do Assinante.
+
+https://app.nicknetwork.com.br/
+
+http://central.nicknetwork.com.br/
+
+Com quantos dias ocorre o bloqueio?
+19 dias o sinal é suspenso parcialmente.
+
+49 dias o sinal é suspenso completamente.
+
+Podemos fazer o desbloqueio de confiança?
+Não, orientar o cliente a fazer o próprio desbloqueio pelo aplicativo ou Central do Assinante.
+
+O cliente só poderá fazer o desbloqueio uma vez a cada 180 dias
+
+Por quantos dias a conexão é liberada?
+4 dias
+
+Possui redução de velocidade?
+Após passar 19 dias do vencimento da fatura que não for paga a conexão é reduzida para a velocidade de 100k.
+
+Qual métodos de pagamentos da fatura?
+Pagamento comum via código de barras e Pix QR code.
+
+Qual o procedimento para comprovante de pagamento?
+Mesmo que o cliente nos envie o comprovante, ou ele aguarda o sistema reconhecer o pagamento, se for feito por Pix costuma ocorrer em até 30 minutos, se for pago via código de barras em até 48 horas, ou ele pode fazer o desbloqueio em confiança se tiver disponível.
+
+Como prosseguir em casos de cancelamento?
+Direcionar para o setor financeiro. (43)99900-2331
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP - Hubsoft
+
+ Central do Assinante - http://central.nicknetwork.com.br/
+
+ 
+
+ENDEREÇOS
+
+JACAREZNHO
+
+Avenida Getúlio Vargas, 1155, Centro, 86400000
+
+SANTO ANTÔNIO DA PLATINA
+
+Rua Marechal Floriano Peixoto, 171, sala 01, Centro, 86430000
+
+ANDIRÁ
+
+Rua Pará, 166, Centro, 86380000
+
+ 
+
+Possui atendimento presencial?
+R: Nas cidades mencionadas acima sim.
+
+CONTATOS
+
+ 
+
+TELEFONE  0800 525 5930
+
+WHATSAPP  
+
+Suporte (43)99195-5930 (Integrado ao nosso UPCHAT)
+
+Suporte (43)9952-4340 (Integrado ao nosso UPCHAT)
+
+Atendimento (43)991404641
+
+Financeiro (43)999002331
+
+SITE https://www.nicknetwork.com.br/
+
+FACEBOOK https://www.facebook.com/nick.network.oficial
+
+INSTAGRAM https://www.instagram.com/nick.network.oficial/
+
+ 
+
+HORÁRIOS
+
+De segunda a sexta das 08:30 às 18:00
+
+Sábado das 09:00 às 13:00

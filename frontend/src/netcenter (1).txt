@@ -1,0 +1,243 @@
+NETCENTER
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+Segunda à Sexta das 23:50h às 08h
+
+*Sexta a noite a partir das 22:50h
+
+Sábados e Feriados das 22:50h às 08h
+
+Domingos das 16:50h às 08h de Segunda
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+SETORES	IXC	UPCHAT
+Informar a cidade nos recados do grupo
+
+Quais todas as tecnologias oferecidas pela empresa?
+R: Fibra, TV (App Netcenter TV), Leveduca, Deezer, Looke, UBook, Leitura360, Estuda+, Pequenos Leitores, Playlist App, O Jornalista, Social Comics, Kaspersky Standard, PlayKids+, ZenWelness, QNutri, Noping, Hube Revista, Fluid
+
+Login // Senha do App Netcenter TV: CPF sem traços e sem pontos // 4 primeiros dígitos do CPF
+
+URL Netcenter TV: tv.netcentertelecom.com.br
+
+Login // Senha do Leveduca: CPF sem traços e sem pontos // 4 primeiros dígitos do CPF
+
+Link IOS: https://apps.apple.com/br/app/leveduca/id1571292964?l=en
+Link Android: https://play.google.com/store/apps/details?id=com.nubbi.leveduca&hl=pt_BR&gl=US
+Passo a Passo Looke:
+
+
+
+
+Em caso de problemas com esses serviços, podemos encaminhar ao N2
+
+Como prosseguir em contratações?
+R: Coletar as informações necessárias e encaminhar ao Setor CONTRATAR (Canal Digital)
+
+Mensagem sugestiva:
+
+"Fico feliz em saber que deseja adquirir um de nossos planos. Abaixo, vou te encaminhar alguns dados necessários para prosseguirmos com essa etapa e assim que realizar o preenchimento, o nosso time de vendas vai assumir seu atendimento e dar sequência em horário comercial.
+
+Nome Completo:
+
+CPF:
+
+Cidade:"
+
+Quais são as portas, usuários e senhas de acesso?
+Planilha de Acessos 1: ⇒CLIQUE AQUI⇐
+
+Planilha de Acessos 2: ⇒CLIQUE AQUI⇐
+
+Caso a senha não esteja de acordo com essas planilhas, elas devem ser alteradas para manter o padrão do provedor
+
+USUARIOS, SENHA E PORTAS DAS ONU
+EQUIPAMENTO	LOGIN	SENHA	PORTA
+2 FLEX 2F-FG1200M WIF	admin	centertelecom	80
+CIANET GW 24AC	adminisp	centertelecom	8081
+WIFI (ASKEY/MITRASTAR)	 	net2019*	80
+WIFI CHINA MOBILE WIF	telecomadmin	admintelecom	http: ip /login.cgi
+INTELBRAS WIFI 121 AC	admin	centertelecom	8081
+EASY LINK (E4L-H5410WA)	admin	net2019*	80
+GPON WIFI AC HUAWEI HG824H5	superadmin	HW@root123	80
+NANO FIBER XPON 2GE	admin	net2019*	8081
+GPON/EPON FAST-WI	telecomadmin	admintelecom	80 ou 8081
+FAST-WI	administrador	masterpassword	80 ou 8081
+ 
+
+USUÁRIOS, SENHAS E PORTA DE ACESSO ROTEADORES	 
+EQUIPAMENTOS	USUÁRIO	SENHAS	PORTAS
+AC 1200 GIGABIT ZTE	Space	
+Net2019*
+
+Space
+
+8081
+INTELBRAS RF30/INTEL ACTION RG 1200/TP LINK GIGABIT DUAL BAND	 	centertelecom	8081
+ROTEADOR TINK 1200MBPS	 	centertelecom	80
+ROTEADOR TPLINK 450MBPS	admin	centertelecom	8081
+Equipamento Huawei V2 (ONT) é necessário Liberar Acesso Web - senha Epadmin - adminEp
+
+É possível informar ao cliente a senha do roteador? 
+R: Se for em comodato esse acesso é restrito.
+
+Poucos clientes possuem o equipamento próprio (a maioria com Plano de 100Mbps em Porto Seguro ou Arraial D'Ajuda). Caso em algum desses casos o acesso remoto não esteja habilitado, podemos gerar N2 para a equipe técnica realizar a liberação.
+
+Qual site (padrão da empresa) utilizado para medir velocidade? 
+R: Speed test ou Fast.com
+
+Qual DNS padrão? 
+R: O DNS primário 170.82.12.3 e o secundário: 170.82.12.4
+
+Quais são as tratativas para reset?
+R: Quando o cliente precisar reconfigurar roteador novo, repetidor, ou algo do tipo pode informar ao mesmo para levar até a loja, não abrir OS
+
+Qual o nível de sinal ideal?
+R: Sinal Rx: -26.00 dBm
+
+Sinal Tx: -27.00 dBm
+
+Caso esteja abaixo desse nível, pode ser gerada N2
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3? 
+R: Sim. Podemos abrir N2 (Assunto: Suporte N2 - Setor: Suporte N2) ou N3 (Assunto: Sem Conexão - Setor: Suporte N2). 
+
+Entretanto, abrimos N3 SOMENTE para clientes SEM CONEXÃO e N2 para os demais problemas com a conexão.
+
+Nós utilizamos a denominação N2 e N3, mas o provedor utiliza N2 e Sem Conexão, deixando o N3 para outros assuntos mais específicos. Dessa forma, toda O.S. que abrimos, será encaminhada ao Setor N2, distinguindo-se apenas por ser um caso de Falta de Conexão ou não.
+ 
+
+Horário do atendimento nível 02
+Segunda à Sexta das 08h às 18h 
+
+Sábados das 08h às 17h
+
+Aos Domingos, costumam atender somente clientes offline (Das 08h às 17h), mas dependendo da demanda podem fazer N2 também
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Caso seja constatado LOS, podemos gerar N3 e informar o provedor no grupo.
+
+Caso não seja constatado LOS, podemos apenas informar o provedor no grupo, orientar o cliente que será verificado e finalizar o atendimento.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Após abrir a OS transferir o cliente durante horário comercial. Pode passar o prazo de ATÉ 72 HORAS, caso seja fora do horário.
+
+Na abertura do atendimento: Sempre colocar em contratos
+
+OBS: Não utilizar o termo “abrir ordem de serviço”. Exemplo que pode ser utilizado “Vou lhe transferir ao setor responsável”. O Setor de Agendamento sempre tenta contato antes da ida do técnico.
+
+O horário cadastrado na agenda não é o horário que o técnico vai na residência do cliente. O provedor não agenda horário com cliente.
+
+Qual o custo da visita técnica caso seja improdutiva? 
+R: Informar taxa somente em casos específicos, onde é possível verificar danos no equipamento 
+
+A empresa fornece IP Fixo? Qual valor? 
+R: Podemos encaminhar ao setor CONTRATAR PJ (Canal Empresarial)
+
+A empresa trabalha com IPTV? E presta suporte do mesmo? 
+R: Sim, tem um sistema de TV. Caso necessário manutenção ou alguma ajuda pode transferir para o N2 dentro do horário comercial e fora abrir um N2. 
+
+Atualmente utiliza o IPV6?
+R: Utilizam os dois. A maioria é IPV4. E IP fixo publico é IPV4.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar? 
+R:  Pode transferir, e informar que vão dar continuidade ao atendimento em horário comercial.
+
+OBS: Não fazem cabeamento para outros equipamentos (EX: TV, computador) Não abrir OS 
+
+SETORES CORRETOS PARA TRANSFERÊNCIAS 
+
+Mudança de endereço > Comercial (ShowRoom)
+Cancelamento > Ouvidoria
+FINANCEIRO E COMERCIAL
+Clientes que solicitarem a suspensão temporária do contrato, podemos informar que é possível realizá-la com prazo mínimo de 30 dias e máximo de 120 dias. Transferir ao Setor de Cancelamento (Ouvidoria).
+
+Podemos enviar fatura? 
+R:  Sim.
+
+O provedor utiliza o método pré-pago para fazer as cobranças. Exemplo: Fatura com vencimento em 25/09 é referente ao período 01/10 a 31/10.
+
+Caso exista mais de 1 fatura em atraso e o cliente informe que não utilizou algum desses períodos, o financeiro do provedor avalia isso através do Histórico de Conexão e cancela uma delas, se for o caso. Podemos encaminhar ao setor financeiro nesses casos, e orientar o cliente que será verificado.
+
+Caso existam até 3 faturas em atraso, podemos enviar a mais recente e efetuar a liberação em confiança. Após isso, encaminhamos ao Financeiro do provedor para realizar as devidas correções.
+
+Podemos fazer o desbloqueio de confiança?
+R:  Sim, uma vez a cada 30 dias. Caso não esteja disponível, pode ser utilizada a função “Liberar Manualmente”.
+
+O Desbloqueio é válido por 2 dias.
+
+Com quantos dias ocorre o bloqueio?
+R: No Quarto dia de atraso, a conexão é bloqueada. O IP fica na faixa 172.xxx.xxx.xxx
+
+Possui redução de velocidade?
+R:  Não. 
+
+Quais os métodos de pagamentos da fatura?
+R: Pelo Boleto, Código de Barras ou PIX.
+
+Também aceitam cartões de crédito ou débito em loja. 
+
+Qual o procedimento para comprovante de pagamento?
+R: Apenas anexar na descrição do atendimento/O.S. após realizar a liberação para o cliente.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+IXC	https://sistema.netcentertelecom.com.br/adm.php
+CENTRAL DO ASSINANTE	
+https://sistema.netcentertelecom.com.br/central_assinante_web/login
+
+LOGIN: CPF, e a senha é os primeiros 4 dígitos do CPF
+
+ 
+
+HORÁRIO DE ATENDIMENTO - LOJA
+De Segunda à Sexta das 08h às 18h
+
+Sábado das 08h às 13h (No Extremo Sul somente até às 12h)
+
+ 
+
+HORÁRIO DE ATENDIMENTO DO SAC E SUPORTE
+De Segunda à Sábado das 18h às 00h 
+
+Domingo das 08h às 23h
+
+ 
+
+FILIAL	ENDEREÇO
+Arraial d'ajuda	
+R. das Palmeiras, 1157 - São Pedro, Porto Seguro - BA, 45816-000
+
+https://www.google.com/maps/place/Netcenter+Arraial+D'Ajuda+-+Internet+Fibra+%C3%93ptica/@-16.485682,-39.084147,12z/data=!4m5!3m4!1s0x0:0x4da84c21680c2828!8m2!3d-16.4856816!4d-39.0841474?hl=pt-BR
+
+Porto Seguro	
+Rua Adno Musser, 2360, BR-367 Mirante Caravelas, Porto Seguro - BA, 45810-000
+
+https://www.google.com/maps?ll=-16.437702,-39.089634&z=13&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=13785717992164533748
+
+Belmonte	Avenida 23 de Maio, *Número: 628B * , Centro - Belmonte
+Coroa Vermelha	Rua Angelin, Número 05, Loja 01, ao lado da Império Pescados - Rio Jardim - Santa Cruz Cabrália
+Cabrália	Rua Campos Tourinho, Número 531, Centro - Santa Cruz Cabrália
+Itabatã	Avenida Brasil, 182, cidade nova, ao lado churrascaria Avanci
+Nova Viçosa	
+Avenida Ocanica,828, Cleriston de Andrade
+
+Ao lado material de construção Silva Gomes
+
+Mucuri	
+Avenida Central, 536, Centro
+
+Ao lado do correio
+
+Possui atendimento presencial?
+R: Sim
+
+TELEFONE	0800 680 0002
+WHATSAPP	0800 680 0002
+FACEBOOK	https://pt-br.facebook.com/oficialnetcenter/
+INSTAGRAM	https://www.instagram.com/netcenteroficial/

@@ -1,0 +1,149 @@
+RB ONLINE
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+De Segunda a Sexta das 17:15h as 08:15h
+
+Horário de almoço de 12h as 14h
+
+Sábado, Domingo e Feriados 24h
+
+Somente Chat
+
+UPSOFT - OK
+
+SOMENTE CHAT
+
+IXC	OPA	SETORES
+Se o cliente exceder o período para falta de interação, não finalizar e transferir o atendimento para o provedor, informando o cliente que será atendido no próximo período útil
+
+Clientes que solicitem a alteração de rádio para fibra devem ser encaminhados ao comercial para verificação de viabilidade, valores, etc.
+
+Quais as tecnologias a empresa trabalha?
+R: Internet fibra, grande parte da rede via rádio e Tv. Transferir o atendimento caso precise de suporte.
+
+Transferir Contratações ao Setor Contratar. Caso não esteja no horário comercial, orientar ao solicitante que será atendido dentro dele e sinalizar no grupo do provedor.
+
+Quais os planos oferecidos pela empresa?
+Interior Rádio Plus 01 (Para mastros novos e com maior quantidade de clientes no interior):5Mb,8Mb,10Mb e 12Mb
+Interior Rádio Zona 02 (Para clientes que se conectam diretamente as torres e a mastros menores) : 3Mb,4Mb e 5Mb
+Interior Rádio Zona 03 (Para clientes muito distantes e mastros pequenos e distantes) :   2Mb ,3Mb ,4M e 5Mb
+Fibra Zona Urbana (Rio Bananal, Vila Valério, São Jorge) :20Mb, 200Mb e 400Mb / Planos de Fibra Zona Rural :  20Mb e 50Mb.
+Não indicar upgrade de plano
+
+Quais equipamentos utilizados? e quais são os modelos?
+R: No via rádio a maioria é mikrotik, poucos intelbras e alguns ubiquiti. E em fibra normalmente ONU em bridge, carrega a Vlan dentro para transporte e depois o roteador(D-link, Tp-link, mercusys e intelbras). Ont tem poucas em torno de 100 equipamentos.
+
+Quando o cliente usa de tecnologia via rádio, na maioria dos casos é colocado o roteador do cliente em modo bridge, ou seja, ou roteador não cria as rotas, ele funciona apenas como ponto de acesso. Nessa situação, o cabo da internet fica conectado na porta LAN, e não na porta WAN. Incluive na maioria dos casos nós colocamos fita isolante na WAN, pra não correr o risco do cliente ficar mudando.
+
+Fornecem suporte a repetidores?
+R: A maioria dos equipamentos são dos clientes (alguns vendidos pelo provedor e outros não). Portanto, é necessário avaliar cada caso.
+
+Se o cliente estiver sem conexão ou com lentidão constatada no ponto principal, podemos abrir O.S. normalmente. Entretanto, se o questionamento for sobre alcance, instalação de novo equipamento, troca de roteador, mudança de cômodo, problema em segundo ponto, etc., transferir o atendimento para o suporte interno do provedor dar continuidade (se for fora de horário, informar que o retorno será dado no próximo horário comercial).
+
+Quais as portas de acesso ao roteador?
+R: 8080/80
+
+Qual usuário e senha padrão para acesso aos equipamentos? E porta de acesso?
+Usuário 	Senhas
+admin	rbonline123
+Admin	1003
+rbonline	admin1003
+ 	adminadmin
+Pode informar ao cliente a senha de acesso ao roteador?
+R: Sim, Apenas a do DLINK pré set que não.
+
+Qual site (padrão da empresa) utilizado para medir velocidade com o cliente?
+R: Speed test 
+
+Qual DNS padrão utilizado pela empresa?
+R: Sempre deixar no automático. 
+
+Em caso do cliente resetar o equipamentos podemos passar o acesso PPPOE? E podemos auxiliar o cliente a reconfigurar?
+R: Sim, caso não seja possível pode transferir ao provedor, sem abrir OS.
+
+D-link com preset podem ser encaminhados diretamente ao provedor.
+
+Via rádio a discagem PPPoE é feita diretamente na antena.
+
+Existe N2 ou podemos encaminhar diretamente para N3?
+R: Sim, existem ambos.
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Abrir N2 e finalizar o atendimento, orientando o cliente de que será verificado.
+
+Qual prazo de atendimento do Nível 02 e 03? Tem diferença no prazo de residencial para corporativo?
+R: Sempre informar que a equipe responsável vai entrar em contato. O técnico sempre tenta ligar, então informar o cliente para se POSSIVEL ficar atento ao celular. 
+
+Pegar a maioria de informações, essenciais: localização e ponto de referencia.
+
+Em casos de link dedicado passar no grupo para ser feito a visita com prioridade.
+
+Clientes que questionarem sobre agendamentos que passaram do prazo, encaminhar diretamente ao Suporte do Provedor
+
+Tem plantão aos finais de semana e feriado?  
+R: 
+
+Horário do suporte
+
+ Segunda 	Sexta	 8:00 	 17:30
+ 	Sábados 	8:00	 12:00
+Qual custo da visita técnica caso seja improdutiva? Informamos ao cliente?
+R: Não cobramos visita técnica. 
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Transferir o atendimento diretamente (Não precisa abrir N2, somente registrar)
+
+Caso for fora do horário comercial, transferir o cliente e informar o horário de atendimento. 
+
+A empresa fornece IP Fixo? Se sim qual valor?
+R: Sim, R$50,00. Encaminhamento de porta é cobrado o valor R$10:00. 
+
+Nesses casos transferir o atendimento para o N2. E sempre informar que vai atendido no próximos período pela equipe responsável. De preferência, não informar valores.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R:Como a maioria das empresas não prestamos suporte para o IPTV. Se o cliente for reincidente abrir para o N2 e eles fazem a verificação.
+
+Eles trabalham com TV, caso cliente precisar de auxilio transferir para o N2. (Eles não tem suporte, se precisar de ajudar para colocar no celular ou algo do tipo a equipe do N2 auxilia).
+Atualmente trabalham com IPV6?
+R: Está em fase em implantação. 
+
+Como prosseguir com mudanças de endereço/ponto?
+R: Não é necessário coletar informações. Caso o cliente solicite algo do tipo, podemos apenas encaminhar ao Setor Comercial, informando o horário de expediente.
+
+FINANCEIRO E COMERCIAL
+Podemos enviar fatura?
+R: Não, Orientar o cliente a realizar pela central do assinante. 
+
+Podemos fazer o desbloqueio de confiança?
+R: Não.
+
+Dentro do horário comercial transfere DIRETAMENTE o atendimento para o provedor. Fora do horário comercial, caso o cliente envie o comprovante, podemos realizar o desbloqueio e anexar o comprovante de pagamento.
+
+Possui redução de velocidade?
+R: Não. 
+
+Qual métodos de pagamentos de boleto?
+R: Não tem pix, somente no boleto. 
+
+Ao receber comprovante de pagamento, transferir o atendimento (fora do horário comercial, transferir e informar horário de atendimento)
+
+Não abrir OS de envio de comprovante
+
+Como é feita a parte de cancelamento? 
+R: Transferir para setor comercial mesmo fora de horário. 
+
+INFORMAÇÕES DA EMPRESA
+Possui atendimento presencial?
+R: 
+
+ENDEREÇO	HORÁRIO DE ATENDIMENTO
+Rua Henrique Gaburro, N237 Bairro Santo Antônio Rio Bananal/ES CEP:29920-000 	
+Segunda à Sexta das 08h às 12h e das 13h às 17h
+
+Sábados das 08h às 12h
+
+TELEFONE	 27 3199 0800
+WHATSAPP	 27 3199 0800
+CENTRAL DO ASSINANTE	 https://ixc.rbonline.com.br/central_assinante_web/login
+CPF / 4 Últimos dígitos do CPF

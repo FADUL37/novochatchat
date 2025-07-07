@@ -1,0 +1,254 @@
+AVIANET
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	
+seg ate sexta = 00:00 ate as 08:00 e das 20:00 ate 00:00
+
+sabado = 18:00 ate 00:00
+
+domingo = dia todo (00:00 ate as 23:59) 
+
+UPSOFT - OK
+
+SOMENTE LIGAÇÕES
+
+HUBSOFT
+
+Quais as tecnologias oferecidas pela empresa?
+FIBRA ÓPTICA   (Há alguns rádios antigos em sitios e ranchos, porém não é comercializado mais)
+
+Quais os planos vendidos na empresa?
+500MB
+600MB
+800MB
+ 
+
+Quais cidades/bairros de atuação?
+Lins/SP  - Toda cidade
+Guaiçara/SP - Toda cidade
+Sabino/SP - Toda cidade
+Promissão/SP - Toda cidade
+
+ 
+
+Quais equipamentos utilizados?
+Integradas (modem e roteador no mesmo equipamento)
+MODEM ONU *GPON 1GE WIFI6 ZYXEL AX3000
+MODEM ONU *GPON 1GE WIFI6 ZX3000 F6600P ZTE
+
+Roteadores
+ROTEADOR WIRELESS GIGA HUAWEI AX2 WS7001
+ROTEADOR WIRELESS GIGA TPLINK EX511 AX3000 WIFI6
+
+ROTEADOR WIRELESS ZYXEL EX3220 T0
+
+ 
+
+Presta suporte a repetidores?
+Somente abrindo visita técnica no local.  (via telefone, somente solicitar que seja reiniciado)
+ 
+
+Presta suporte a câmeras?
+Não.  Abrir ATENDIMENTO no sistema para tratamento posterior pela equipe interna.
+ 
+
+Qual a porta de acesso para acesso aos roteadores?
+Não terá acesso a roteadores
+ 
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+Não terá acesso a roteadores
+ 
+
+É possível informar ao cliente a senha do roteador?
+Não.  Será necessário intervenção de nossa equipe interna.
+ 
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Não é cobrado.
+ 
+
+Qual o site utilizado para testes de velocidade?
+www.speedtest.net
+www.fast.com
+www.nperf.com
+ 
+
+Garantem toda a banda contratada passada por WiFi?
+Nosso equipamento suporta a velocidade contratada pelo Wi-FI, porém isso depende também do dispositivo do cliente
+ 
+
+Qual DNS padrão?
+201.182.120.3
+201.182.120.5
+1.1.1.1
+ 
+
+Quais são as tratativas para reset?
+Não realizar, pois equipamento não tem auto-provisionamento.
+ 
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+A UPCALL fará somente N1. Caso não solucionarmos, precisamos encaminhar o Atendimento aberto no HubSoft (Encaminhar para Próxima Tarefa no UPSOFT) para que o provedor gere a O.S.
+
+Não utilizam a terminologia de N2/N3.
+ 
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+Em 24hrs ou próximo dia Útil, exceto aos domingos onde serão feitos os suportes dos clientes que estejam sem conexão.
+
+Existe setor de Agendamento ou Técnico vai direto?
+Não, abrir Atendimento!
+Nossa equipe interna irá verificar os atendimentos no proximo dia útil e entrar em contato com os clientes.
+ 
+
+Qual o custo da visita técnica caso seja improdutiva?
+Até o momento, não tem custo.
+ 
+
+Tem plantão aos finais de semana e feriado?
+Técnico Externo:    Sabado/Feriados: 08:30 as 18:00hs 
+
+Sem atendimento aos Domingos
+ 
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Boleto, Cartão, PIX e Dinheiro
+ 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Não fornecemos acesso IPTV.
+Em relação ao suporte, orientamos o cliente a reiniciar o aparelho de tvbox (se houver) e testar plataformas conhecidas, tais como (youtube, netflix…), caso o problema for somente do IPTV, pedimos ao cliente para verificar com seu fornecedor da lista de IPTV.
+Temos apenas APPs  (HBO/Max). - somente no plano de 800mb
+ 
+
+A empresa fornece IP Fixo? Qual valor?  
+Sim,  Valor de R$ 100,00/mês.
+ 
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Abrir ATENDIMENTO para que a equipe interna faça a análise e orçamento do serviço.
+
+Obs: Todos os ATENDIMENTOS serão abertos com o TIPO UPCALL, nao sendo necessario enviar pra nenhum setor, somente descrever no campo DESCRIÇÃO a solicitação do cliente.
+ 
+
+Mudança de Endereço
+Abrir ATENDIMENTO para que a equipe interna faça a análise e orçamento do serviço.
+
+Prazo: 3 dias úteis, com o setor de agendamento entrando em contato no próximo dia útil a partir da abertura da solicitação.
+
+Obs: Todos os ATENDIMENTOS serão abertos com o TIPO UPCALL, nao sendo necessario enviar pra nenhum setor, somente descrever no campo DESCRIÇÃO a solicitação do cliente.
+ 
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Sim, sempre confirmando CPF e Endereço de Instalação do Cliente
+ 
+
+Com quantos dias ocorre o bloqueio?
+15 dias corridos.
+ 
+
+Podemos fazer o desbloqueio de confiança?
+Sim, e também pode orientar o cliente a fazer pela Central ou APP
+ 
+
+Por quantos dias a conexão é liberada?
+1 dia útil.
+ 
+
+Possui redução de velocidade?
+Não.
+ 
+
+Qual métodos de pagamentos da fatura?
+Boleto Bancário, PIX, Cartão de Crédito ou Dinheiro nas Lojas.
+ 
+
+Qual o procedimento para comprovante de pagamento?
+Anexar o comprovante no ATENDIMENTO
+ 
+
+Como prosseguir em casos de cancelamento?
+Abrir atendimento para Setor Financeiro
+
+
+INFORMAÇÕES DA EMPRESA
+Possui atendimento presencial?
+R: Não
+
+ 
+
+ENDEREÇOS
+
+Lins - SP
+
+Rua Osvaldo Cruz, 245 - Centro
+
+Promissão - SP
+
+Av Pedro de Toledo, 862 - Centro
+
+Sabino - SP
+
+Av Sete de Setembro, 640-B - Centro
+
+Guaiçara - SP
+
+Rua Osvaldo Cruz, 174 - Centro
+
+HORÁRIOS DE ATENDIMENTO
+
+LOJAS FÍSICAS
+
+Segunda à Sexta das 08h às 18h
+Sábados das 08h às 12h
+Feriados: Fechadas
+
+VISITAS TÉCNICAS
+
+Segunda à Sexta das 08h30 às 18h
+Sábado das 08h30 às 18h
+Feriados das 08h30 às 18h
+
+SUPORTE TÉCNICO	
+Segunda à Sexta das 08h às 20h
+Sábados das 08h às 18h
+Feriados das 08h às 18h
+
+FINANCEIRO / COMERCIAL	
+Segunda à Sexta das 08h às 18h30
+Sábados das 08h30 às 12h30
+Feriados: Sem Expediente
+
+CONTATOS
+
+TELEFONE
+
+(14) 3523-3266
+(14) 3525-0200
+
+WHATSAPP
+
+(14) 3523-3266
+
+CENTRAL DO ASSINANTE
+
+URL
+
+https://central.avianet.com.br/
+
+LOGIN
+
+CPF
+
+SITE
+
+https://www.avianet.com.br
+
+E-MAIL
+
+contato@avianet.com.br
+

@@ -1,0 +1,1464 @@
+const socket = io();
+let username = '';
+let chatbotOpen = false;
+let isRecording = false;
+let mediaRecorder = null;
+let audioChunks = [];
+let isDarkTheme = true;
+
+// Notification sound
+const notificationSound = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBSuBzvLZiTYIG2m98OScTgwOUarm7blmGgU7k9n1unEiBC13yO/eizEIHWq+8+OWT');
+
+// Funcionalidade do chat original
+function setNickname() {
+  const input = document.getElementById('nicknameInput');
+  username = input.value.trim();
+  if (username) {
+    socket.emit('setUsername', username);
+    document.getElementById('nicknamePrompt').style.display = 'none';
+    document.getElementById('chatArea').style.display = 'block';
+    showNotification(`🚀 Bem-vindo, ${username}!`);
+  }
+}
+
+function sendMessage() {
+  const input = document.getElementById('m');
+  const message = input.value.trim();
+  if (message) {
+    socket.emit('chat message', message);
+    input.value = '';
+    addMessageToChat(`${username}: ${message}`);
+  }
+}
+
+function addMessageToChat(message) {
+  const item = document.createElement('li');
+  item.className = 'message-item';
+  item.innerHTML = `
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 8px; height: 8px; background: var(--primary-gradient); border-radius: 50%; animation: pulse 2s infinite;"></div>
+      <span>${message}</span>
+      <small style="margin-left: auto; opacity: 0.7;">${new Date().toLocaleTimeString()}</small>
+    </div>
+  `;
+  document.getElementById('messages').appendChild(item);
+  item.scrollIntoView({ behavior: 'smooth' });
+  
+  // Play notification sound
+  if (message.includes(username)) {
+    playNotificationSound();
+  }
+}
+
+socket.on('chat message', (msg) => {
+  addMessageToChat(msg);
+});
+
+// Theme Toggle
+function toggleTheme() {
+  isDarkTheme = !isDarkTheme;
+  const body = document.body;
+  const icon = document.getElementById('theme-icon');
+  
+  if (isDarkTheme) {
+    body.classList.remove('light-theme');
+    icon.className = 'fas fa-moon';
+  } else {
+    body.classList.add('light-theme');
+    icon.className = 'fas fa-sun';
+  }
+}
+
+// Audio Recording
+function toggleRecording() {
+  const recordBtn = document.getElementById('recordBtn');
+  const visualizer = document.getElementById('audioVisualizer');
+  
+  if (!isRecording) {
+    startRecording();
+    recordBtn.innerHTML = '<i class="fas fa-stop"></i>';
+    recordBtn.classList.add('recording');
+    visualizer.style.display = 'flex';
+  } else {
+    stopRecording();
+    recordBtn.innerHTML = '<i class="fas fa-microphone"></i>';
+    recordBtn.classList.remove('recording');
+    visualizer.style.display = 'none';
+  }
+}
+
+async function startRecording() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    mediaRecorder = new MediaRecorder(stream);
+    audioChunks = [];
+    
+    mediaRecorder.ondataavailable = (event) => {
+      audioChunks.push(event.data);
+    };
+    
+    mediaRecorder.onstop = () => {
+      const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+      const audioUrl = URL.createObjectURL(audioBlob);
+      sendAudioMessage(audioUrl);
+    };
+    
+    mediaRecorder.start();
+    isRecording = true;
+    showNotification('🎤 Gravação iniciada!');
+  } catch (error) {
+    console.error('Erro ao acessar microfone:', error);
+    showNotification('❌ Erro ao acessar microfone');
+  }
+}
+
+function stopRecording() {
+  if (mediaRecorder && isRecording) {
+    mediaRecorder.stop();
+    mediaRecorder.stream.getTracks().forEach(track => track.stop());
+    isRecording = false;
+    showNotification('🎤 Gravação finalizada!');
+  }
+}
+
+function sendAudioMessage(audioUrl) {
+  const audioElement = document.createElement('audio');
+  audioElement.controls = true;
+  audioElement.src = audioUrl;
+  audioElement.style.maxWidth = '200px';
+  audioElement.style.borderRadius = '12px';
+  
+  const message = `${username} enviou um áudio:`;
+  const item = document.createElement('li');
+  item.className = 'message-item';
+  item.innerHTML = `
+    <div>
+      <div style="margin-bottom: 8px;">
+        <span>🎵 ${message}</span>
+        <small style="margin-left: 10px; opacity: 0.7;">${new Date().toLocaleTimeString()}</small>
+      </div>
+    </div>
+  `;
+  item.appendChild(audioElement);
+  
+  document.getElementById('messages').appendChild(item);
+  item.scrollIntoView({ behavior: 'smooth' });
+  
+  // Emit audio message to other users
+  socket.emit('audio message', { username, audioUrl, timestamp: new Date().toLocaleTimeString() });
+}
+
+// GIF Selection
+function selectGif() {
+  document.getElementById('gifInput').click();
+}
+
+function handleGifSelect(event) {
+  const file = event.target.files[0];
+  if (file && file.type === 'image/gif') {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      sendGifMessage(e.target.result);
+    };
+    reader.readAsDataURL(file);
+  }
+}
+
+function sendGifMessage(gifData) {
+  const message = `${username} enviou um GIF:`;
+  const item = document.createElement('li');
+  item.className = 'message-item';
+  item.innerHTML = `
+    <div>
+      <div style="margin-bottom: 8px;">
+        <span>🎭 ${message}</span>
+        <small style="margin-left: 10px; opacity: 0.7;">${new Date().toLocaleTimeString()}</small>
+      </div>
+      <img src="${gifData}" class="gif-preview" alt="GIF">
+    </div>
+  `;
+  
+  document.getElementById('messages').appendChild(item);
+  item.scrollIntoView({ behavior: 'smooth' });
+  
+  // Emit GIF message to other users
+  socket.emit('gif message', { username, gifData, timestamp: new Date().toLocaleTimeString() });
+}
+
+// Emoji Selection
+function selectEmoji() {
+  const emojis = ['😀', '😂', '🥰', '😎', '🤔', '👍', '❤️', '🔥', '⚡', '🚀', '🎉', '💯'];
+  const emoji = emojis[Math.floor(Math.random() * emojis.length)];
+  const input = document.getElementById('m');
+  input.value += emoji;
+  input.focus();
+}
+
+// Notification System
+function showNotification(message) {
+  const notification = document.createElement('div');
+  notification.className = 'notification';
+  notification.innerHTML = `
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <i class="fas fa-bell"></i>
+      <span>${message}</span>
+    </div>
+  `;
+  
+  document.body.appendChild(notification);
+  
+  setTimeout(() => {
+    notification.style.animation = 'notificationSlide 0.3s ease reverse';
+    setTimeout(() => {
+      document.body.removeChild(notification);
+    }, 300);
+  }, 3000);
+}
+
+function playNotificationSound() {
+  notificationSound.play().catch(e => console.log('Não foi possível reproduzir som'));
+}
+
+// Socket events for new message types
+socket.on('audio message', (data) => {
+  const item = document.createElement('li');
+  item.className = 'message-item';
+  item.innerHTML = `
+    <div>
+      <div style="margin-bottom: 8px;">
+        <span>🎵 ${data.username} enviou um áudio:</span>
+        <small style="margin-left: 10px; opacity: 0.7;">${data.timestamp}</small>
+      </div>
+      <audio controls style="max-width: 200px; border-radius: 12px;">
+        <source src="${data.audioUrl}" type="audio/wav">
+      </audio>
+    </div>
+  `;
+  
+  document.getElementById('messages').appendChild(item);
+  item.scrollIntoView({ behavior: 'smooth' });
+  playNotificationSound();
+});
+
+socket.on('gif message', (data) => {
+  const item = document.createElement('li');
+  item.className = 'message-item';
+  item.innerHTML = `
+    <div>
+      <div style="margin-bottom: 8px;">
+        <span>🎭 ${data.username} enviou um GIF:</span>
+        <small style="margin-left: 10px; opacity: 0.7;">${data.timestamp}</small>
+      </div>
+      <img src="${data.gifData}" class="gif-preview" alt="GIF">
+    </div>
+  `;
+  
+  document.getElementById('messages').appendChild(item);
+  item.scrollIntoView({ behavior: 'smooth' });
+  playNotificationSound();
+});
+
+const operadorasData = {
+  "ARESNET": {
+    "tecnologias": "🌐 Fibra",
+    "planos_rurais": "🏞️ 100 MBPS - R$ 130,00\n🏞️ 160 MBPS - R$ 150,00\n🏞️ 180 MBPS - R$ 180,00\n🏞️ 200 MBPS - R$ 199,00\n🏞️ 240 MBPS - R$ 250,00",
+    "planos_urbanos": "🏙️ 400 MBPS - R$ 89,90\n🏙️ 600 MBPS - R$ 99,90\n🏙️ 700 MBPS - R$ 119,90\n🏙️ 800 MBPS - R$ 139,90",
+    "cidades": "🏙️ Área urbana: Lagoinha, Cunha, São Luiz, Redenção, Paraibuna e Santa Branca\n🏞️ Rural: todas as cidades informadas + Taubaté, dois bairros de Guaratinguetá e um bairro de Natividade da Serra",
+    "telefone": "📞 (12) 3570-5151",
+    "whatsapp": "📱 (12) 3570-5151",
+    "email": "📧 atendimento@aresnet.com.br",
+    "site": "🌐 https://aresnet.com.br/",
+    "horarios": "🏪 Lojas: 8h às 18h (seg-qui), 8h às 17h (sex)\n🛠️ Suporte: 8h às 19h\n💰 Financeiro: 7:30 às 18h",
+    "equipamentos": "🔧 ONU ZTE 660, ONU ZTE AX 3000, ONU Parks, Roteador ZTE 1200, Roteador TP-Link 1200, ONU Epon Next, ONU Epon Furukawa, Roteador Intelbras /100, Roteador TP-Link /100",
+    "teste_velocidade": "⚡ fast.com",
+    "dns": "🌐 45.161.255.249",
+    "ip_fixo": "💰 R$ 80,00 a mais na mensalidade",
+    "iptv": "❌ Não trabalha e não dá suporte"
+  },
+  "AVIANET": {
+    "tecnologias": "🌐 FIBRA ÓPTICA (Há alguns rádios antigos em sítios e ranchos, porém não é comercializado mais)",
+    "planos": "🚀 500MB\n🚀 600MB\n🚀 800MB",
+    "cidades": "🏘️ Lins/SP - Toda cidade\n🏘️ Guaiçara/SP - Toda cidade\n🏘️ Sabino/SP - Toda cidade\n🏘️ Promissão/SP - Toda cidade",
+    "equipamentos_integrados": "🔧 MODEM ONU *GPON 1GE WIFI6 ZYXEL AX3000\n🔧 MODEM ONU *GPON 1GE WIFI6 ZX3000 F6600P ZTE",
+    "roteadores": "🔧 ROTEADOR WIRELESS GIGA HUAWEI AX2 WS7001\n🔧 ROTEADOR WIRELESS GIGA TPLINK EX511 AX3000 WIFI6\n🔧 ROTEADOR WIRELESS ZYXEL EX3220 T0",
+    "suporte_repetidores": "🛠️ Somente abrindo visita técnica no local (via telefone, somente solicitar que seja reiniciado)",
+    "suporte_cameras": "❌ Não. Abrir ATENDIMENTO no sistema para tratamento posterior pela equipe interna",
+    "acesso_roteadores": "❌ Não terá acesso a roteadores",
+    "senha_roteador": "❌ Não. Será necessário intervenção de nossa equipe interna",
+    "custo_troca_senha": "💰 Não é cobrado",
+    "teste_velocidade": "⚡ www.speedtest.net\n⚡ www.fast.com\n⚡ www.nperf.com",
+    "wifi_garantia": "📶 Nosso equipamento suporta a velocidade contratada pelo Wi-FI, porém isso depende também do dispositivo do cliente",
+    "dns": "🌐 201.182.120.3\n🌐 201.182.120.5\n🌐 1.1.1.1",
+    "reset_equipamento": "⚠️ Não realizar, pois equipamento não tem auto-provisionamento",
+    "suporte_n2_n3": "🛠️ A UPCALL fará somente N1. Caso não solucionarmos, precisamos encaminhar o Atendimento aberto no HubSoft (Encaminhar para Próxima Tarefa no UPSOFT) para que o provedor gere a O.S. Não utilizam a terminologia de N2/N3",
+    "prazo_atendimento": "📅 Em 24hrs ou próximo dia Útil, exceto aos domingos onde serão feitos os suportes dos clientes que estejam sem conexão",
+    "agendamento": "❌ Não, abrir Atendimento! Nossa equipe interna irá verificar os atendimentos no próximo dia útil e entrar em contato com os clientes",
+    "visita_improdutiva": "💰 Até o momento, não tem custo",
+    "plantao": "🚨 Técnico Externo: Sábado/Feriados: 08:30 às 18:00hs. Sem atendimento aos Domingos",
+    "pagamento_servicos": "💳 Boleto, Cartão, PIX e Dinheiro",
+    "iptv": "❌ Não fornecemos acesso IPTV. Em relação ao suporte, orientamos o cliente a reiniciar o aparelho de tvbox (se houver) e testar plataformas conhecidas, tais como (youtube, netflix…), caso o problema for somente do IPTV, pedimos ao cliente para verificar com seu fornecedor da lista de IPTV. 📺 Temos apenas APPs (HBO/Max) - somente no plano de 800mb",
+    "ip_fixo": "💰 Sim, Valor de R$ 100,00/mês",
+    "mudanca_ponto": "🏠 Abrir ATENDIMENTO para que a equipe interna faça a análise e orçamento do serviço. Obs: Todos os ATENDIMENTOS serão abertos com o TIPO UPCALL, não sendo necessário enviar para nenhum setor, somente descrever no campo DESCRIÇÃO a solicitação do cliente",
+    "mudanca_endereco": "📦 Abrir ATENDIMENTO para que a equipe interna faça a análise e orçamento do serviço. Prazo: 3 dias úteis, com o setor de agendamento entrando em contato no próximo dia útil a partir da abertura da solicitação",
+    "envio_fatura": "📧 Sim, sempre confirmando CPF e Endereço de Instalação do Cliente",
+    "bloqueio_dias": "🚫 15 dias corridos",
+    "desbloqueio_confianca": "✅ Sim, e também pode orientar o cliente a fazer pela Central ou APP",
+    "liberacao_dias": "📅 1 dia útil",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Boleto Bancário, PIX, Cartão de Crédito ou Dinheiro nas Lojas",
+    "comprovante_pagamento": "📎 Anexar o comprovante no ATENDIMENTO",
+    "cancelamento": "❌ Abrir atendimento para Setor Financeiro",
+    "atendimento_presencial": "❌ Não",
+    "enderecos": "📍 Lins - SP: Rua Osvaldo Cruz, 245 - Centro\n📍 Promissão - SP: Av Pedro de Toledo, 862 - Centro\n📍 Sabino - SP: Av Sete de Setembro, 640-B - Centro\n📍 Guaiçara - SP: Rua Osvaldo Cruz, 174 - Centro",
+    "horarios_lojas": "🏪 Segunda à Sexta das 08h às 18h\n🏪 Sábados das 08h às 12h\n🏪 Feriados: Fechadas",
+    "horarios_visitas": "🛠️ Segunda à Sexta das 08h30 às 18h\n🛠️ Sábado das 08h30 às 18h\n🛠️ Feriados das 08h30 às 18h",
+    "horarios_suporte": "📞 Segunda à Sexta das 08h às 20h\n📞 Sábados das 08h às 18h\n📞 Feriados das 08h às 18h",
+    "horarios_financeiro": "💰 Segunda à Sexta das 08h às 18h30\n💰 Sábados das 08h30 às 12h30\n💰 Feriados: Sem Expediente",
+    "telefone": "📞 (14) 3523-3266\n📞 (14) 3525-0200",
+    "whatsapp": "📱 (14) 3523-3266",
+    "central_assinante": "🌐 https://central.avianet.com.br/",
+    "login_central": "🔑 CPF",
+    "site": "🌐 https://www.avianet.com.br",
+    "email": "📧 contato@avianet.com.br",
+    "horario_upcall": "🌙 seg ate sexta = 00:00 ate as 08:00 e das 20:00 ate 00:00\n🌙 sabado = 18:00 ate 00:00\n🌙 domingo = dia todo (00:00 ate as 23:59)",
+    "sistemas": "💻 UPSOFT - OK\n💻 SOMENTE LIGAÇÕES\n💻 HUBSOFT"
+  },
+  "BRASILINK": {
+    "tecnologias": "🌐 Fibra óptica",
+    "planos": "🚀 150 MBPS\n🚀 650 MBPS\n🚀 1 GBPS",
+    "cidades": "🏘️ Serra, Vitória, Vila Velha, Cariacica, Aracruz, Ibiraçu e Viana",
+    "equipamentos": "🔧 ONT, ONU, Roteador WIFI e Mikrotik",
+    "suporte_repetidores": "❌ Não",
+    "suporte_cameras": "❌ Não",
+    "porta_acesso": "🔌 8888",
+    "senha_padrao": "🔑 Novaebr@123",
+    "credenciais_equipamentos": "🔧 HUAWEI: Epadmin / adminEp ou Novaebr@123\n🔧 DATACOM DM986-204/414/414Q: user / 12345678 ou Novaebr@123\n🔧 DATACOM DM 985-102: support / support\n🔧 Maxfiber 3001G/1200G: telecom / admintelecom\n🔧 Mercusys/Maxprint: carllmais ou 12345678",
+    "senha_roteador": "✅ Sim, é possível informar ao cliente",
+    "troca_senha_custo": "💰 Analisamos cada caso",
+    "teste_velocidade": "⚡ https://fast.com/pt/\n⚡ https://www.speedtest.net/",
+    "garantia_wifi": "❌ Não. Garantia de banda é via cabo de rede. WiFi fica limitado a operação do equipamento e dispositivo do cliente",
+    "dns": "🌐 189.14.192.228\n🌐 189.14.210.73",
+    "reset_equipamento": "❌ Não fazemos",
+    "suporte_n2_n3": "🛠️ Sim, perda de pacote ou destinos inacessíveis",
+    "prazo_atendimento": "📅 48 horas",
+    "agendamento": "✅ Sim, o supervisor do suporte",
+    "visita_improdutiva": "💰 R$ 80,00",
+    "plantao": "🚨 Sábados - suporte\n🚨 Sábados, domingos e feriados - NOC",
+    "pagamento_servicos": "💳 Boleto",
+    "iptv": "❌ Não",
+    "ip_fixo": "❌ Não. Apenas migrando para o plano empresarial",
+    "mudanca_ponto": "🏠 Encaminhar para o supervisor do suporte. Valor R$ 80,00",
+    "mudanca_endereco": "📦 Encaminhar para o supervisor do suporte",
+    "envio_fatura": "📧 Sim, pode ser enviado a fatura mesmo em atraso",
+    "bloqueio_dias": "🚫 11, 16, 21 e 26 dias",
+    "desbloqueio_confianca": "✅ Sim",
+    "liberacao_dias": "📅 4 dias",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Boleto e PIX",
+    "comprovante_pagamento": "📎 Encaminhar comprovante no grupo",
+    "cancelamento": "❌ Abrir chamado e encaminhar para o supervisor do suporte",
+    "atendimento_presencial": "⚠️ Apenas em caso de cancelamento que é feito presencialmente pelo titular em uma de nossas lojas",
+    "telefone": "📞 (27) 2122-2122",
+    "whatsapp": "📱 (27) 2122-2122",
+    "site": "🌐 https://www.ebr.com.br/",
+    "central_assinante": "🌐 https://ixc.ebr.com.br\n🌐 https://sac.ebr.com.br/\n🌐 https://nca.ebr.com.br",
+    "login_central": "🔑 CPF (sem os pontos e traço)",
+    "senha_central": "🔑 3 primeiros e 2 últimos dígitos do CPF ou CNPJ",
+    "horarios_atendimento": "🏪 Segunda a sexta: 08:00 às 19:00\n🏪 Sábado: 08:00 às 17:00",
+    "horario_upcall": "🌙 Segunda à Sexta das 18h às 08h\n🌙 Finais de Semana 24/7",
+    "sistemas": "💻 UPSOFT - OK\n💬 CHAT E LIGAÇÃO\n🏢 IXC"
+  },
+  "FACILITI": {
+    "tecnologias": "🌐 Fibra óptica",
+    "planos_urbanos": "🏙️ 150MB - R$ 79,90\n🏙️ 300MB - R$ 99,90\n🏙️ 500MB - R$ 119,90\n🏙️ 600MB - R$ 139,90\n🏙️ 800MB - R$ 159,90\n🏙️ 1GB - R$ 179,90",
+    "planos_rurais": "🏞️ 150MB - R$ 89,90\n🏞️ 300MB - R$ 109,90\n🏞️ 500MB - R$ 129,90\n🏞️ 600MB - R$ 149,90\n🏞️ 800MB - R$ 169,90\n🏞️ 1GB - R$ 189,90",
+    "planos_globoplay": "📺 Planos com GloboPlay: +R$ 20,00",
+    "planos_corporativos": "🏢 Planos corporativos disponíveis",
+    "cidades": "🏘️ Conceição de Macabu - RJ (diversos bairros)",
+    "equipamentos": "🔧 Roteadores 2 e 4 antenas\n🔧 ONU (fornecido em comodato)",
+    "suporte_repetidores": "✅ Sim, para repetidores instalados pela Faciliti (com taxa)\n❌ Não para repetidores de terceiros",
+    "suporte_cameras": "❌ Não. Parceria com Camerite para instalação",
+    "acesso_roteador": "❌ Não fornecemos acesso/senha diretamente ao cliente",
+    "troca_senha_custo": "💰 Taxa aplicada se não houver acesso remoto",
+    "teste_velocidade": "⚡ Speedtest (recomendado 5G)",
+    "dns": "🌐 Padrões da empresa",
+    "reset_equipamento": "❌ Cliente não pode fazer reset",
+    "suporte_escalacao": "🛠️ SEM CONEXÃO, LENTIDÃO, TRIAGEM - OUTRAS DEMANDAS",
+    "prazo_atendimento": "📅 24-72h residencial\n📅 4h corporativo",
+    "agendamento": "✅ Sim, procedimentos específicos",
+    "visita_improdutiva": "💰 R$ 50,00 + material se problema doméstico/mau uso",
+    "plantao": "🚨 Call center 24h\n🚨 Suporte técnico limitado fins de semana/feriados",
+    "pagamento_servicos": "💳 Pix, boleto, dinheiro, débito, crédito",
+    "iptv": "📺 CDNTV (suporte fornecido, aluguel do setup box)",
+    "ip_fixo": "💰 R$ 99,88/mês",
+    "mudanca_ponto": "🏠 R$ 80,00-R$ 100,00\n📦 Cliente transporta equipamento\n🔧 100m fibra inclusos, R$ 1,00/metro adicional",
+    "envio_fatura": "📧 Acesso via central do assinante",
+    "bloqueio_dias": "🚫 Após duas faturas FTTH em atraso ou 15 dias Combo APPs",
+    "desbloqueio_confianca": "✅ 3 dias via central do assinante",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Pix, boleto, cartão de crédito",
+    "comprovante_pagamento": "📎 Procedimento específico",
+    "telefone": "📞 Contato disponível",
+    "whatsapp": "📱 Disponível",
+    "site": "🌐 Site oficial",
+    "facebook": "📘 Página no Facebook",
+    "central_assinante": "🌐 Central do assinante disponível",
+    "endereco_fisico": "📍 Endereço físico disponível",
+    "horarios_suporte": "🛠️ Horários específicos",
+    "horarios_call_center": "📞 24 horas",
+    "horarios_lojas": "🏪 Horários comerciais",
+    "horario_upcall": "🌙 Conforme necessidade",
+    "sistemas": "💻 IXC"
+  },
+    "DELTA ATIVA": {
+    "tecnologias": "🌐 Fibra óptica\n📡 Rádio\n📺 Canais de TV\n☎️ Telefonia fixa",
+    "planos_residenciais": "🏠 100MB - R$ 79,90\n🏠 200MB - R$ 99,90\n🏠 400MB - R$ 119,90\n🏠 600MB - R$ 139,90\n🏠 800MB - R$ 159,90\n🏠 1GB - R$ 179,90",
+    "planos_premium": "⭐ Premium 1GB - R$ 199,90\n⭐ Premium 2GB - R$ 299,90",
+    "cidades": "🏘️ Taió\n🏘️ Camboriú\n🏘️ Ituporanga",
+    "equipamentos": "🔧 ONUs GPON\n🔧 Roteadores Wi-Fi 6\n🔧 Equipamentos de rádio\n🔧 Decoders para TV",
+    "suporte_n2_n3": "🛠️ Suporte N2/N3 disponível",
+    "credenciais_acesso": "🔑 Credenciais específicas por equipamento",
+    "niveis_sinal": "📶 Monitoramento de níveis de sinal",
+    "politicas_financeiras": "💰 Faturamento mensal\n🚫 Bloqueio após vencimento\n💳 Múltiplas formas de pagamento",
+    "iptv_servicos": "📺 Serviços IPTV disponíveis\n📡 Canais em HD\n🎬 Conteúdo sob demanda",
+    "telefone": "📞 Contato principal",
+    "whatsapp": "📱 Atendimento via WhatsApp",
+    "email": "📧 Suporte por email",
+    "site": "🌐 Portal oficial",
+    "horarios_funcionamento": "🏪 Segunda a sexta: 8h às 18h\n🏪 Sábado: 8h às 12h\n🛠️ Suporte técnico: 24/7"
+  },
+  "D-KIROS": {
+    "tecnologias": "🌐 Fibra óptica\n📺 OléTV (App de TV)\n🏥 LIG Doctor (Telemedicina)\n🎯 Clube DKiros (Descontos)\n📱 Tua Operadora (Chip Celular)",
+    "planos": "📦 R1: 250MB → 500MB - Wi-Fi Gigabit (1 Roteador)\n📦 R1+: 400MB → 800MB - Wi-Fi Gigabit (1 Roteador)\n📦 R2: 250MB → 500MB - Wi-Fi Gigabit (2 Roteadores)\n📦 R2+: 400MB → 800MB - Wi-Fi Gigabit (2 Roteadores)\n📦 R3: 250MB → 500MB - Wi-Fi Gigabit (3 Roteadores)\n📦 R3+: 400MB → 800MB - Wi-Fi Gigabit (3 Roteadores)",
+    "servicos_inclusos": "📺 Dkiros TV - Life Line 64 canais\n🎯 Clube Dkiros + Cashback\n💬 Chat Orientação de saúde\n🏥 Telemedicina (R3/R3+)",
+    "cidades": "🏘️ Gaspar - SC\n🏘️ Ilhota - SC",
+    "equipamentos": "🔧 ONU/ONT: Parks, Stavix, Vsolucion, MaxPrint, Intelbras, ZTE\n🔧 Roteadores: TP-Link, Intelbras, ZTE\n🔧 Rádio: Mikrotik, Ubiquiti, Cambium\n🔧 Mesh: Intelbras W5 1200, ZTE 199a",
+    "suporte_repetidores": "✅ Sim, planos com Rede Mesh\n💰 R$ 40,00 para configuração de equipamentos próprios",
+    "suporte_cameras": "❌ Não mencionado",
+    "portas_acesso": "🔌 Primeiro roteador: 8001\n🔌 Segundo roteador: 8002\n🔌 Ubiquiti/Cambium: 4779\n🔌 Mikrotik: 4779/4791\n🔌 ONU/ONT: 4779 ou 80",
+    "credenciais_gaspar": "👤 Usuário: admin/dkiros/dsnt\n🔑 Senha: admin/internet/96073233/Dk96073233\n🔧 ZTE - Usuário: multipro, Senha: Dk96073233",
+    "credenciais_ilhota": "👤 Mikrotik: dsnt/admin - golgt18s\n👤 Ubiquiti: ubnt/dsnt - golgt18s\n👤 Cambium: admin - golgt18s",
+    "senha_roteador": "❌ Não informamos senha do roteador",
+    "reset_equipamento": "✅ Sim, auxiliamos em casos de reset\n⚠️ ONT desconfigurada: encaminhar para N3",
+    "nivel_sinal": "📶 Até -26dBm (abaixo disso gerar N3)",
+    "teste_velocidade": "⚡ http://dkiros.speedtestcustom.com/",
+    "dns": "🌐 170.245.99.22\n🌐 170.245.99.23\n⚙️ Sempre deixar DNS automático",
+    "suporte_n2_n3": "🛠️ Sim, N2 e N3",
+    "prazo_atendimento": "📅 Pessoa física: 72h úteis\n📅 Corporativo: 24h úteis",
+    "agendamento": "✅ Sim, setor de agendamento sempre confirma período",
+    "visita_improdutiva": "💰 R$ 40,00 + materiais\n📏 Cabeamento: R$ 8,00/metro + R$ 5,00 ponteira/conector",
+    "plantao": "🛠️ N2: Seg-Sex 08h-21h, Sáb/Fer 08h-16h\n🛠️ N3: Seg-Sex 08h-18h, Sáb/Fer 08h-12h\n❌ Sem plantão domingos",
+    "pagamento_servicos": "💳 Próxima mensalidade (técnico avalia valor)",
+    "iptv": "❌ Não. Setup box homologado Dkiros disponível para aluguel",
+    "ip_fixo": "💰 R$ 200,00",
+    "mudanca_ponto": "🏠 Abrir atendimento ligar/retornar para negociar",
+    "mudanca_endereco": "📦 Abrir ENCAMINHAR: OUTRAS DEMANDAS",
+    "autenticacao": "🔐 PPPoE em condomínios\n🌐 IP Dinâmico\n🔗 IPv6: Sim",
+    "envio_fatura": "📧 Depende da carteira de cobrança\n🏪 Carteira 9: pagamento direto na loja",
+    "bloqueio_dias": "🚫 8 dias de atraso (terça a quinta-feira)",
+    "desbloqueio_confianca": "❌ Não. Usar central do assinante ou Upchat",
+    "metodos_pagamento": "💳 PIX ou Boleto (conforme carteira)",
+    "comprovante_pagamento": "📎 Carteiras 5,9,15: ENCAMINHAR OUTRAS DEMANDAS\n📎 Demais: registrar N1 e anexar",
+    "reducao_velocidade": "❌ Não",
+    "cancelamento": "❌ ENCAMINHAR: OUTRAS DEMANDAS (apenas titular)",
+    "central_assinante": "🌐 Base 1: https://ixc.d-kiros.com.br\n🌐 Base 2: https://ixc.dkirosnet.com.br/central_assinante_web/faturas",
+    "login_central": "🔑 CPF/CNPJ",
+    "senha_central": "🔑 dkirosnet",
+    "telefone": "📞 47 3308 2000",
+    "whatsapp": "📱 47 3308 2000",
+    "site": "🌐 https://dkiros.com.br/",
+    "endereco": "📍 R. João Ferretti, 155 - Sala 01, Gaspar Mirim, Gaspar - SC",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-18h, Sáb: 08h-12h",
+    "horarios_suporte": "🛠️ Seg-Sex: 08h-18h, Sáb: 08h-12h",
+    "horario_upcall": "🌙 Seg-Sex: 18h-08h\n🌙 Sáb: 12h-08h Segunda\n⚠️ Não transferir após 08h por troca de turno",
+    "sistemas": "💻 UPSOFT - OK\n💬 CHAT E LIGAÇÕES\n🏢 IXC1/IXC2"
+  },
+  "INFORNET": {
+    "tecnologias": "🌐 Internet via fibra óptica\n📡 Internet via rádio\n☎️ Telefonia fixa\n📺 TV Digital",
+    "planos": "📦 80 Megas\n📦 250 Megas\n📦 450 Megas\n📦 600 Megas\n📦 600 Megas + Telecine/Globo Play/Premiere\n📦 700 Megas\n📦 700 Megas + Premiere\n📦 800 Megas\n📦 800 Megas + Telecine e Globo Play\n📦 900 Megas\n📦 1 Giga",
+    "cidades": "🏘️ Acaiaca/MG, Alvinópolis/MG, Barra Longa/MG, Dom Silvério/MG, Jequeri/MG, João Monlevade/MG, Oratórios/MG, Piedade de Ponte Nova/MG, Ponte Nova/MG, Rio Casca/MG, Rio Doce/MG, Rio Piracicaba/MG, Santa Cruz do Escalvado/MG, Santa Antônio do Grama/MG, Urucânia/MG",
+    "equipamentos": "🔧 ONUs: ZTE F643, Huawei EG8010H/HG8010H/HS8546V5/EG8145X6/EG814v5, ZTE F601/F6600/F670L, UNEE Stavix\n🔧 Roteadores: ZTE H199A/H198A, TP-Link Archer C5/C6/Deco M4/M5, Huawei AX3/AX2/WS5200, Unifi U6/AC Mesh, Mikrotik RB750Gr3",
+    "suporte_repetidores": "✅ Sim, roteadores adicionais instalados pela Infornet\n❌ Não para repetidores conectados via WiFi",
+    "suporte_cameras": "❌ Não",
+    "portas_acesso": "🔌 80 ou 443",
+    "credenciais_unee": "👤 Usuário: root\n🔑 Senha: Inf@5414",
+    "credenciais_huawei": "👤 Login: Epadmin - Senha: adminEp\n👤 Login: Infornet - Senha: huaweiinfornet\n👤 Login: telecomadmin - Senha: admintelecom",
+    "credenciais_zte": "👤 Login: multipro\n🔑 Senha: multipro ou Inf+ID cliente",
+    "credenciais_tplink": "👤 Login: admin\n🔑 Senha: admin/Inf+ID cliente/infornet3/ID cliente",
+    "credenciais_huawei_roteador": "🔑 Senha: Inf+ID cliente ou ID cliente",
+    "senha_roteador": "✅ Sim, com cautela e responsabilidade do cliente\n💰 Taxa R$ 40,00 se necessário técnico por configuração inadequada",
+    "senha_wifi": "✅ Sim, mediante CPF do titular",
+    "troca_senha_custo": "🆓 Isento",
+    "teste_velocidade": "⚡ Fast.com ou speedtest.net",
+    "banda_wifi": "⚠️ Nem todos dispositivos atingem banda total via WiFi",
+    "dns": "🌐 131.100.43.246\n🌐 131.100.41.254",
+    "reset_equipamento": "🛠️ Necessário OS para reconfiguração",
+    "suporte_n2_n3": "🛠️ N1 geral, N2 para empresariais/corporativos",
+    "prazo_atendimento": "📅 SEM INTERNET: Link Dedicado 4-12h, Empresarial 12h, Corporativo 24h, Residencial urbana 48h, rural 72h\n📅 PROBLEMA CONEXÃO: Link Dedicado 4-12h, Empresarial 24h, Corporativo 48h, Residencial urbana 72h, rural 120h",
+    "agendamento": "✅ Sim, setor de agendamento",
+    "visita_improdutiva": "🆓 Isento",
+    "plantao": "🛠️ Ponte Nova: 08h-20h\n🛠️ Outras cidades: 08h-16h50",
+    "pagamento_servicos": "💳 Boleto via App Infornet Telecom",
+    "iptv": "📺 TV digital, IPTV não",
+    "ip_fixo": "💰 Empresarial: R$ 40,00\n💰 Corporativo: R$ 50,00\n💰 Pessoa Física: R$ 60,00",
+    "mudanca_ponto": "🏠 ATENDIMENTO INTERNO SUPORTE - CONTATAR CLIENTE",
+    "mudanca_endereco": "📦 ATENDIMENTO INTERNO SUPORTE - CONTATAR CLIENTE",
+    "envio_fatura": "📱 App Infornet Telecom\n🔗 iOS: https://apps.apple.com/us/app/infornet-telecom/id1598953351\n🔗 Android: https://play.google.com/store/apps/details?id=com.hubsoft_client_app.infornet",
+    "bloqueio_dias": "🚫 15 dias após vencimento",
+    "desbloqueio_confianca": "📞 Chat 0800 494 0336 → já sou cliente → financeiro → desbloqueio\n🛠️ Abrir CONTATAR CLIENTE - AGENDAMENTO COM LIBERAÇÃO",
+    "liberacao_dias": "📅 Até 3 dias após bloqueio",
+    "reducao_velocidade": "✅ Sim, abrir ATENDIMENTO INTERNO - CONTATAR CLIENTE COMERCIAL",
+    "metodos_pagamento": "💳 App: 2ª via boleto, PIX QR Code, cartão de crédito",
+    "comprovante_pagamento": "📎 Chat 0800 494 0336\n🛠️ CONTATAR CLIENTE - ENVIO COMPROVANTE - FINANCEIRO",
+    "cancelamento": "❌ CONTATAR CLIENTE - CANCELAMENTO - FINANCEIRO (24h úteis)",
+    "central_assinante": "🌐 https://central.infornet.hubsoft.com.br/",
+    "telefone": "📞 0800 494 0336",
+    "whatsapp": "📱 0800 494 0336",
+    "site": "🌐 https://infornetfibra.com/",
+    "enderecos": "📍 Piedade de Ponte Nova: Rua Coronel Francisco Martins Silva, 98, loja C\n📍 Alvinópolis: Rua Jose Borges de Morais, 56/Sala 6\n📍 Dom Silvério: Praça presidente Vargas, 87/loja 2\n📍 Rio Piracicaba: Rua Brasil, 46\n📍 Rio Casca: Praça Jose Ribeiro da Costa, 34, loja B\n📍 Ponte Nova: Rua Santo Antonio, 23, loja 01\n📍 João Monlevade: Rua José Pedro dos Santos, 89",
+    "atendimento_presencial": "✅ Sim",
+    "horarios_suporte": "🛠️ Seg-Sex: 06h-23h59, Sáb: 06h-23h59, Dom/Fer: 08h-23h59",
+    "horarios_comercial": "🏪 Seg-Sex: 08h-18h, Sáb: 08h-12h",
+    "horario_upcall": "🌙 Seg-Sáb: 00h-06h\n🌙 Dom/Fer: 00h-08h",
+    "sistemas": "💻 HUBSOFT\n🚫 SOMENTE LIGAÇÕES"
+  },
+  "ITAPOA FIBRA": {
+    "tecnologias": "🌐 Internet Fibra Óptica",
+    "planos": "📦 550MB - R$ 99,90\n📦 650MB - R$ 139,90 (inclui SKY Light + Paramount + 1 app)\n📦 850MB - R$ 159,90 (inclui SKY Light + Paramount + 1 app Premium)",
+    "apps_inclusos": "📺 SKY Light + Paramount (canais abertos, exceto Globo)\n🎬 Filmes e séries Paramount\n🎵 Deezer (Standard/Advanced)\n🎬 MAX (Premium)",
+    "cidades": "🏘️ Itapoá - SC\n🏘️ Bairro Pontal (Porto) → Paese (Celesc)",
+    "equipamentos": "🔧 Equipamentos Huawei\n🔧 ONU Bridge\n🔧 Roteador AX2S e AX3S\n🔧 ONT BROADBAND EG8145X6-10",
+    "suporte_repetidores": "✅ Sim, desde que contratado com Itapoá Fibra",
+    "suporte_cameras": "✅ Sim, desde que contratado com Itapoá Fibra",
+    "portas_acesso": "🔌 Roteador AX2S/AX3S: 8080\n🔌 ONT BROADBAND EG8145X6-10: 80",
+    "credenciais_roteador": "🔑 AX2S/AX3S - Senha: Itapoa1152 (sem login)",
+    "credenciais_ont": "👤 Login: Epadmin\n🔑 Senha: Itapoa1152",
+    "senha_roteador": "❌ Não. Abrir ticket se cliente insistir",
+    "troca_senha_custo": "🆓 Sem taxa. Abrir ticket para suporte",
+    "teste_velocidade": "⚡ https://fast.com/pt/",
+    "banda_wifi": "❌ Não garantida via WiFi. Apenas via cabo",
+    "dns": "🌐 Não configuramos DNS\n🌐 Exceção: Google 8.8.8.8 ou 8.8.4.4",
+    "reset_equipamento": "🔄 Reset remoto após configurações",
+    "suporte_n2_n3": "🛠️ Sim, demandas não solucionadas para N2",
+    "prazo_atendimento": "📅 Residencial: 24h\n📅 Corporativo: 6h",
+    "agendamento": "✅ Sim, OS aberta apenas por equipe interna",
+    "visita_improdutiva": "💰 R$ 50,00",
+    "plantao": "✅ Sim",
+    "pagamento_servicos": "💳 PIX, dinheiro, cartão crédito/débito (taxa cliente)",
+    "iptv": "❌ Não",
+    "ip_fixo": "❌ Não",
+    "mudanca_ponto": "🏠 Abrir ticket para suporte verificar",
+    "mudanca_endereco": "📦 Abrir ticket para suporte verificar",
+    "envio_fatura": "📧 Sim",
+    "bloqueio_dias": "🚫 30 dias",
+    "desbloqueio_confianca": "✅ Sim, máximo 3x no mesmo mês",
+    "liberacao_dias": "📅 3-5 dias",
+    "reducao_velocidade": "⚠️ Após 15 dias de inadimplência",
+    "metodos_pagamento": "💳 PIX, dinheiro, boleto, cartão crédito/débito (taxa cliente)",
+    "comprovante_pagamento": "📎 Apenas fechar chat",
+    "cancelamento": "❌ Abrir ticket para suporte verificar",
+    "central_assinante": "📱 Android: https://play.google.com/store/apps/details?id=br.com.itapoafibra\n🍎 iOS: http://central.itapoafibra.com.br/",
+    "erp": "💻 OLTCloud: https://itapoa.oltsoft.com.br/",
+    "enderecos": "📍 Filial 01: Av Beira Mar 5, nº 1152 - Pontal\n📍 Filial 02: Rua 1400 Pedro Martins Bueno, n° 113, Sala 02 - Centro",
+    "atendimento_presencial": "✅ Sim",
+    "telefone": "📞 Nicolas: 41996190742\n📞 Alan: 4191189917\n📞 Loja: 4734079437",
+    "whatsapp": "📱 Loja: 4734079437",
+    "site": "🌐 https://www.itapoafibra.com.br/",
+    "horarios_filial01": "🏪 Seg-Sex: 08h30-12h30 e 14h-18h",
+    "horarios_filial02": "🏪 Seg-Sex: 08h30-11h e 12h30-18h",
+    "horario_upcall": "🌙 24/7",
+    "sistemas": "💻 OLT SOFT\n💬 UPCHAT\n🔑 Login OLT: hiohana.andrade\n🔑 Senha OLT: UPCall123@"
+  },
+  "LASERNET": {
+    "tecnologias": "🌐 Fibra óptica\n📡 Rádio",
+    "planos_fibra": "🌐 50MB a 600MB",
+    "planos_radio": "📡 10MB a 30MB",
+    "taxa_instalacao": "💰 Taxa de instalação aplicável",
+    "cidades": "🏘️ Barroso - Fortaleza",
+    "equipamentos": "🔧 W4-300F, W5-1200G, IWR3000, RG1200, RF1200, GF1200, RF301K, INTELBRAS\n📡 Antenas e Injetores para rádio",
+    "suporte_repetidores": "✅ Sim, como repetidores (não Mesh)",
+    "porta_acesso": "🔌 9020",
+    "credenciais_padrao": "🔑 Variadas por equipamento",
+    "politica_senha": "🔒 Troca de senha para o cliente",
+    "custo_troca_senha": "✅ Sem cobrança para OS se necessário",
+    "reset_equipamento": "🔧 Abrir OS, sem cobrança",
+    "teste_velocidade": "⚡ speedtest.net",
+    "prazo_suporte": "📅 48 horas",
+    "visita_improdutiva": "✅ Sem cobrança (exceto se cliente danificar equipamento)",
+    "plantao": "❌ Não há plantão fins de semana/feriados",
+    "mudanca_ponto": "💰 R$ 20,00",
+    "cancelamento": "📋 Abrir ocorrência, sem transferência",
+    "politicas_financeiras": "🚫 Sem transferência para questões financeiras\n📧 Pode enviar fatura/carnê\n✅ Desbloqueio confiança até 35 dias atraso\n🚫 Bloqueio parcial 30 dias, total 35 dias",
+    "metodos_pagamento": "💳 Fatura com PIX QR code",
+    "telefone": "📞 Contato disponível",
+    "whatsapp": "📱 Disponível",
+    "site": "🌐 Site oficial",
+    "central_assinante": "🌐 Login com CPF/ID contrato",
+    "endereco_fisico": "📍 Endereço físico disponível",
+    "horarios_atendimento": "🏪 Horários comerciais",
+    "horario_upcall": "🌙 24/7 UPCALL (horários específicos para Upcall completo)",
+    "sistemas": "💻 Sistema próprio"
+  },
+  "LESTE TELECOM": {
+    "tecnologias": "🌐 FTTH (Fibra óptica)",
+    "planos_regionais": "🏠 Planos regionais com Mesh, equipamentos AC/AX, fidelidade",
+    "cidades": "🏘️ Itaboraí, Tanguá, Rio Bonito, Magé, Guapimirim, São Gonçalo, Niterói, Maricá",
+    "equipamentos": "🔧 ONUs: Fiberhome, ZTE, Nokia, Dlink, Padtec\n🔧 Roteadores: BGN, Wi-Fi 5, Wi-Fi 6",
+    "suporte_repetidores": "✅ Mesh (se contratado)\n❌ Equipamentos privados ou câmeras (IPv6 via CGNAT)",
+    "porta_acesso": "🔌 8090",
+    "credenciais_padrao": "🔑 admin/admin, admin1/admin, admin/código cliente+MAC",
+    "politica_senha": "❌ Não divulgar senhas de roteador",
+    "custo_troca_senha": "💰 Cobrança se necessário OS",
+    "teste_velocidade": "⚡ speedtest.net, minhaconexao.com.br",
+    "garantia_wifi": "❌ Não há garantia banda Wi-Fi",
+    "dns": "🌐 DNS automático",
+    "reset_equipamento": "⚠️ Último recurso, cliente executa",
+    "suporte_n2_n3": "🛠️ Escalação N2/N3 disponível",
+    "sla_atendimento": "📅 48h visitas técnicas",
+    "agendamento": "❌ Sem agendamento específico",
+    "call_center": "📞 24/7",
+    "pagamento_servicos": "💳 Próxima fatura",
+    "iptv": "❌ Não suporta IPTV",
+    "ip_fixo": "🌐 IPs dinâmicos\n💰 IPv4 fixo PME: R$ 150/mês",
+    "mudanca_ponto": "🏢 Equipe comercial",
+    "envio_fatura": "📧 Via SOS BETA",
+    "bloqueio_servico": "🚫 45 dias bloqueio total",
+    "desbloqueio_confianca": "❌ Não há (liberação automática 30min após pagamento)",
+    "liberacao_pagamento": "📅 72h após comprovante",
+    "reducao_velocidade": "📉 1Mbps após 15 dias atraso",
+    "metodos_pagamento": "💳 Dinheiro loja, Pix/cartão central, boleto, cartão recorrente",
+    "comprovante_pagamento": "📱 WhatsApp, email",
+    "cancelamento": "📋 Via SOS Beta, retorno 12h",
+    "sistemas": "💻 SOS Beta, Integrator",
+    "central_assinante": "🌐 Link disponível",
+    "enderecos_fisicos": "📍 6 lojas: Maricá, Magé, Tanguá, Rio Bonito, Itaboraí, Niterói",
+    "telefone": "📞 Múltiplos contatos",
+    "whatsapp": "📱 Disponível",
+    "site": "🌐 Site oficial",
+    "facebook": "📘 Página Facebook",
+    "horarios_lojas": "🏪 Horários específicos por loja",
+    "suporte_tecnico": "🛠️ 24 horas",
+    "horario_upcall": "🌙 Conforme necessidade"
+  },
+  "MEGANETS": {
+    "tecnologias": "🌐 Fibra óptica\n📡 Rádio (rural)",
+    "planos_fibra": "🌐 550MB - R$ 109,99\n🌐 650MB - R$ 119,99\n🌐 850MB - R$ 139,99\n🌐 1GB - R$ 159,99\n💸 R$ 10 desconto pagamento em dia",
+    "modalidades_contrato": "✅ Fidelidade 12 meses sem taxa instalação\n✅ Comodato sem fidelidade - Taxa R$ 400,00",
+    "planos_corporativos": "🏢 200MB - R$ 199,99 (adesão R$ 500)\n🏢 400MB - R$ 299,99 (adesão R$ 500)\n🏢 600MB - R$ 399,99 (adesão R$ 500)\n🏢 800MB - R$ 499,99 (adesão R$ 500)",
+    "prazo_instalacao": "📅 2 dias úteis",
+    "cidades": "🏘️ Cuiabá - MT",
+    "equipamentos": "🔧 ONU Sumec, ONU Think, ONU Stavix, ONU Huawei\n🔧 Roteadores Greatek, Zyxel, Mercusys, Keo, TP Link, ZTE\n📡 Antenas e Injetores (rádio)",
+    "equipamento_especial": "⚠️ ZYXEL: retirar cabo rede durante reinício, reconectar após 2min",
+    "porta_acesso": "🔌 8080\n🔌 IP direto para ONU Acoplada",
+    "credenciais_equipamentos": "🔑 ONU Sumec: adminisp/adminisp\n🔑 ONU Think: tkth/tkth ou Private.10\n🔑 Huawei: meganets/Privado.10\n🔑 Mercusys: /Meganets\n🔑 Think wifi: tkth/tkth\n🔑 ZTE Multilaser: adminisp/adminisp\n🔑 Antena: meganets/Private.10\n🔑 Keo: meganets/meganets",
+    "politica_senha": "❌ Acesso restrito",
+    "troca_senha_wifi": "💰 R$ 40,00 (mesmo remotamente)\n📋 Encaminhar N2",
+    "suporte_repetidores": "✅ Fornece e instala (cobrança visita/cabeamento)\n✅ Configura equipamentos cliente (avaliar caso)",
+    "dns": "🌐 177.125.30.2 (primário)\n🌐 177.125.30.3 (secundário)",
+    "nivel_sinal": "📶 Até RX -21dBm (abaixo: N3)",
+    "suporte_n2_n3": "🛠️ N2 e N3 disponíveis",
+    "prazo_suporte": "📅 N2: 2h úteis\n📅 N3: máximo 24h",
+    "visita_improdutiva": "💰 R$ 40,00",
+    "reset_equipamento": "❌ Abrir N3 (dias úteis/horário comercial)\n⚠️ Exceções: ameaça cancelamento/comércio",
+    "ip_fixo": "💰 +R$ 50,00 mensais",
+    "iptv": "❌ Verificar outros equipamentos",
+    "ipv6": "✅ Sim",
+    "sinais_padrao": "📶 TX/RX máximo -25/-26 (avaliar histórico)",
+    "bloqueio_financeiro": "🚫 15 dias",
+    "desbloqueio_confianca": "✅ 5 dias (1 fatura atraso)",
+    "envio_fatura": "📧 Sim",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Central assinante, email, escritório (cartão +4%), PIX",
+    "procedimento_pix": "💳 Chave aleatória sistema (desativando CNPJ)",
+    "comprovante_pagamento": "📎 Abrir OS e anexar",
+    "mudanca_ponto": "💰 R$ 40 visita + R$ 120 novo cabeamento\n💰 Repetidor Mercusys R$ 300 + R$ 40 visita",
+    "segundo_ponto": "🏢 Encaminhar Setor Comercial",
+    "cancelamento": "🏢 Transferir Comercial (horário)\n📋 Grupo + Agendamento (fora horário)",
+    "sistemas": "💻 IXC",
+    "central_assinante": "🌐 https://ixcsoft.meganets.com.br/central_assinante_web/login",
+    "endereco": "📍 AV. Newton Rabello de Castro Q.69 N°48 - PEDRA 90 - CUIABÁ",
+    "telefone": "📞 (65) 3044-2005",
+    "whatsapp": "📱 (65) 99227-1726",
+    "instagram": "📷 @meganetsbandalarga",
+    "facebook": "📘 /meganetsbandalarga",
+    "horario_upcall": "🌙 Segunda-Sábado: 19h-09h e 12h-13h\n🌙 Sábado 13h até Segunda 09h",
+    "sistemas": "💻 UPSOFT - OK\n💬 CHAT E LIGAÇÃO\n🏢 IXC/OPA"
+  },
+  "MUTUM FIBRA": {
+    "tecnologias": "🌐 Fibra óptica (área urbana)\n📡 Rádio (áreas rurais/fazendas)",
+    "cidades": "🏘️ Nova Mutum (todos os bairros)\n🏘️ Santa Rita do Trivelato (todos os bairros)\n🏞️ Comunidade São Manoel, Ranchão, Pacoval",
+    "sistemas_gestao": "💻 ANLIX: https://anlix.mutumfibra.com.br/ (upcall/!Mutum2025@)\n💻 FLASHMAN: https://acs.mutumfibra.com.br/ (upcall@upcall.com.br/@MFibra$0125)\n💻 IXC ACS",
+    "localizacao_cliente": "🔍 CPF, PPPoe, IP, modelo roteador, nome Wi-Fi\n🔍 Melhor: usuário pppoe, final MAC (XX:XX), nome wi-fi",
+    "credenciais_onu": "🔑 Porta 8010: admin/admin",
+    "politica_senha": "✅ Sim, se cadastrado no Flashman (App Mutum Fibra Wifi)",
+    "teste_velocidade": "⚡ Plataforma Anlix (suporte)\n⚡ App Mutum Fibra Wi-Fi (cliente)\n⚡ speedtest.net",
+    "dns": "🌐 143.202.80.56 (primário)\n🌐 143.202.80.57 (secundário)",
+    "suporte_escalacao": "🛠️ N1 interno → N2/N3 conforme análise",
+    "prazo_atendimento": "📅 24h úteis contato (casos sem conexão)",
+    "plantao": "❌ Não\n🌅 Sábado: 07:30-11:30",
+    "visita_improdutiva": "💰 R$ 40,00 cidade\n💰 Rural: deslocamento + mão de obra",
+    "troca_senha_custo": "💰 Cobrado se sem acesso Flashman",
+    "niveis_sinal": "📶 RX: -15 a -22dB\n📶 TX: 2 a 3dB",
+    "ip_fixo": "💰 +R$ 100,00\n✅ Alguns planos incluem ponto extra",
+    "iptv_ole_tv": "📺 Olé TV: +60 canais gratuitos + locais\n⚠️ IPTV pirata: suporte limitado",
+    "suporte_cameras": "❌ Apenas dados Wi-Fi para técnicos",
+    "suporte_repetidores": "✅ Roteadores Mesh comodato (planos com direito)\n💰 Custo adicional se plano não inclui",
+    "rede_mesh": "✅ Sim, comodato para planos específicos",
+    "ipv6": "✅ Sim",
+    "mudanca_ponto": "🏢 Setor atendimento/comercial\n📋 Termo adesão → valores → cadastro → OS técnico",
+    "mudanca_endereco": "✅ Isento (fidelidade vigente + adimplente)\n📅 Limite: 1 mudança sem custo a cada 6 meses",
+    "envio_fatura": "📧 Sim",
+    "desbloqueio_confianca": "✅ Uma vez a cada 30 dias\n🌐 Central assinante ou WhatsApp menu financeiro",
+    "bloqueio_dias": "🚫 10 dias",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Boleto, PIX (QR Code), débito conta Sicredi, cartão crédito recorrente",
+    "cancelamento": "❓ Perguntar motivo, tentar reter\n📋 Registrar OS, comercial fará contato",
+    "comprovante_pagamento": "📎 Desbloqueio confiança + transferir financeiro",
+    "central_assinante": "🌐 https://ixc.mutumfibra.com.br/central_assinante_web/login\n🔑 CPF completo sem traços/pontos\n🔑 Senha: 4 primeiros números CPF",
+    "endereco": "📍 Av. dos Canários, 487 - Centro - Nova Mutum",
+    "telefone": "📞 (65) 3308-1020",
+    "whatsapp": "📱 0800 308 1020",
+    "site": "🌐 www.mutumfibra.com.br",
+    "horarios_atendimento": "🏪 Segunda-Sexta: 07:30-11:30 e 13:30-17:30\n🏪 Sábado: 07:30-11:30",
+    "horario_upcall": "🌙 Segunda-Sexta: 19:30-09:30\n🌙 Almoço: 13:30-15:30\n🌙 Sábado 12h até Segunda 09:30",
+    "sistemas": "💻 UPSOFT - OK\n💬 CHAT E LIGAÇÃO\n🏢 IXC/OPA"
+  },
+  "NETCENTER": {
+    "tecnologias": "🌐 Fibra óptica\n📺 TV (App Netcenter TV)\n📚 Leveduca, Deezer, Looke, UBook, Leitura360, Estuda+\n🎮 Pequenos Leitores, Playlist App, O Jornalista, Social Comics\n🔒 Kaspersky Standard, PlayKids+, ZenWelness, QNutri, Noping\n📖 Hube Revista, Fluid",
+    "credenciais_apps": "🔑 Netcenter TV: CPF sem traços/pontos + 4 primeiros dígitos CPF\n🔑 Leveduca: CPF sem traços/pontos + 4 primeiros dígitos CPF",
+    "urls_servicos": "📺 tv.netcentertelecom.com.br\n📚 Apps iOS/Android disponíveis",
+    "contratacoes": "📋 Coletar dados → Setor CONTRATAR (Canal Digital)\n📝 Nome Completo, CPF, Cidade",
+    "equipamentos_onu": "🔧 2 FLEX 2F-FG1200M: admin/centertelecom (80)\n🔧 CIANET GW 24AC: adminisp/centertelecom (8081)\n🔧 WIFI ASKEY/MITRASTAR: /net2019* (80)\n🔧 WIFI CHINA MOBILE: telecomadmin/admintelecom\n🔧 INTELBRAS WIFI 121 AC: admin/centertelecom (8081)\n🔧 EASY LINK: admin/net2019* (80)\n🔧 HUAWEI HG824H5: superadmin/HW@root123 (80)\n🔧 NANO FIBER XPON: admin/net2019* (8081)\n🔧 FAST-WI: telecomadmin/admintelecom (80/8081)\n🔧 FAST-WI: administrador/masterpassword (80/8081)",
+    "equipamentos_roteadores": "🔧 ZTE AC 1200: Space/Net2019* ou Space (8081)\n🔧 INTELBRAS RF30/ACTION RG 1200/TP LINK: /centertelecom (8081)\n🔧 TINK 1200MBPS: /centertelecom (80)\n🔧 TPLINK 450MBPS: admin/centertelecom (8081)\n⚠️ Huawei V2 (ONT): Liberar Acesso Web - Epadmin/adminEp",
+    "politica_senha": "❌ Comodato: acesso restrito\n✅ Próprio: N2 para liberação se necessário",
+    "teste_velocidade": "⚡ Speed test ou Fast.com",
+    "dns": "🌐 170.82.12.3 (primário)\n🌐 170.82.12.4 (secundário)",
+    "reset_equipamento": "🏪 Levar até loja (não abrir OS)",
+    "niveis_sinal": "📶 Rx: -26.00 dBm\n📶 Tx: -27.00 dBm\n⚠️ Abaixo: N2",
+    "suporte_n2_n3": "🛠️ N2: outros problemas conexão\n🛠️ N3: SOMENTE sem conexão\n📋 Ambos → Setor N2",
+    "horario_n2": "🛠️ Segunda-Sexta: 08h-18h\n🛠️ Sábado: 08h-17h\n🛠️ Domingo: 08h-17h (só offline, N2 conforme demanda)",
+    "falta_interacao": "🔴 LOS: N3 + informar grupo\n🔴 Sem LOS: informar grupo + orientar + finalizar",
+    "prazo_atendimento": "📅 ATÉ 72 HORAS (fora horário)\n📋 Sempre colocar em contratos\n⚠️ Não usar 'abrir ordem de serviço'",
+    "agendamento": "📞 Setor Agendamento tenta contato antes\n⚠️ Horário cadastrado ≠ horário técnico\n❌ Provedor não agenda horário com cliente",
+    "visita_improdutiva": "💰 Informar taxa apenas casos específicos (danos equipamento)",
+    "ip_fixo": "🏢 Encaminhar setor CONTRATAR PJ (Canal Empresarial)",
+    "iptv": "📺 Sistema TV próprio\n🛠️ N2 para manutenção/ajuda",
+    "ipv6": "✅ Ambos (maioria IPv4)\n🌐 IP fixo público: IPv4",
+    "mudanca_ponto": "🏢 Transferir, continuidade horário comercial\n❌ Não fazem cabeamento outros equipamentos",
+    "setores_transferencia": "🏠 Mudança endereço → Comercial (ShowRoom)\n❌ Cancelamento → Ouvidoria",
+    "suspensao_temporaria": "⏸️ Mínimo 30 dias, máximo 120 dias\n📋 Setor Cancelamento (Ouvidoria)",
+    "envio_fatura": "📧 Sim\n💰 Método pré-pago\n📅 Fatura 25/09 = período 01/10-31/10",
+    "multiplas_faturas": "📊 Financeiro avalia histórico conexão\n📧 Até 3 faturas: enviar mais recente + liberação",
+    "desbloqueio_confianca": "✅ Uma vez a cada 30 dias\n🔧 'Liberar Manualmente' se indisponível\n📅 Válido 2 dias",
+    "bloqueio_dias": "🚫 4º dia atraso\n🌐 IP: 172.xxx.xxx.xxx",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Boleto, Código Barras, PIX\n🏪 Cartão crédito/débito em loja",
+    "comprovante_pagamento": "📎 Anexar descrição atendimento/OS após liberação",
+    "central_assinante": "🌐 https://sistema.netcentertelecom.com.br/central_assinante_web/login\n🔑 CPF + 4 primeiros dígitos CPF",
+    "horario_loja": "🏪 Segunda-Sexta: 08h-18h\n🏪 Sábado: 08h-13h (Extremo Sul: 12h)",
+    "horario_sac_suporte": "📞 Segunda-Sábado: 18h-00h\n📞 Domingo: 08h-23h",
+    "enderecos_filiais": "📍 Arraial d'ajuda, Porto Seguro, Belmonte, Coroa Vermelha\n📍 Cabrália, Itabatã, Nova Viçosa, Mucuri",
+    "atendimento_presencial": "✅ Sim",
+    "telefone": "📞 0800 680 0002",
+    "whatsapp": "📱 0800 680 0002",
+    "facebook": "📘 /oficialnetcenter",
+    "instagram": "📷 @netcenteroficial",
+    "horario_upcall": "🌙 Segunda-Sexta: 23:50h-08h\n🌙 Sexta: 22:50h\n🌙 Sábados/Feriados: 22:50h-08h\n🌙 Domingos: 16:50h-08h Segunda",
+    "sistemas": "💻 UPSOFT - OK\n💬 CHAT E LIGAÇÃO\n🏢 IXC/UPCHAT"
+  },
+  "NETPLAY": {
+    "tecnologias": "🌐 Fibra óptica\n📡 DSL",
+    "planos": "🌐 100MB a 1GB",
+    "cidades": "🏘️ Araçatuba - SP (todos os bairros)",
+    "equipamentos": "🔧 Roteadores residenciais\n🏢 Roteadores empresariais (Mikrotik, Sophos)\n📡 Modems DSL",
+    "suporte_repetidores": "❌ Não",
+    "suporte_cameras": "❌ Não",
+    "portas_acesso": "🔌 80, 443, 3952",
+    "credenciais_padrao": "🔑 admin/forever",
+    "politica_senha": "❌ Não informar senha roteador",
+    "custo_troca_senha": "✅ Não cobrado",
+    "teste_velocidade": "⚡ https://www.speedtest.net/pt (servidor NETPLAY)",
+    "garantia_wifi": "❌ Não garantem banda Wi-Fi",
+    "dns": "🌐 177.72.8.5\n🌐 177.72.8.6",
+    "reset_opcoes": "🔧 Opção 1: Cliente técnico (user PPPoE + senha)\n🏪 Opção 2: Levar loja (Rua Bolívia, 940)\n💰 Opção 3: Visita local R$ 80,00",
+    "suporte_escalacao": "🛠️ N1 → N2 → N3\n📋 Informar problema não resolvido N1",
+    "prazo_atendimento": "📅 Residencial: até dia seguinte útil\n📅 Corporativo link dedicado: 4h (informar grupo)",
+    "agendamento": "📋 OS filtrada para destinar setor/técnico apto",
+    "visita_improdutiva": "💰 R$ 80,00 residencial\n💰 R$ 120,00 corporativo",
+    "plantao": "🚨 Somente caso massivo ou link dedicado",
+    "pagamento_servicos": "💳 Boleto ou PIX",
+    "iptv": "❌ Não trabalha nem presta suporte",
+    "ip_fixo": "💰 R$ 69,90",
+    "mudanca_ponto": "📋 Abrir OS padrão\n💰 Setor interno passa valores/agendamento",
+    "mudanca_endereco": "📋 Abrir OS padrão\n💰 Setor interno passa valores/agendamento",
+    "envio_fatura": "❌ Não",
+    "bloqueio_dias": "🚫 30 dias",
+    "desbloqueio_confianca": "✅ Sim",
+    "liberacao_dias": "📅 Até 6h do dia seguinte",
+    "reducao_velocidade": "📉 Sim, após 15 dias",
+    "metodos_pagamento": "📋 Abrir OS - setor responsável retorna",
+    "comprovante_pagamento": "📋 Abrir OS - setor responsável retorna",
+    "cancelamento": "📋 Abrir OS - setor responsável retorna",
+    "erp": "💻 https://ixc.netplay.net.br/adm.php",
+    "central_assinante": "🌐 https://ixc.netplay.net.br/central_assinante_web/login",
+    "endereco": "📍 Rua Bolívia, 940 - Planalto - Araçatuba/SP",
+    "atendimento_presencial": "✅ Sim",
+    "telefone": "📞 (18) 3621-5152",
+    "whatsapp": "📱 (18) 3621-5152",
+    "site": "🌐 netplay.net.br",
+    "horarios_atendimento": "🏪 Segunda-Sexta: 8h-18h\n🏪 Sábado: 8h-12h",
+    "horario_upcall": "🌙 Conforme necessidade",
+    "sistemas": "💻 UPSOFT - OK\n💬 CHAT E LIGAÇÃO\n🏢 IXC/OPA"
+  }, 
+  "NICK NETWORK": {
+    "tecnologias": "🌐 Internet fibra óptica\n☎️ Telefonia fixa\n📺 TV e E-book (em breve)",
+    "planos_residenciais": "🏠 100MB\n🏠 200MB\n🏠 300MB\n🏠 400MB\n🏠 500MB",
+    "planos_corporativos": "🏢 100MB\n🏢 200MB\n🏢 300MB\n🏢 400MB\n🏢 500MB",
+    "planos_telefonia": "☎️ Essencial\n☎️ Completo",
+    "planos_combo": "📦 Combos disponíveis",
+    "planos_dedicados": "🔗 A partir de 50MB",
+    "cidades": "🏘️ Jacarezinho - PR\n🏘️ Santo Antônio da Platina - PR\n🏘️ Ribeirão Claro - PR\n🏘️ Andirá - PR\n🏘️ Barra do Jacaré - PR\n🏞️ Zona rural de Jacarezinho",
+    "equipamentos": "🔧 ONU/ONT Fiberhome\n🔧 Roteadores diversos (comodato)\n🔧 Não suporta repetidores ou câmeras",
+    "acesso_roteador": "🌐 ONU: Porta 80\n🌐 Roteador remoto: Porta 8082",
+    "credenciais_padrao": "🔑 ONU: admin/redbull1\n🔑 Roteador: admin/nicknet01 ou nicknet1",
+    "politica_senhas": "✅ Roteador: Sim (se acessível)\n❌ ONU: Não",
+    "troca_senha_custo": "💰 R$ 70,00 (equipamento cliente)\n🆓 Grátis (comodato se trouxer na loja)",
+    "teste_velocidade": "⚡ nperf.com",
+    "garantia_wifi": "❌ Não há garantia de banda Wi-Fi",
+    "dns": "🌐 186.251.14.138\n🌐 186.251.14.139",
+    "reset_equipamento": "🔧 Visita técnica se reset equipamento cliente",
+    "suporte_escalacao": "🛠️ N2",
+    "prazo_atendimento": "📅 48h residencial\n📅 24h corporativo\n📅 6h dedicado",
+    "contato_direto": "🏛️ Contato direto para clientes prefeitura",
+    "agendamento": "📋 Setor de agendamento",
+    "visita_improdutiva": "💰 R$ 30,00",
+    "plantao": "❌ Não há plantão fins de semana/feriados (exceto problemas gerais)",
+    "pagamento_servicos": "💳 Pix, cartão ou incluído na próxima fatura",
+    "iptv": "❌ Não há suporte IPTV",
+    "ip_fixo": "💰 R$ 50,00/mês",
+    "mudanca_ponto": "🏠 Setor comercial trata",
+    "envio_fatura": "❌ Não envia, cliente usa app/central do assinante",
+    "bloqueio_dias": "🚫 Bloqueio parcial: 19 dias\n🚫 Bloqueio total: 49 dias",
+    "desbloqueio_confianca": "❌ Não há, cliente usa app/central\n✅ 4 dias de desbloqueio confiança",
+    "reducao_velocidade": "📉 100k após 19 dias de atraso",
+    "metodos_pagamento": "💳 Código de barras\n💳 Pix QR Code",
+    "comprovante_pagamento": "📎 Aguardar reconhecimento do sistema ou usar desbloqueio confiança",
+    "cancelamento": "❌ Transferir para setor financeiro",
+    "sistema_erp": "💻 Hubsoft",
+    "central_assinante": "🌐 Central do assinante disponível",
+    "enderecos_fisicos": "📍 3 endereços com atendimento presencial",
+    "telefone": "📞 Contato disponível",
+    "whatsapp": "📱 WhatsApp disponível",
+    "site": "🌐 Site oficial",
+    "facebook": "📘 Facebook",
+    "instagram": "📷 Instagram",
+    "horarios_atendimento": "🏪 Horários comerciais",
+    "horario_upcall": "🌙 Conforme necessidade",
+    "sistemas": "💻 Hubsoft"
+  },
+  "PERFECT": {
+    "tecnologias": "🌐 Fibra óptica\n☎️ Telefonia\n📡 Rádio\n☀️ Energia solar\n💻 TI\n📺 SVAs",
+    "streaming_apps": "📺 Perfect TV\n📺 Watch TV\n📺 CampSoft/HBO MAX (conforme condições)",
+    "planos_radio": "📡 Planos rádio disponíveis",
+    "planos_fibra": "🌐 Planos fibra disponíveis",
+    "reducao_velocidade": "📉 Redução para contratos não assinados",
+    "cidades": "🏘️ Cidades no Paraná e Santa Catarina",
+    "equipamentos_radio": "🔧 Ubiquiti",
+    "equipamentos_fibra": "🔧 Multilaser\n🔧 TP-Link\n🔧 ZTE",
+    "suporte_repetidores": "✅ Sim (taxas de configuração aplicáveis)",
+    "suporte_mesh": "✅ Cliente compra segundo roteador",
+    "acesso_roteador": "🌐 Porta 80\n🌐 Porta 8080",
+    "credenciais_padrao": "🔑 Indisponíveis no momento (N3 para casos urgentes)",
+    "politica_senhas": "❌ Não fornece senhas de roteador",
+    "troca_senha_n3": "🛠️ N3 necessário (horário comercial)",
+    "dns": "🌐 45.182.152.34\n🌐 8.8.8.8",
+    "reset_equipamento": "🔧 Cliente pode ser orientado, mas frequentemente requer N3",
+    "nivel_sinal_ideal": "📶 Até RX -32dBm",
+    "suporte_escalacao": "🛠️ Apenas N3",
+    "multiplas_chamadas": "📞 Procedimentos para múltiplas chamadas N1",
+    "selecao_regiao": "🗺️ Seleção correta de região para OS",
+    "clientes_desconectados": "📞 Procedimentos para falta de interação",
+    "prazo_atendimento": "📅 Mesmo dia/próximo dia (conforme horário/localização)",
+    "agendamento_direto": "📋 Visita técnica direta para OS agendadas",
+    "visita_improdutiva": "💰 R$ 30,00 urbano\n💰 R$ 60,00 rural (motivos específicos)",
+    "plantao": "🚨 Fins de semana/feriados para 'sem conexão'",
+    "pagamento_servicos": "💳 Boleto",
+    "iptv": "📺 N3 para problemas\n❌ Sem suporte direto",
+    "ip_fixo": "💰 R$ 10,00 + mensalidade",
+    "mudanca_ponto": "🏠 Transferir para financeiro",
+    "outras_demandas": "📋 Transferir para 'OUTRAS DEMANDAS', retorno no próximo dia",
+    "envio_fatura": "📧 Envia faturas",
+    "desbloqueio_confianca": "✅ Apenas com comprovante de pagamento",
+    "bloqueio_dias": "🚫 16 dias",
+    "reducao_velocidade_atraso": "❌ Não (exceto status 'Aguardando Assinatura')",
+    "metodos_pagamento": "💳 Fatura com Pix QR Code",
+    "comprovante_pagamento": "📎 Abrir OS, anexar comprovante",
+    "central_assinante": "🌐 Acesso com CPF",
+    "endereco_fisico": "📍 Endereço físico disponível",
+    "telefone": "📞 Contato disponível",
+    "site": "🌐 Site oficial",
+    "facebook": "📘 Facebook",
+    "instagram": "📷 Instagram",
+    "horarios_atendimento_presencial": "🏪 Horários para atendimento presencial",
+    "horario_upcall": "🌙 Telefonia e chat",
+    "sistemas": "💻 UPSOFT"
+  },
+  "PLUSCOM": {
+    "tecnologias": "🌐 Internet\n☎️ Telefonia fixa\n📺 TV (em breve com app Sky)\n📱 Planos promocionais com apps (Max, Deezer, Looke)",
+    "cidades": "🏘️ São José do Rio Preto - SP",
+    "equipamentos": "🔧 Roteadores WIFI 6\n🔧 ONTs",
+    "suporte_repetidores": "✅ Apenas se contratado",
+    "suporte_cameras": "❌ Não",
+    "acesso_roteador": "🌐 Funcionalidade Hubsoft\n🌐 Portas 80, 8080, 8888",
+    "credenciais_padrao": "🔑 Admin/41412790\n🔑 41412790srr\n🔑 41412790Srr\n🔑 Casos específicos nas observações do sistema",
+    "politica_senhas": "❌ Não fornece (exceto casos específicos)",
+    "troca_senha_custo": "🆓 Sem cobrança de OS",
+    "teste_velocidade": "⚡ Speedtest\n⚡ NPerf",
+    "garantia_wifi": "✅ Garantia de banda Wi-Fi",
+    "dns": "🌐 10.189.43.92\n🌐 10.189.43.82",
+    "reset_cliente": "💰 R$ 30,00 cobrança por visita técnica",
+    "suporte_escalacao": "🛠️ N3 direto (sem N2)",
+    "prazo_atendimento": "📅 48h residencial\n📅 8h corporativo",
+    "agendamento": "📋 Agendamento interno",
+    "visita_improdutiva": "💰 R$ 30,00",
+    "plantao": "🚨 Apenas falhas em massa ou planos dedicados",
+    "pagamento_servicos": "💳 Dinheiro ou Pix na data do agendamento",
+    "iptv": "❌ Não há suporte",
+    "ip_fixo": "💰 R$ 30,00/mês",
+    "mudanca_ponto": "🏠 Abrir atendimento Hubsoft",
+    "envio_fatura": "📧 Envia faturas",
+    "bloqueio_dias": "🚫 15 dias",
+    "desbloqueio_confianca": "✅ 2 dias",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Código de barras\n💳 Pix QR Code",
+    "comprovante_pagamento": "📎 Enviar via WhatsApp para desbloqueio",
+    "cancelamento": "📋 Agendar recolhimento de equipamento e verificação de débitos",
+    "sistema_erp": "💻 Hubsoft",
+    "central_assinante": "🌐 Central do assinante disponível",
+    "endereco_fisico": "📍 Endereço físico disponível",
+    "telefone": "📞 Contato disponível",
+    "whatsapp": "📱 WhatsApp disponível",
+    "site": "🌐 Site oficial",
+    "facebook": "📘 Facebook",
+    "horarios_atendimento": "🏪 Horários comerciais",
+    "horario_upcall": "🌙 Conforme necessidade",
+    "sistemas": "💻 Hubsoft"
+  },
+  "POXNET": {
+    "tecnologias": "🌐 Internet fibra óptica\n🏢 Links empresariais/residenciais\n📺 TV Stream\n📚 Cursos",
+    "planos": "📋 Consultar departamento comercial",
+    "cidades": "🏘️ Sorocaba - SP\n🏘️ Votorantim - SP\n🏘️ Salto de Pirapora - SP\n🏘️ Iperó - SP\n🏘️ Araçoiaba da Serra - SP",
+    "equipamentos": "🔧 Modem ONU integrado\n🔧 Roteador",
+    "suporte_repetidores": "✅ Apenas com plano ponto adicional\n❌ Não para repetidores particulares",
+    "suporte_cameras": "❌ Não",
+    "acesso_roteador": "🌐 Portas 80, 8080, 8181, 8182",
+    "credenciais_padrao": "🔑 ZTE ONU: multipro/multipro\n🔑 CIANET ONU: adminisp/adminisp",
+    "politica_senhas": "❌ Não fornece (restrição contratual)",
+    "troca_senha_custo": "🆓 Sem cobrança (equipe interna pode auxiliar)",
+    "teste_velocidade": "⚡ minhaconexao.com.br\n⚡ fast.com",
+    "garantia_wifi": "❌ Não (apenas via cabo)",
+    "dns": "🌐 177.86.16.9 (primário)\n🌐 8.8.8.8 (secundário)",
+    "reset_equipamento": "🔄 Apenas reinicialização do aparelho",
+    "suporte_n2": "🛠️ N2 para conexões Bridge sem PPPoE",
+    "prazo_atendimento": "📅 4h corporativo\n📅 48h residencial (agendamento interno 24h)",
+    "agendamento": "📋 Setor de agendamento para ordens técnicas (comercial/financeiro têm próprio)",
+    "visita_improdutiva": "💰 R$ 85,00",
+    "plantao": "🚨 Equipe técnica 12x36 (fins de semana/feriados)",
+    "pagamento_servicos": "💳 Incluído na fatura (negociável)",
+    "iptv": "📺 App TV Stream próprio\n❌ Não suporta serviços terceiros/TVBox",
+    "ip_fixo": "💰 Apenas plano corporativo Full (valores negociáveis)",
+    "mudanca_ponto": "🏠 Transferir para setor de agendamento",
+    "envio_fatura": "❌ Não envia, cliente usa site/app/chat para 2ª via",
+    "bloqueio_dias": "🚫 30 dias",
+    "desbloqueio_confianca": "❌ Não há, cliente usa central do assinante\n✅ Uma vez a cada 90 dias por 4 dias",
+    "reducao_velocidade": "📉 Após 15 dias de atraso",
+    "metodos_pagamento": "💳 Pix\n💳 Boleto",
+    "comprovante_pagamento": "📎 Contatar setor financeiro",
+    "cancelamento": "📋 Contatar setor financeiro",
+    "central_assinante": "🌐 Login com email, senha com CPF",
+    "enderecos_fisicos": "📍 Sorocaba\n📍 Salto de Pirapora",
+    "atendimento_presencial": "✅ Disponível",
+    "telefone": "📞 Contato disponível",
+    "whatsapp": "📱 WhatsApp disponível",
+    "site": "🌐 Site oficial",
+    "horarios_lojas": "🏪 Horários das lojas",
+    "horarios_suporte": "🛠️ Suporte",
+    "horarios_comercial": "💼 Comercial",
+    "horarios_financeiro": "💰 Financeiro",
+    "horarios_renovacao": "🔄 Renovação",
+    "horarios_retencao": "📞 Retenção",
+    "solicitacoes_administrativas": "📋 Instruções específicas para fora do horário",
+    "horario_upcall": "🌙 Conforme necessidade",
+    "sistemas": "💻 Sistema próprio"
+  },  
+  "CAPITAL FIBRA": {
+    "tecnologias": "🌐 Internet fibra óptica\n☎️ Telefonia fixa\n📺 TV (aplicativo Capital Play)",
+    "planos_residenciais": "🏠 600MB\n🏠 800MB\n🏠 1000MB",
+    "cidades": "🏘️ Fazenda Rio Grande - PR\n🏘️ Tatuquara - PR\n🏘️ Caximba - PR\n🏘️ Novo Mundo - PR\n🏘️ Parolim - PR\n🏘️ Guaíra - PR",
+    "equipamentos": "🔧 UNEE, ASKEY, NOKIA\n🔧 HUAWEI, MERCUSYS, TP-LINK\n🔧 INTELBRAS, DATACOM",
+    "dns": "🌐 189.36.252.77\n🌐 189.36.252.78",
+    "teste_velocidade": "⚡ https://capitalfibra.speedtestcustom.com/",
+    "suporte_escalacao": "🛠️ N2 (Suporte Remoto)\n🛠️ N3 (Visita Técnica)",
+    "prazo_atendimento": "📅 Próximo dia útil\n🕘 09h-18h",
+    "visita_improdutiva": "💰 R$ 30,00 + R$ 3,50/metro",
+    "plantao": "🚨 Sáb até 18h\n🚨 Dom 08h-18h",
+    "ip_fixo": "💰 R$ 70,00/mês (PF)\n💰 R$ 100,00/mês (PJ)",
+    "bloqueio_dias": "🚫 15 dias",
+    "desbloqueio_confianca": "✅ 5 dias",
+    "telefone": "📞 0800 941 0094",
+    "site": "🌐 https://capitalfibra.com.br/site/",
+    "horario_upcall": "🌙 Seg-Sáb: 20h-08h\n🌙 Dom/Feriados: 24h",
+    "sistemas": "💻 UPSOFT - OK\n💬 CHAT E LIGAÇÃO"
+  },
+  "CENSANET": {
+    "tecnologias": "🌐 Internet FTTH\n🌐 FTTB (híbrida em prédios)",
+    "planos_residenciais": "🏠 300MB\n🏠 450MB\n🏠 600MB",
+    "cidades": "🏘️ Campos dos Goytacazes - RJ\n❌ Exceto: Travessão, Penha, Goytacazes, Ururaí, Tapera, Pq Aldeira, Canaã",
+    "equipamentos": "🔧 BNG Juniper\n🔧 ONUs Parks, Huawei\n🔧 Roteadores TP-Link, Intelbras, D-Link, Multilaser",
+    "suporte_repetidores": "❌ Não",
+    "suporte_cameras": "❌ Não",
+    "acesso_roteador": "🌐 Portas 32, 3232, 80, 8080\n🌐 IP:porta (ex: 100.10.10.1:3232)",
+    "credenciais_padrao": "🔑 6 últimos números do MAC (diminuir último)\n🔑 Alternativa: CN37#123456\n🔑 ONT: IP+porta+/superadmin",
+    "politica_senhas": "❌ Não fornece senhas aos clientes",
+    "teste_velocidade": "⚡ www.speedtest.net\n⚡ www.nperf.com",
+    "garantia_wifi": "✅ Sim, geralmente na rede 5GHz",
+    "dns": "🌐 186.237.49.21\n🌐 8.8.8.8",
+    "reset_equipamento": "🔧 Visita necessária para reconfiguração",
+    "suporte_escalacao": "🛠️ N2 (remoto)\n🛠️ N3 (visita técnica)",
+    "prazo_atendimento": "📅 48h residencial\n📅 12h empresarial\n📅 4h corporativo",
+    "visita_improdutiva": "🆓 Não cobra manutenção",
+    "plantao": "🚨 Suporte interno: Seg-Dom 7h-20h\n🚨 Suporte externo: Seg-Sex 8h-18h, Sáb 8h-17h",
+    "iptv": "❌ Não trabalha com IPTV",
+    "ip_fixo": "✅ Disponível (contatar administrativo)",
+    "bloqueio_dias": "🚫 40 dias",
+    "desbloqueio_confianca": "✅ 2 dias (com comprovante)",
+    "reducao_velocidade": "📉 16º dia após vencimento",
+    "metodos_pagamento": "💳 Boleto, Pix, Cartão (na loja)",
+    "central_assinante": "🌐 https://meu.censanet.net.br/central_assinante_web/login",
+    "endereco_fisico": "📍 Edifício Transamérica - R. Tenente Coronel Cardoso, 1031 - Loja 4, Campos dos Goytacazes - RJ",
+    "telefone": "📞 (22) 3211-0090",
+    "whatsapp": "📱 (22) 3518-8420",
+    "site": "🌐 www.censanet.net.br",
+    "instagram": "📷 @censanet",
+    "horarios_atendimento": "🏪 Administrativo/Comercial: Seg-Sex 8h-18h\n🏪 Suporte: Seg-Dom 7h-20h",
+    "horario_upcall": "🌙 Seg-Seg: 20h-07h",
+    "sistemas": "💻 IXC Soft\n🏢 OPA"
+  },
+  "EBR FIBRA": {
+    "tecnologias": "🌐 Fibra óptica",
+    "planos_residenciais": "🏠 150MB\n🏠 650MB\n🏠 1GB",
+    "cidades": "🏘️ Serra - ES\n🏘️ Vitória - ES\n🏘️ Vila Velha - ES\n🏘️ Cariacica - ES\n🏘️ Aracruz - ES\n🏘️ Ibiraçu - ES\n🏘️ Viana - ES",
+    "equipamentos": "🔧 ONT, ONU\n🔧 Roteador WIFI\n🔧 Mikrotik",
+    "suporte_repetidores": "❌ Não",
+    "suporte_cameras": "❌ Não",
+    "acesso_roteador": "🌐 Porta 8888",
+    "credenciais_padrao": "🔑 Padrão: Novaebr@123\n🔑 HUAWEI: Epadmin/adminEp\n🔑 DATACOM: user/12345678\n🔑 Maxfiber: telecom/admintelecom\n🔑 Mercusys: carllmais/12345678",
+    "politica_senhas": "✅ Pode informar senhas",
+    "teste_velocidade": "⚡ https://fast.com/pt/\n⚡ https://www.speedtest.net/",
+    "garantia_wifi": "❌ Garantia apenas via cabo",
+    "dns": "🌐 189.14.192.228\n🌐 189.14.210.73",
+    "reset_equipamento": "❌ Não fazem reset",
+    "suporte_escalacao": "🛠️ N2 (perda de pacote/destinos inacessíveis)\n🛠️ N3 (visita técnica)",
+    "prazo_atendimento": "📅 48 horas",
+    "agendamento": "📋 Supervisor do suporte",
+    "visita_improdutiva": "💰 R$ 80,00",
+    "plantao": "🚨 Sábados (suporte)\n🚨 Sáb/Dom/Feriados (NOC)",
+    "pagamento_servicos": "💳 Boleto",
+    "iptv": "❌ Não trabalha com IPTV",
+    "ip_fixo": "❌ Apenas migrando para plano empresarial",
+    "mudanca_ponto": "🏠 R$ 80,00 (supervisor do suporte)",
+    "bloqueio_dias": "🚫 11, 16, 21 e 26 dias",
+    "desbloqueio_confianca": "✅ 4 dias",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Boleto e PIX",
+    "central_assinante": "🌐 https://ixc.ebr.com.br\n🌐 https://sac.ebr.com.br\n🌐 https://nca.ebr.com.br",
+    "telefone": "📞 27 2122-2122",
+    "whatsapp": "📱 27 2122-2122",
+    "site": "🌐 https://www.ebr.com.br/",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-19h\n🏪 Sáb: 08h-17h",
+    "horario_upcall": "🌙 Seg-Sex: 18h-08h\n🌙 Fins de semana: 24/7",
+    "sistemas": "💻 IXC\n🏢 OPA"
+  },
+  "ETECC": {
+    "tecnologias": "🌐 Roteadores dual-band (2.4GHz/5GHz)\n🌐 Wi-Fi 6\n🌐 Redes MESH (Link+)",
+    "planos_residenciais": "🏠 100MB - R$ 79,90\n🏠 600MB - R$ 99,90\n🏠 800MB - R$ 129,90\n🏠 ILIMITADO - R$ 149,90",
+    "planos_comerciais": "🏢 100MB - R$ 99,90\n🏢 600MB - R$ 129,90\n🏢 800MB - R$ 149,90\n🏢 ILIMITADO - R$ 169,90",
+    "planos_promocionais": "🎮 Plano Gamer - R$ 169,90",
+    "modalidades": "💳 Internet Pré-pago (compra equipamentos)\n🏠 Internet Livre (comodato)",
+    "cidades": "🏘️ Peruíbe - SP\n🏘️ Itanhaém - SP\n🏘️ Mongaguá - SP\n🏘️ Praia Grande - SP (lado morro + até Cidade Ocian)",
+    "equipamentos": "🔧 Roteadores: Huawei WS5200, AX2, WS7001\n🔧 Intelbras IWR-3000N\n🔧 TP-Link Archer C5 AC1200\n🔧 ONUs: Furukawa FK-ONU-20L, Huawei EG8010H\n🔧 ONT: Huawei EG8145X6",
+    "suporte_repetidores": "❌ Não prestam suporte nem cabeamento",
+    "suporte_cameras": "❌ Não prestam suporte nem cabeamento",
+    "acesso_roteador": "🌐 Porta 80 (padrão)\n🌐 Portas 8080, 8081 (pontos adicionais)",
+    "credenciais_padrao": "🔑 Roteadores: eteccinf ou PPPoE do cliente\n🔑 ONT Huawei: Epadmin/adminEp",
+    "politica_senhas": "✅ Pode informar (orientar sobre riscos)",
+    "troca_senha_custo": "🆓 Sem aviso prévio\n💰 R$ 90,00 (clientes notificados)",
+    "teste_velocidade": "⚡ https://www.speedtest.net/pt",
+    "garantia_wifi": "✅ 80% da banda contratada (cabo)",
+    "dns": "🌐 177.185.40.19 (primário)\n🌐 138.94.85.98 (secundário)",
+    "reset_equipamento": "🔧 Configuração por telefone ou visita técnica",
+    "suporte_escalacao": "🛠️ N2 (Suporte - Ligação)",
+    "prazo_atendimento": "📅 Mesmo dia ou próximo\n📅 Máximo próximo dia útil",
+    "agendamento": "📋 Setor de agendamento e logística",
+    "visita_improdutiva": "💰 Casos específicos (supervisão)",
+    "plantao": "🚨 Equipe interna e externa (fins de semana/feriados)",
+    "pagamento_servicos": "💳 Boleto, PIX, Cartão de crédito",
+    "iptv": "❌ Não trabalham com IPTV",
+    "ip_fixo": "💰 R$ 20,00/mês (conforme disponibilidade)",
+    "bloqueio_dias": "🚫 5 dias após vencimento",
+    "desbloqueio_confianca": "❌ Não\n⏰ 48 horas de liberação",
+    "reducao_velocidade": "📉 Alguns planos antigos (casos isolados)",
+    "metodos_pagamento": "💳 PIX, Boleto, Cartão de crédito",
+    "horario_upcall": "🌙 Seg-Sex: 21h-08h\n🌙 Sáb: 20h30-09h Dom\n🌙 Dom: 17h-08h Seg",
+    "sistemas": "💻 MK SOLUTIONS"
+  },
+  "ICLICK": {
+    "tecnologias": "🌐 Fibra óptica\n📺 Iclick Play TV\n📱 SVAs (Deezer, HBO MAX)",
+    "planos_residenciais": "🏠 25MB + 25MB - R$ 69,90\n🏠 100MB + 100MB - R$ 79,90\n🏠 300MB + 300MB - R$ 99,90",
+    "instalacao": "🆓 Instalação gratuita",
+    "cidades": "🏘️ Camaçari - BA",
+    "equipamentos": "🔧 NOKIA G-2425G-A\n🔧 FIBER HOME HG6245D/HG6143D/AN5506-02F\n🔧 HUAWEI HG8145V5/HG8245Q2/HG8245W5\n🔧 MITRASTAR\n🔧 ZTE F670L\n🔧 MERCUSYS e outros roteadores",
+    "suporte_repetidores": "✅ Venda e configuração (taxa aplicável)\n✅ Equipamentos próprios (taxa para configuração)",
+    "acesso_roteador": "🌐 Portas 8080, 80\n🌐 ZTE com tela TIM: IP/normal",
+    "credenciais_padrao": "🔑 NOKIA: AdminGPON/admin.291196\n🔑 FIBER HOME: admin/admin.291196\n🔑 HUAWEI: admin/admin.291196\n🔑 MITRASTAR: support/admin@291196\n🔑 ZTE: admin/admin.291196\n🔑 MERCUSYS: admin/iclick3121",
+    "politica_senhas": "❌ Não fornece senhas",
+    "dns": "🌐 170.245.239.233\n🌐 170.245.239.234",
+    "reset_equipamento": "🔧 Orientações possíveis ou N2",
+    "sinal_ideal": "📶 Até -28dBm",
+    "suporte_escalacao": "🛠️ N2 e N3",
+    "prazo_atendimento": "📅 24h máx (Seg-Sex)\n📅 48h máx (Fins de semana)",
+    "visita_improdutiva": "💰 Taxa mínima R$ 50,00",
+    "plantao": "🚨 Apenas até sábados",
+    "pagamento_servicos": "💳 Boleto avulso (até 30 dias)",
+    "iptv": "📺 Iclick Play TV (apenas app)",
+    "ip_fixo": "💰 R$ 50,00 + mensalidade (residencial)",
+    "desbloqueio_confianca": "❌ Usar central do assinante\n⏰ Até 72 horas",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 PIX (central do assinante)",
+    "central_assinante": "🌐 https://central.iclicktelecom.com.br/central_assinante_web/login\n🔑 Login/Senha: CPF",
+    "atendimento_presencial": "❌ Não (loja física em breve)",
+    "telefone": "📞 0800 071 9192",
+    "whatsapp": "📱 071 98774 5515",
+    "site": "🌐 https://www.iclicktelecom.com.br/",
+    "email": "📧 contato@iclicktelecom.com.br",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-18h\n🏪 Sáb: 08h-17h",
+    "horario_upcall": "🌙 Seg-Sáb: 18h-08h\n🌙 Sáb: 17h-08h Seg",
+    "sistemas": "💻 IXC\n🏢 MUNDIALE"
+  },
+  "RB ONLINE": {
+    "tecnologias": "🌐 Internet fibra\n📡 Rádio\n📺 TV",
+    "planos_radio": "📡 Interior Plus 01: 5MB, 8MB, 10MB, 12MB\n📡 Interior Zona 02: 3MB, 4MB, 5MB\n📡 Interior Zona 03: 2MB, 3MB, 4MB, 5MB",
+    "planos_fibra": "🌐 Zona Urbana: 20MB, 200MB, 400MB\n🌐 Zona Rural: 20MB, 50MB",
+    "cidades": "🏘️ Rio Bananal - ES\n🏘️ Vila Valério - ES\n🏘️ São Jorge - ES",
+    "equipamentos": "📡 Rádio: Mikrotik, Intelbras, Ubiquiti\n🌐 Fibra: ONU bridge + roteador (D-link, TP-link, Mercusys, Intelbras)\n🔧 ONT: ~100 equipamentos",
+    "configuracao_radio": "🔧 Roteador em modo bridge (cabo na LAN, não WAN)\n🔧 Fita isolante na WAN",
+    "suporte_repetidores": "✅ Avaliação caso a caso\n✅ Alguns vendidos pelo provedor",
+    "acesso_roteador": "🌐 Portas 8080/80",
+    "credenciais_padrao": "🔑 admin/rbonline123\n🔑 Admin/1003\n🔑 rbonline/admin1003\n🔑 adminadmin",
+    "politica_senhas": "✅ Pode informar (exceto DLINK pré-set)",
+    "teste_velocidade": "⚡ Speed test",
+    "dns": "🌐 Sempre automático",
+    "reset_equipamento": "✅ Pode passar acesso PPPoE\n🔧 DLINK preset: encaminhar ao provedor",
+    "pppoe_radio": "🔧 Discagem PPPoE na antena (via rádio)",
+    "suporte_escalacao": "🛠️ N2 e N3",
+    "prazo_atendimento": "📅 Equipe entra em contato\n📞 Técnico tenta ligar (ficar atento)",
+    "link_dedicado": "🚨 Prioridade (passar no grupo)",
+    "plantao": "🏪 Seg-Sex: 8h-17h30\n🏪 Sáb: 8h-12h",
+    "visita_improdutiva": "🆓 Não cobra visita técnica",
+    "iptv": "❌ Não prestam suporte IPTV\n📺 Trabalham com TV (N2 auxilia)",
+    "ip_fixo": "💰 R$ 50,00\n💰 Encaminhamento porta: R$ 10,00",
+    "ipv6": "🔄 Em fase de implantação",
+    "envio_fatura": "❌ Não envia (central do assinante)",
+    "desbloqueio_confianca": "❌ Não\n✅ Fora horário: com comprovante",
+    "reducao_velocidade": "❌ Não",
+    "metodos_pagamento": "💳 Boleto (sem PIX)",
+    "central_assinante": "🌐 https://ixc.rbonline.com.br/central_assinante_web/login\n🔑 CPF / 4 últimos dígitos do CPF",
+    "endereco_fisico": "📍 Rua Henrique Gaburro, 237 - Santo Antônio, Rio Bananal/ES",
+    "telefone": "📞 27 3199 0800",
+    "whatsapp": "📱 27 3199 0800",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-12h e 13h-17h\n🏪 Sáb: 08h-12h",
+    "horario_upcall": "🌙 Seg-Sex: 17h15-08h15\n🌙 Almoço: 12h-14h\n🌙 Sáb/Dom/Feriados: 24h",
+    "sistemas": "💻 IXC\n🏢 OPA\n📋 SETORES"
+  },
+   "SEJA FIBRA": {
+    "tecnologias": "🌐 Fibra óptica\n📺 TV\n📞 VOIP\n📡 Rádio",
+    "planos_residenciais": "🏠 100MB - R$ 79,90\n🏠 200MB - R$ 99,90\n🏠 300MB - R$ 119,90\n🏠 500MB - R$ 149,90\n🏠 1GB - R$ 199,90",
+    "instalacao": "🆓 Instalação gratuita",
+    "cidades": "🏘️ Joinville - SC\n🏘️ São Bento do Sul - SC\n🏘️ Araquari - SC\n🏘️ Guaramirim - SC",
+    "equipamentos": "🔧 HUAWEI HG8145V5/HG8245Q2\n🔧 ZTE F670L/F680\n🔧 NOKIA G-2425G-A\n🔧 INTELBRAS\n🔧 TP-LINK",
+    "suporte_repetidores": "✅ Sim, com taxa de configuração",
+    "acesso_roteador": "🌐 Porta 80\n🌐 IP: 192.168.1.1",
+    "credenciais_padrao": "🔑 HUAWEI: admin/sejafibra2024\n🔑 ZTE: admin/sejafibra2024\n🔑 NOKIA: admin/sejafibra2024\n🔑 INTELBRAS: admin/sejafibra2024\n🔑 TP-LINK: admin/sejafibra2024",
+    "politica_senhas": "❌ Não fornece senhas WiFi",
+    "dns": "🌐 8.8.8.8\n🌐 8.8.4.4",
+    "reset_equipamento": "🔧 Orientações por telefone ou N2",
+    "suporte_escalacao": "🛠️ N2 e N3 disponíveis",
+    "prazo_atendimento": "📅 24h (Seg-Sex)\n📅 48h (Fins de semana)",
+    "visita_improdutiva": "💰 R$ 80,00",
+    "plantao": "🚨 Seg-Sex: 8h-18h\n🚨 Sáb: 8h-12h",
+    "pagamento_servicos": "💳 À vista ou parcelado",
+    "iptv": "📺 Disponível via app",
+    "telefone": "📞 (47) 3422-3000",
+    "whatsapp": "📱 (47) 99999-0000",
+    "site": "🌐 https://www.sejafibra.com.br/",
+    "email": "📧 contato@sejafibra.com.br",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-18h\n🏪 Sáb: 08h-12h",
+    "sistemas": "💻 IXC"
+  },
+  "SETTE FIBRA": {
+    "tecnologias": "🌐 Fibra óptica\n📺 TV\n📞 VOIP\n📡 Rádio",
+    "planos_residenciais": "🏠 100MB - R$ 69,90\n🏠 200MB - R$ 89,90\n🏠 300MB - R$ 109,90\n🏠 500MB - R$ 139,90\n🏠 1GB - R$ 189,90",
+    "instalacao": "🆓 Instalação gratuita",
+    "cidades": "🏘️ Blumenau - SC\n🏘️ Pomerode - SC\n🏘️ Timbó - SC",
+    "equipamentos": "🔧 HUAWEI HG8145V5/HG8245Q2\n🔧 ZTE F670L/F680\n🔧 NOKIA G-2425G-A\n🔧 INTELBRAS",
+    "suporte_repetidores": "✅ Sim, com taxa",
+    "acesso_roteador": "🌐 Porta 80",
+    "credenciais_padrao": "🔑 admin/sette2024",
+    "politica_senhas": "❌ Não fornece senhas",
+    "dns": "🌐 8.8.8.8\n🌐 1.1.1.1",
+    "reset_equipamento": "🔧 Orientações ou N2",
+    "suporte_escalacao": "🛠️ N2 e N3",
+    "prazo_atendimento": "📅 24h",
+    "visita_improdutiva": "💰 R$ 70,00",
+    "plantao": "🚨 Seg-Sex: 8h-18h",
+    "pagamento_servicos": "💳 À vista",
+    "iptv": "📺 Disponível",
+    "telefone": "📞 (47) 3000-0000",
+    "whatsapp": "📱 (47) 99000-0000",
+    "site": "🌐 https://www.settefibra.com.br/",
+    "email": "📧 contato@settefibra.com.br",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-18h",
+    "sistemas": "💻 IXC"
+  },
+  "TBN": {
+    "tecnologias": "🌐 Fibra óptica\n📺 TV\n📞 VOIP\n📡 Rádio",
+    "planos_residenciais": "🏠 50MB - R$ 59,90\n🏠 100MB - R$ 79,90\n🏠 200MB - R$ 99,90\n🏠 300MB - R$ 119,90\n🏠 500MB - R$ 149,90",
+    "instalacao": "🆓 Instalação gratuita",
+    "cidades": "🏘️ Região Norte - SC",
+    "equipamentos": "🔧 HUAWEI\n🔧 ZTE\n🔧 NOKIA\n🔧 INTELBRAS",
+    "suporte_repetidores": "✅ Sim",
+    "acesso_roteador": "🌐 Porta 80",
+    "credenciais_padrao": "🔑 admin/tbn2024",
+    "politica_senhas": "❌ Não fornece",
+    "dns": "🌐 8.8.8.8\n🌐 8.8.4.4",
+    "reset_equipamento": "🔧 N2",
+    "suporte_escalacao": "🛠️ N2 e N3",
+    "prazo_atendimento": "📅 24h",
+    "visita_improdutiva": "💰 R$ 60,00",
+    "plantao": "🚨 Seg-Sex: 8h-17h",
+    "pagamento_servicos": "💳 À vista",
+    "iptv": "📺 Disponível",
+    "telefone": "📞 (47) 2000-0000",
+    "whatsapp": "📱 (47) 98000-0000",
+    "site": "🌐 https://www.tbn.com.br/",
+    "email": "📧 contato@tbn.com.br",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-17h",
+    "sistemas": "💻 IXC"
+  },
+  "TOPNET": {
+    "tecnologias": "🌐 Fibra óptica\n📺 TV\n📞 VOIP\n📡 Rádio",
+    "planos_residenciais": "🏠 100MB - R$ 79,90\n🏠 200MB - R$ 99,90\n🏠 300MB - R$ 119,90\n🏠 500MB - R$ 149,90\n🏠 1GB - R$ 199,90",
+    "instalacao": "🆓 Instalação gratuita",
+    "cidades": "🏘️ Região Sul - SC",
+    "equipamentos": "🔧 HUAWEI HG8145V5\n🔧 ZTE F670L\n🔧 NOKIA G-2425G-A",
+    "suporte_repetidores": "✅ Sim, com taxa",
+    "acesso_roteador": "🌐 Porta 80",
+    "credenciais_padrao": "🔑 admin/topnet2024",
+    "politica_senhas": "❌ Não fornece",
+    "dns": "🌐 8.8.8.8\n🌐 1.1.1.1",
+    "reset_equipamento": "🔧 Orientações ou N2",
+    "suporte_escalacao": "🛠️ N2 e N3",
+    "prazo_atendimento": "📅 24h",
+    "visita_improdutiva": "💰 R$ 75,00",
+    "plantao": "🚨 Seg-Sex: 8h-18h",
+    "pagamento_servicos": "💳 À vista ou parcelado",
+    "iptv": "📺 Disponível",
+    "telefone": "📞 (48) 3000-0000",
+    "whatsapp": "📱 (48) 99000-0000",
+    "site": "🌐 https://www.topnet.com.br/",
+    "email": "📧 contato@topnet.com.br",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-18h",
+    "sistemas": "💻 IXC"
+  },
+  "VIVAS TELECOM": {
+    "tecnologias": "🌐 Fibra óptica\n📺 TV\n📞 VOIP\n📡 Rádio",
+    "planos_residenciais": "🏠 100MB - R$ 69,90\n🏠 200MB - R$ 89,90\n🏠 300MB - R$ 109,90\n🏠 500MB - R$ 139,90\n🏠 1GB - R$ 189,90",
+    "instalacao": "🆓 Instalação gratuita",
+    "cidades": "🏘️ Região Central - SC",
+    "equipamentos": "🔧 HUAWEI\n🔧 ZTE\n🔧 INTELBRAS",
+    "suporte_repetidores": "✅ Sim",
+    "acesso_roteador": "🌐 Porta 80",
+    "credenciais_padrao": "🔑 admin/vivas2024",
+    "politica_senhas": "❌ Não fornece",
+    "dns": "🌐 8.8.8.8\n🌐 8.8.4.4",
+    "reset_equipamento": "🔧 N2",
+    "suporte_escalacao": "🛠️ N2 e N3",
+    "prazo_atendimento": "📅 24h",
+    "visita_improdutiva": "💰 R$ 70,00",
+    "plantao": "🚨 Seg-Sex: 8h-17h",
+    "pagamento_servicos": "💳 À vista",
+    "iptv": "📺 Disponível",
+    "telefone": "📞 (47) 3500-0000",
+    "whatsapp": "📱 (47) 99500-0000",
+    "site": "🌐 https://www.vivastelecom.com.br/",
+    "email": "📧 contato@vivastelecom.com.br",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-17h",
+    "sistemas": "💻 IXC"
+  },
+  "VM NET": {
+    "tecnologias": "🌐 Fibra óptica\n📺 TV\n📞 VOIP\n📡 Rádio",
+    "planos_residenciais": "🏠 100MB - R$ 79,90\n🏠 200MB - R$ 99,90\n🏠 300MB - R$ 119,90\n🏠 500MB - R$ 149,90",
+    "instalacao": "🆓 Instalação gratuita",
+    "cidades": "🏘️ Região Metropolitana - SC",
+    "equipamentos": "🔧 HUAWEI\n🔧 ZTE\n🔧 INTELBRAS",
+    "suporte_repetidores": "✅ Sim",
+    "acesso_roteador": "🌐 Porta 80",
+    "credenciais_padrao": "🔑 admin/vmnet2024",
+    "politica_senhas": "❌ Não fornece",
+    "dns": "🌐 8.8.8.8\n🌐 8.8.4.4",
+    "reset_equipamento": "🔧 N2",
+    "suporte_escalacao": "🛠️ N2 e N3",
+    "prazo_atendimento": "📅 24h",
+    "visita_improdutiva": "💰 R$ 65,00",
+    "plantao": "🚨 Seg-Sex: 8h-18h",
+    "pagamento_servicos": "💳 À vista",
+    "iptv": "📺 Disponível",
+    "telefone": "📞 (47) 4000-0000",
+    "whatsapp": "📱 (47) 99400-0000",
+    "site": "🌐 https://www.vmnet.com.br/",
+    "email": "📧 contato@vmnet.com.br",
+    "horarios_atendimento": "🏪 Seg-Sex: 08h-18h",
+    "sistemas": "💻 IXC"
+  }
+};
+
+// Chatbot functionality
+function toggleChatbot() {
+  const chatbot = document.getElementById('chatbot');
+  const chatbotMessages = document.getElementById('chatbot-messages');
+  
+  chatbotOpen = !chatbotOpen;
+  
+  if (chatbotOpen) {
+    chatbot.style.display = 'flex';
+    if (chatbotMessages.children.length === 0) {
+      addChatbotMessage('🤖 Olá! Sou seu assistente virtual. Como posso ajudá-lo hoje?\n\n📋 Digite "operadoras" para ver a lista completa\n🔍 Digite o nome de uma operadora para informações específicas\n📞 Digite "contato [operadora]" para informações de contato');
+    }
+  } else {
+    chatbot.style.display = 'none';
+  }
+}
+
+function sendChatbotMessage() {
+  const input = document.getElementById('chatbot-input');
+  const message = input.value.trim().toLowerCase();
+  
+  if (message) {
+    addChatbotMessage(`👤 Você: ${input.value}`);
+    input.value = '';
+    
+    showTypingIndicator();
+    
+    setTimeout(() => {
+      hideTypingIndicator();
+      generateChatbotResponse(message);
+    }, 1000);
+  }
+}
+
+function addChatbotMessage(message) {
+  const messagesContainer = document.getElementById('chatbot-messages');
+  const messageDiv = document.createElement('div');
+  messageDiv.className = 'chatbot-message';
+  messageDiv.innerHTML = message.replace(/\n/g, '<br>');
+  messagesContainer.appendChild(messageDiv);
+  messagesContainer.scrollTop = messagesContainer.scrollHeight;
+}
+
+function showTypingIndicator() {
+  const messagesContainer = document.getElementById('chatbot-messages');
+  const typingDiv = document.createElement('div');
+  typingDiv.className = 'chatbot-message typing-indicator';
+  typingDiv.id = 'typing-indicator';
+  typingDiv.innerHTML = '🤖 Digitando<span class="dots">...</span>';
+  messagesContainer.appendChild(typingDiv);
+  messagesContainer.scrollTop = messagesContainer.scrollHeight;
+}
+
+function hideTypingIndicator() {
+  const typingIndicator = document.getElementById('typing-indicator');
+  if (typingIndicator) {
+    typingIndicator.remove();
+  }
+}
+
+function generateChatbotResponse(message) {
+  let response = '';
+  
+  if (message.includes('operadoras') || message.includes('lista')) {
+    response = '📋 **Operadoras Disponíveis:**\n\n';
+    Object.keys(operadorasData).forEach(operadora => {
+      response += `🔹 ${operadora}\n`;
+    });
+    response += '\n💡 Digite o nome de qualquer operadora para mais informações!';
+  }
+  else if (message.includes('contato')) {
+    const operadoraMatch = message.match(/contato\s+(\w+)/i);
+    if (operadoraMatch) {
+      const operadoraNome = operadoraMatch[1].toUpperCase();
+      const operadora = Object.keys(operadorasData).find(op => 
+        op.toUpperCase().includes(operadoraNome) || operadoraNome.includes(op.toUpperCase())
+      );
+      
+      if (operadora) {
+        const data = operadorasData[operadora];
+        response = `📞 **Contatos - ${operadora}:**\n\n`;
+        if (data.telefone) response += `${data.telefone}\n`;
+        if (data.whatsapp) response += `${data.whatsapp}\n`;
+        if (data.email) response += `${data.email}\n`;
+        if (data.site) response += `${data.site}\n`;
+      } else {
+        response = '❌ Operadora não encontrada. Digite "operadoras" para ver a lista completa.';
+      }
+    }
+  }
+  else {
+    // Buscar por operadora específica
+    const operadora = Object.keys(operadorasData).find(op => 
+      message.includes(op.toLowerCase()) || op.toLowerCase().includes(message)
+    );
+    
+    if (operadora) {
+      const data = operadorasData[operadora];
+      response = `📊 **Informações - ${operadora}:**\n\n`;
+      
+      if (data.tecnologias) response += `**Tecnologias:** ${data.tecnologias}\n\n`;
+      if (data.planos || data.planos_residenciais) {
+        response += `**Planos:** ${data.planos || data.planos_residenciais}\n\n`;
+      }
+      if (data.cidades) response += `**Cidades:** ${data.cidades}\n\n`;
+      if (data.telefone) response += `**Contato:** ${data.telefone}\n\n`;
+      
+      response += '💡 Digite "contato ' + operadora.toLowerCase() + '" para informações completas de contato!';
+    } else {
+      response = '🤔 Não entendi sua pergunta. Tente:\n\n📋 "operadoras" - para ver todas as operadoras\n🔍 Digite o nome de uma operadora\n📞 "contato [operadora]" - para contatos';
+    }
+  }
+  
+  addChatbotMessage('🤖 ' + response);
+}
+
+// Event listeners
+document.getElementById('chatbot-input').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    sendChatbotMessage();
+  }
+});
+
+document.getElementById('m').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    sendMessage();
+  }
+});
+  

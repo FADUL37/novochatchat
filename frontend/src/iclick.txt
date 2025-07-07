@@ -1,0 +1,181 @@
+Iclick
+ 
+
+Horário de atendimento da UPCALL (GMT -3	
+De Segunda à Sábado - Das 18h às 08h
+
+Sábado - Das 17h às 08h de Segunda
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	MUNDIALE
+Quais as tecnologias oferecidas pela empresa?
+R: Fibra, Iclick Play TV (App de TV Online) e SVA's (Deezer e HBO MAX)
+
+Acesso Padrão da HBO MAX e Deezer: e-mail do cliente / CPF + letra inicial do cliente minúscula
+
+Exemplo: iclick@iclick.com.br / 12345678900i
+
+Não é possível logar somente por usuário e senha. O cliente precisa escolher a opção de provedor de serviço e selecionar a PlayHub. Clientes que já possuíam conta antes da contratação, terão o login e senha fora do padrão.
+
+Em caso de problema nesses serviços, podemos abrir N2 e orientar que a equipe responsável irá retornar em horário comercial
+
+Quais os planos vendidos na empresa?
+R: Assine 25MB e leve + 25MB POR R$ 69,90 Assine 100MB e leve + 100MB por R$ 79,90  Assine 300MB e leve + 300MB por R$ 99,90  
+
+Instalação gratuita 
+
+Quais cidades/bairros de atuação?  
+R: Camaçari - BA
+
+Presta suporte a repetidores?
+R: Sim, provedor inclusive faz a venda de equipamentos para aumento de alcance de sinal. Geralmente, os equipamentos fornecidos são DECO (Mesh), mas utilizam também roteadores INTELBRAS, MERCUSYS e TPLINK nesses casos. É cobrada uma taxa para instalação/configuração.
+
+Para clientes que instalaram ou adquiriram o repetidor por conta própria e necessitam de suporte/instalação/configuração é realizado o serviço, mas cobrado uma taxa.
+
+Geralmente, quando é solicitado um ponto adicional é necessária uma verificação mais aprofundada do caso, nesses casos podemos encaminhar ao provedor. 
+
+Qual a porta de acesso para acesso aos roteadores?
+R: 8080, 80
+
+Alguns equipamentos ZTE aparecem com a tela da TIM, nesses casos, utilizar IP/normal (Exemplo: 192.168.1.1/normal)
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+ 
+
+EQUIPAMENTO	USUÁRIO	SENHA
+NOKIA G-2425G-A	AdminGPON	
+admin.291196
+
+ALC#FGU
+
+FIBER HOME HG6245D / HG6143D / AN5506-02F	admin	
+admin.291196
+
+291196
+
+HUAWEI HG8145V5 / HG8245Q2 / HG8245W5	
+admin
+
+telecomadmin
+
+admin.291196
+MITRASTAR	support	admin@291196
+ZTE F670L	
+admin
+
+multipro
+
+admin.291196
+
+multipro
+
+291196
+
+ROTEADORES MERCUSYS E OUTROS	admin	
+admin.291196
+
+291196
+
+iclick3121
+
+Mandar recado no grupo caso não tenha acesso 
+
+É possível informar ao cliente a senha do roteador?
+R: Não
+
+Qual DNS padrão?
+R: 170.245.239.233 ou 170.245.239.234
+
+Quais são as tratativas para reset?
+R: Pode realizar as orientações, caso não seja possível abrir N2
+
+Qual o padrão de sinal ideal?
+R: Até -28dBm, abaixo disso podemos encaminhar diretamente ao N2
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Sim, possui N2 e N3
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Abrir N3
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Segunda à Sexta: 24H Máximas
+
+Finais de Semana: 48H Máximas
+
+Após abrirmos a N3, podemos orientar o cliente a aguardar o contato direto do técnico para realizar a visita, que ocorrerá dentro do prazo.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Taxa inicial mínima de R$50, mas é avaliado no local
+
+Tem plantão aos finais de semana e feriado?  
+R: Somente até os sábados 
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R:  Gerada um boleto avulso para o pagamento até 30 dias
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Sim, trabalham. Somente o App Iclick Play TV e os canais, não fornecem aparelho.
+
+Caso haja algum problema nesses serviços, podemos gerar N2 e orientar que o setor responsável dará um retorno em horário comercial.
+
+A empresa fornece IP Fixo? Qual valor?
+R: Sim, para clientes residencias 50 reais + a mensalidade 
+
+Pode abrir OS outras demandas 
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Pode abrir a OS com a tarefa Outras Demandas para o setor responsável verificar.
+
+FINANCEIRO E COMERCIAL
+Podemos enviar fatura?
+R: Sim
+
+Podemos fazer o desbloqueio de confiança?
+R: Não, orientar a acessar a central do assinante 
+
+Para liberar a sua conexão o (a) Sr. (a) precisa acessar a central do assinante, usando o seu cpf para acesso e selecionar a opção desbloqueio de confiança (um cadeado que fica na parte de contratos), essa é uma liberação de até 72 horas após isso não constando o pagamento a conexão bloqueia novamente. Caso esse serviço já tenha sido utilizado e o (a) Sr. (a) não conseguir utiliza-lo, é necessário aguardar compensar o pagamento no sistema. https://central.iclicktelecom.com.br/central_assinante_web/login
+
+Possui redução de velocidade?
+R: Não 
+
+Quais os métodos de pagamentos da fatura?
+R: Pix: Disponível na central do assinante o pix copia e cola: 
+
+Link: https://central.iclicktelecom.com.br/central_assinante_web/login 
+
+Qual o procedimento para comprovante de pagamento?
+R: Abrir atendimento e Informar ao cliente:
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+IXC	https://central.iclicktelecom.com.br/adm.php
+CENTRAL DO ASSINANTE	
+https://central.iclicktelecom.com.br/central_assinante_web/login
+
+Login e Senha é o CPF (sem pontos e hífen só números)
+
+Caso o cliente esteja na mesma rede (em casa) poderá acessar a central do assinante mesmo sem internet.
+
+ 
+
+Possui atendimento presencial?
+R: Não 
+
+Provedor irá inaugurar a loja física em breve.
+
+ 
+
+SITE	https://www.iclicktelecom.com.br/
+TELEFONE	0800 071 9192
+WHATSAPP  	071 98774 5515
+EMAIL	contato@iclicktelecom.com.br
+ 
+
+HORÁRIO
+De Segunda a Sexta	Das 08h as 18h
+Sábado	Das 08h as 17h

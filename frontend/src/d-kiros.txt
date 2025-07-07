@@ -1,0 +1,407 @@
+D-Kiros  Gaspar - SC
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+De Segunda a Sexta das 18h às 08h
+
+Sábado das 12h às 08h de Segunda
+
+Transbordo Ativo para +20Min CRT e Sucesso do Cliente
+
+Treinamento Até às 10h30 na Última Quarta-feira do Mês (Loja Fechada até esse Horário)
+
+Não Transferir Atendimentos Após às 08H por Troca de Turno
+
+UPSOFT - OK
+
+CHAT E LIGAÇÕES
+
+IXC1	IXC2	UPCHAT	SETORES
+Alguns clientes estão cadastrados em uma base com Contrato Desativado e cadastrados corretamente na outra base. Olhar em ambas nesses casos.
+
+Nunca informar os clientes de que existem 2 bases
+
+Quais as tecnologias oferecidas?
+OléTV
+
+Aplicativo de TV disponibilizado para aparelhos fabricados a partir de 2019. Caso a TV não seja compatível, o provedor fornece o setupbox, podemos gerar ENCAMINHAR PARA OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR) nesses casos.
+
+Link Celular Android: https://play.google.com/store/apps/details?id=br.tv.ole.oletv
+
+Para IOS o App se chama DKIROSTV
+
+Login: E-mail cadastrado no IXC
+
+Senha: Não temos acesso, é gerada no E-mail do cliente. Caso o cliente tenha esquecido, o provedor faz o envio do E-mail novamente. Nesse caso, podemos abrir N2
+
+No celular, os 4 primeiros canais (Globo, SBT, Record e Band) não funcionam, pois a própria emissora bloqueia
+
+LIG Doctor
+
+App de Telemedicina
+
+Caso o cliente entre em contato solicitando maiores informações, podemos gerar N2
+
+Clube DKiros
+
+Clube de Descontos
+
+É possível baixar o App Clube DKiros (IOS ou Android) e autenticar colocando o CPF e selecionando “Esqueci a Senha”
+
+Tua Operadora
+
+Chip de Celular
+
+Suporte: +55 800 042 0041
+
+Contratação: Transferir durante horário comercial e abrir ENCAMINHAR PARA OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR) fora dele.
+
+Quais os planos vendidos na empresa?
+R1: Contrate 250 MEGA Leve 500 MEGA (Download e Upload)
+Feito para casa de até 70m2
+Wi-Fi Gigabit - 1 Roteador - Suporte Home Premium - Dkiros TV - Life Line 64 canais - Clube Dkiros - Cupons de desconto - Chat Orientação de saúde
+
+R1+: Contrate 400 MEGA Leve 800 MEGA (Download e Upload)
+Feito para casa de até 70m2
+Wi-Fi Gigabit - 1 Roteador - Suporte Home Premium - Dkiros TV - Life Line 64 canais - Clube Dkiros - Cupons de desconto - Chat Orientação de saúde
+
+R2: Contrate 250 MEGA Leve 500 MEGA (Download e Upload)
+Feito para casa de até 140m2
+Wi-Fi Gigabit - 2 Roteadores - Suporte Home Premium - Dkiros TV - Life Line 64 canais - Clube Dkiros + Cashback - Cupons de desconto com cashback
+Chat Orientação de saúde
+
+R2+: Contrate 400 MEGA Leve 800 MEGA (Download e Upload)
+Feito para casa de até 140m2
+Wi-Fi Gigabit - 2 Roteadores - Suporte Home Premium - Dkiros TV - Life Line 64 canais - Clube Dkiros + Cashback - Cupons de desconto com cashback
+Chat Orientação de saúde
+
+R3: Contrate 250 MEGA Leve 500 MEGA (Download e Upload)
+Feito para casa de até 210m2
+Wi-Fi Gigabit - 3 Roteadores - Suporte Home Premium Black - Dkiros TV - Life Line 64 canais - Clube Dkiros + Cashback - Cupons de desconto com cashback - Chat Orientação de saúde + Telemedicina
+
+R3+: Contrate 400 MEGA Leve 800 MEGA (Download e Upload)
+Feito para casa de até 210m2
+Wi-Fi Gigabit - 3 Roteador - Suporte Home Premium Black - Dkiros TV - Life Line 64 canais - Clube Dkiros + Cashback - Cupons de desconto com cashback - Chat Orientação de saúde + Telemedicina
+
+Clientes que entram em contato indicando outros clientes informar no grupo
+Clientes que solicitar contratação, perguntar como ficou sabendo da Dkiros, por anúncio, Facebook, Instagram, etc.
+
+Transferir ao Contratar (Vendas) dentro de horário e sinalizar no grupo fora dele.
+
+Clientes que entrarem em contato referente a suporte dos Canais de TV encaminhar ao N2
+
+Presta suporte a repetidores? 
+R: Sim, provedor oferece planos com Rede Mesh, porém se o cliente adquirir um novo equipamento por conta própria, é feito o auxílio de configuração e instalação.
+
+Remotamente, auxiliam em como conectar o Mesh, Ligar e Desligar, WPS, etc.
+
+Caso o cliente solicite uma visita, é cobrado o valor de R$40 para configurar esses equipamentos
+
+Quais equipamentos utilizados?
+R: ONU E ROTEADOR, ONT
+
+ONT ZTE e Roteador ZTE (tem rede mesh)
+
+Qual a marca e modelo da ONU ou ONT fornecida?
+ 
+
+Roteadores	TP-Link	Intelbras	 ZTE	 	 	 
+Rádio	Mikrotik	Ubiquiti	Cambium	 	 	 
+ONU/ONT	Parks 	Stavix 	Vsolucion 	MaxPrint 	Intelbras	ZTE
+ Mesh com roteadores w5 1200 da Intelbras e a ONU 121 juntamente com roteadores w5 1200.
+ Mesh com roteadores ZTE 199a e a ONT ZTE F670L  juntamente com roteadores ZTE 199a.
+
+Qual a porta de acesso para acesso aos roteadores?
+R:
+
+Primeiro roteador	8001
+Segundo roteador	8002
+Ubiquiti/ Cambium	4779
+ Mikrotik	4779 
+4791
+ONU/ONT	4779 ou 80
+Qual usuário e senha padrão para acesso aos equipamentos?
+R:Roteadores: Usuário: admin/ dkiros/ dsnt - Porém o mais comum é “dkiros”; 
+
+Senha: admin/ internet/ 96073233/ Dk96073233 Porém o mais comum é “internet”; 
+
+ZTE - usuário: multipro e senha: Dk96073233
+
+ 
+
+CIDADES/SENHAS
+
+CIDADE	EQUIPAMENTOS	USUÁRIO	SENHA
+Gaspar	Mikrotik	
+dsnt
+
+admin
+
+96073233
+ 	Ubiquit	
+dsnt
+
+ubnt
+
+96073233
+ 	Cambium 	admin 	96073233 
+Ilhota	Mikrotik 	
+dsnt
+
+admin
+
+golgt18s
+ 	Ubiquit 	
+ubnt
+
+dsnt
+
+golgt18s
+ 	Cambium 	admin	golgt18s
+ 
+
+SENHAS ONT
+
+USUÁRIOS
+
+SENHA
+
+admin	Dk96073233
+adminisp	adminisp
+admin	96073233
+root	Dk96073233
+Roteadores: Na rede 2.4: Canais 1,6 ou 11 e a Largura de Banda: Automático
+
+Na rede 5G: o canal e a banda são deixados em automático.
+
+Acesso remoto para a porta 8001 para somente o IP 131.100.52.253.
+
+Mikrotik: Não usamos como roteadores, apenas no rádio.
+
+(Obs: Muito difícil cair atendimento de Unifi, porém, geralmente esses atendimentos vem para o nível 2)
+
+Procedimentos de Segurança na ONU
+ONU Parks 101 e ONU Hibrida D401 
+
+Aba Network> LAN Address Setting> DHCP Server, marcar a opção “Assign IspDNS” para pegar o DNS fornecido pelo ISP
+
+ONU Parks 410 e 411 
+
+Aba Network> LAN Address Setting> DHCP Server, marcar a opção “Assign IspDNS” para pegar o DNS fornecido pelo ISP
+
+ONU ZTE 670L v9 
+
+Na aba Rede Local> LAN> IPv4, habilitar o DNS ISP, para que a ONU pegue o DNS fornecido pelo ISP
+
+ONU ZTE 670L v1
+
+Na aba Rede> LAN> Servidor DHCP, habilitar a opção Atribuir IspDNS para que a ONU receba o DNS fornecido pelo ISP e clicar no botão “Enviar” 
+
+É possível informar ao cliente a senha do roteador?
+R: Não.
+
+Podemos auxiliar o cliente em casos de reset?
+R: Sim, caso o cliente possua um Roteador resetado 
+
+Em casos de desconfiguração na ONT, encaminhar diretamente para SUPORTE NIVEL 3
+
+Qual o nível de sinal ideal?
+R: Até -26dBm 
+
+Abaixo disso pode ser gerado N3
+
+Qual site (padrão da empresa) utilizado para medir velocidade?
+R: http://dkiros.speedtestcustom.com/
+
+Qual DNS padrão?
+R: Sempre deixar DNS no automático (fornecido pelo ISP) em Roteadores, ONU's e ONT's
+
+DNS utilizado atualmente: 170.245.99.22 e 170.245.99.23
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Sim, N2 e N3
+
+Como abrir OS para a Dkiros?
+R:
+
+CASO DO CLIENTE	TIPO DE OS	OBSERVAÇÃO
+FALTA DE INTERAÇÃO	
+SUPORTE NIVEL 2
+
+Quando um cliente se ausentar (falta de interação) pode ser aberto atendimento N2 com o descritivo do que o cliente informou e os procedimentos já realizados. Abrir mesmo se não tiver realizado procedimentos/identificado o problema.
+MASSIVA	
+MANUTENÇÃO
+
+Abrir OS com nome e telefone e a informação que foi passado sobre a manutenção regional. Desde pessoa jurídica (EMPRESA/CORPORATIVO) e também clientes com plano PME.
+
+Manutenção= Manutenção preventiva, corretiva ou manutenção na rede.
+
+MASSIVA	
+FALHA MASSIVA
+
+Abrir OS com nome e telefone e a informação que foi passado sobre a falha regional. Desde pessoa jurídica (EMPRESA/CORPORATIVO) e também clientes com plano PME.
+
+Falha massiva= Rompimentos
+
+CANCELAMENTO	
+ENCAMINHAR: OUTRAS DEMANDAS
+
+(COMERCIAL LIGAR/RETORNAR)
+
+Deve ser aberto atendimento ENCAMINHAR: OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR) se é o titular do cadastro, se é uma pessoa que utiliza a conexão e esta solicitando deve ser orientado a pessoa que somente o titular pode solicitar e deve o mesmo entrar em contato via telefone no numero 4733082000 para dar sequencia.
+SEM CONEXÃO	SOLICITAR: SUPORTE NIVEL 3	Abrir atendimento e transferir cliente para o provedor somente em horário de atendimento. *
+TELEFONIA
+
+SUPORTE NIVEL 2
+
+ OU 
+
+ENCAMINHAR: OUTRAS DEMANDAS 
+
+(COMERCIAL LIGAR/RETORNAR)
+
+Casos de telefonia que não são resolvidos pelo suporte pode ser aberto N2. O ENCAMINHAR: OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR) é só para caso sejam duvidas comerciais sobre a telefonia ou planos.
+*Clientes SEM CONEXÃO (certeza da VISITA TÉCNICA) transferir atendimento após abrir OS dentro dos seguintes horários:
+De Segunda a Sexta das 08h às 18h e aos Sábados das 08h as 12h - Setor: SUPORTE DO PROVEDOR ou AGENDAMENTO (Dkiros CRT)
+Fora desse horário não precisa transferir o cliente.
+
+Clientes de Outras Demandas (Financeiro, Alteração Cadastral, Dúvidas, Mudanças, Cancelamento) transferir atendimento dentro dos seguintes horários:
+De Segunda a Sexta das 08h às 18h e aos Sábados das 08h as 12h - Setor: COMERCIAL ou FINANCEIRO (Dkiros Sucesso do Cliente)
+Fora desse horário abrir ENCAMINHAR: OUTRAS DEMANDAS (Comercial Ligar/Retornar).
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: N2 ou N3: Cliente pessoa física: 72 Horas (Úteis); - Cliente corporativo: 24 Horas (Úteis); 
+
+Obs: Quando muito crítico entrar em contato ou mandar no grupo para verificar se não conseguimos um encaixe. 
+
+SEMPRE CONFIRMAR O MELHOR PERÍODO COM O CLIENTE. NAS ORDENS ABERTAS PELA UPCALL, O SETOR DE AGENDAMENTO SEMPRE ENTRA EM CONTATO COM ANTECEDÊNCIA, ANTES DE MANDAR O TÉCNICO.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: Sempre informar o valor da visita R$40,00 + Materiais utilizados. Caso precisar passar cabeamento informar o valor de R$8,00 o metro +R$5,00 ponteira/conector.
+
+Tem plantão aos finais de semana e feriado?
+R: N2 e N3.
+
+ 	Segunda a sexta	Sábados e Feriados
+N2	08h às 21h	08h às 16h
+N3	08h às 18h	08h às 12h
+Não tem plantão aos Domingos
+
+A empresa fornece IP Fixo? Qual valor?
+R:Sim, R$:200,00. Se cliente tiver interesse abrir atendimento de (Ligar e retornar) para negociar. 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Não. Quando vemos que trata-se de um aparelho pirata, informamos o cliente que por não ser homologado pela ANATEL, não damos suporte, mas que vamos verificar as configurações do roteador, tentar alterar o canal do WiFi, etc... para ver se isso pode ajudar, mas não damos garantia. Importante pedir para fazer contato com o vendedor do aparelho para verificar.
+
+OBS.: Orientar o cliente a conectar o aparelho sempre pelo cabo. Pode acontecer casos que chega a derrubar a rede Wi-Fi. 
+
+Temos também opção de aluguel de setupbox homologado Dkiros para uso do Dkiros TV, neste caso se o cliente quiser adquirir precisa ser aberto atendimento ENCAMINHAR: OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR)
+
+Como é feita a autenticação do sinal em Condomínios, PPPoE ou IP Dinâmico?
+R: PPPoE.
+
+Atualmente hoje a empresa trabalha com IPV6?
+R: Sim
+
+IP DINÂMICO
+
+Em condomínios que utilizamos o acesso aonde vai um link de internet bridge e cada apartamento ou kitnet vai um roteador configurado com PPPoE nesse caso, não alterar para IP dinâmico.
+
+FINANCEIRO E COMERCIAL
+Podemos realizar o desbloqueio de confiança?
+R: Não. Caso aconteça, pedir que entre em contato novamente pelo chat e coloque nas opções de desbloqueio automático pelo Upchat. Ou orientar o cliente a acessar a central do assinante. 
+
+Somente a carteira 5, 9 e 15 nessa carteira é necessário abrir ENCAMINHAR PARA OUTRAS DEMANDAS (COMERCIAL LIGAR/ RETORNAR) quando enviar comprovante.
+
+Obs. para conseguir verificar a carteira abrir a parte financeiro, olhar Cart. cobrança na conforme imagem abaixo:
+
+
+Nos outros casos de comprovante apenas registrar N1 e anexar o comprovante.
+
+No caso do cliente for uma renegociação em aberto, anexar o comprovante na OS de renegociação e registrar apenas N1. 
+
+Com quantos dias ocorre o bloqueio?
+R: O bloqueio ocorre após 8 dias de atraso; porém, a rotina não realiza bloqueios aos finais de semana, nas sextas-feiras ou segundas-feiras, ocorrendo somente de terça a quinta-feira.
+
+NÃO INFORMAR SOBRE OS 8 DIAS AO CLIENTE. CASO O MESMO QUESTIONE DEVE SER ABERTO OUTRAS DEMANDAS.
+
+Podemos enviar fatura?
+R: Depende da Carteira de Cobrança
+
+NÃO ENVIAR FATURA E ORIENTAR A CENTRAL DO ASSINANTE:
+
+- Para o banco Viacredi: Carteira 5 (Base 1) / Carteira 2 (Base 2)
+
+- Para o banco Sicoob: Carteira 15 (Base 1) / Carteira 7 (Base 2)
+
+NÃO ORIENTAR A CENTRAL DO ASSINANTE E ABRIR ENCAMINHAR PARA OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR):
+
+-Carteira 9 (Clientes tem que pagar diretamente na loja)
+
+DEMAIS CARTEIRAS PODEMOS ENVIAR A FATURA NORMALMENTE E ORIENTAR CENTRAL DO ASSINANTE OU ABRIR ENCAMINHAR PARA OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR) SOMENTE CASO OCORRA ALGUM PROBLEMA
+
+Quais os métodos de pagamento da fatura?
+R: O provedor oferece as opções das Carteiras PIX ou Boleto. 
+
+Caso o cliente deseje o código de barras e no sistema conste somente o PIX (ou vice versa), podemos encaminhar para OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR) e transferir (se estiver dentro do horário).
+
+Possui redução de velocidade?
+R: Não
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R:Pode sim. Abrir atendimento de ligar e retornar para o setor comercial negociar e informar os valores
+
+Mudança de endereço abrir atendimento ENCAMINHAR: OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR).
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: O valor será sempre na próxima mensalidade, e o técnico quem avaliar o valor que será cobrado. 
+
+Qual o procedimento para comprovante de pagamento?
+R: Comprovantes de pagamentos de clientes com carteiras de cobrança números 5,9,15 seja aberto um ENCAMINHAR: OUTRAS DEMANDAS (COMERCIAL LIGAR/RETORNAR) ao setor de COMERCIAL ou FINANCEIRO (Dkiros Sucesso do Cliente). 
+
+Informações da empresa
+ 
+
+CENTRAL DO ASSINANTE	
+BASE 1: https://ixc.d-kiros.com.br
+
+BASE 2: https://ixc.dkirosnet.com.br/central_assinante_web/faturas
+
+NUNCA MANDAR OS 2 LINKS PARA O CLIENTE, SEMPRE VERIFICAR QUAL A BASE DELE ANTES, A INFORMAÇÃO DE TER 2 BASES NÃO PODE SER PASSADA
+
+LOGIN	CPF/CNPJ
+SENHA	dkirosnet
+ 
+
+ENDEREÇOS
+MATRIZ
+
+CIDADE	BAIRRO	RUA/Nº
+Gaspar - SC	Gaspar Mirim	R. João Ferretti, 155 - Sala 01
+ 
+
+CONTATOS
+
+TELEFONE
+
+47 3308 2000
+WHATSAPP
+
+47 3308 2000
+SITE
+
+https://dkiros.com.br/
+HORÁRIOS
+
+ATENDIMENTO (DKIROS SUCESSO DO CLIENTE)
+
+De Segunda à Sexta das 08h às 18h
+Sábados das 08h às 12h
+CONTRATAR (DKIROS VENDAS)
+
+De Segunda à Sexta das 08h às 18h
+Sábados das 08h às 12h
+SUPORTE DO PROVEDOR (DKIROS CRT)
+
+De Segunda a Sexta das 08h às 18h
+Sábados das 08h às 12h

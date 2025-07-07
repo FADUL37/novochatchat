@@ -1,0 +1,199 @@
+Perfect
+ 
+
+Horário de atendimento da UPCALL (GMT -3)	
+Telefonia - De Segunda à Sexta das 18h as 08h30 e das 12h às 13h30
+
+Sábados das 12h às 00h
+
+Domingo das 00h01 às 21h
+
+Chat - De Segunda à Sexta das 18h às 21h
+
+Sábados das 12h às 00h
+
+Domingos das 00h01 às 21h
+
+UPSOFT - OK
+
+CHAT E LIGAÇÃO
+
+IXC	OPA	SETORES
+Quais as tecnologias oferecidas pela empresa?
+R: Internet Fibra Óptica, Telefonia, Rádio, Energia Solar, Informática e SVA's:
+
+Perfect TV (App de TV com 160 Canais + Plataforma de Filmes) - Usuário e Senha: PPPoE - Liberado para clientes com Plano >R$100. Caso o cliente possua um plano inferior, ele pode contratar a parte.
+Watch TV (App com alguns canais de TV + Plataforma de Filmes, incluindo o Paramount) - Usuário e Senha são liberados pelo e-mail do cliente pelo provedor - A parte dos planos, com custo de R$5
+CampSoft (HBO MAX) - Usuário e Senha: CPF do titular - A parte dos planos, com custo de R$18
+Caso o cliente solicitar atendimento desses outros serviços, podemos abrir ENCAMINHAR PARA OUTRAS DEMANDAS
+
+Quais os planos vendidos na empresa?
+R: Possui planos de rádio e Fibra
+
+Clientes que ainda não assinaram o contrato ficam com velocidade reduzida em 2 MB, solicitar ao cliente para realizar a assinatura pela central do assinante 
+
+Quais cidades/bairros de atuação?  
+R: União da Vitória, Bituruna, Cruz Machado, Mallet, Fluviópolis, Paula Freitas, Paulo Frontin, Porto Vitória, Rio Azul, Rio Claro do Sul, Porto União, Felipe Schmidt, interior de Canoinhas, Irineópolis, Poço Preto e Santa Cruz do Timbó.
+
+Quais equipamentos utilizados?
+R: RÁDIO - Ubiquit e FIBRA - Multilaser, TP-Link, ZTE
+
+Prestam suporte a repetidores?
+R: Repetidor não fornecem, mas configuram com as taxas de R$ 60,00 para URBANO e R$ 80,00 para RURAL
+
+Trabalham com Rede Mesh, mas o cliente precisa fazer a compra do segundo roteador. Abrir N3 normal em caso de não normalizar com os procedimentos padrão.
+
+Qual a porta de acesso para acesso aos roteadores?
+R: 80, 8080
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: PROVISIORIAMENTE, ESTAMOS SEM ACESSO AOS EQUIPAMENTOS. ABRIR N3 E PASSAR NO GRUPO CASOS MAIS URGENTES
+
+EQUIPAMENTO
+
+PORTA
+
+LOGIN
+
+SENHA
+
+Ubiquit	80	admin	
+kairos2010
+
+kairos@_2010
+
+Multilaser, TP-Link, Dlink	8080	admin	
+kairos2010
+
+kairos@_2010
+
+admin1
+
+admin
+
+ZTE	8080	multipro	multipro
+Não temos acesso a antenas
+
+É possível informar ao cliente a senha do roteador?
+R: Não repassar a senha
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Abrir N3 e informar que será atendido em horário comercial.
+
+Qual DNS padrão?
+R: DNS 1: 45.182.152.34
+
+DNS 2: 8.8.8.8
+
+Quais são as tratativas para reset?
+R: Pode orientar o cliente, mas na maioria dos casos será necessário abrir atendimento.
+
+Qual o nível de sinal ideal?
+R: Até RX -32dBm (até -34dBm ainda mantém conectado)
+
+Abaixo disso, podemos encaminhar ao N3
+
+Qual site (padrão da empresa) utilizado para medir velocidade?
+R: speedtest.net
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+R: Não, somente N3
+
+Clientes que possuem 3 ou mais atendimentos N1 em sequência, independente do intervalo de tempo, devemos abrir OS para o provedor verificar.
+
+Clientes que entram em contato já dando a entender que só vão ficar satisfeitos com abertura de chamado, pode ser aberto e orientado para otimizar o atendimento.
+
+Quando for aberto deve ser escolhido a região correta de acordo com o endereço do cliente, da seguinte forma:
+Mallet = Mallet + Paulo Frontin + Rio Azul + Paula Freitas + São Mateus
+União da Vitória = União da Vitória, Porto União, Porto Vitória, Bituruna, Canoinhas, Cruz Machado, Irineopolis
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: Abrir N3
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Segunda à Sexta: Chamados até 12h–13h30 → atendidos no mesmo dia.
+
+Chamados até 18h–20h → • Urbano: mesmo dia • Rural: próximo dia
+
+Sábado: Chamados entre 12h–20h → mesmo dia, após isso → reagendado para domingo
+
+Domingo: Chamados entre 08h–20h → • Urbano: mesmo dia → • Rural: próximo dia útil
+
+Existe um controllr ou o técnico vai direto até a residência?
+R: Se a O.S. estiver agendada no sistema, o técnico vai diretamente até o local.
+
+Qual o custo da visita técnica caso seja improdutiva?
+R: 30 reais para áreas urbanas e 60 reais para o interior (todas em área rural, interior, colônia)
+
+Alguns motivos de cobrança: equipamento desligado da tomada, equipamentos apenas travados, reconfiguração de equipamento (troca de ssid ou senha)
+
+Tem plantão aos finais de semana e feriado?  
+R: Sim, mas somente para clientes sem conexão
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: É gerado boleto para o cliente realizar o pagamento pela central do assinante 
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Realizar as configurações normais de lentidão, caso identificar que seja possivelmente questão de IPTV abrir diretamente N3 para o setor responsável verificar (Não precisa informar sobre IPTV, pois caso haver necessidade o N3 irá informar).
+
+Caso o cliente solicite a tratativa especificamente para o IPTV, podemos informar que não há suporte direto a esse tipo de serviço, com as orientações da ANATEL.
+
+A empresa fornece IP Fixo? Qual valor?  
+R: Sim, 10 reais + mensalidade
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Transferir o atendimento ao FINANCEIRO e informar ao cliente em que horário será atendido.
+
+Mudança de Endereço - Transferir o atendimento ao FINANCEIRO e informar ao cliente em que horário será atendido.
+
+FINANCEIRO E COMERCIAL
+O Provedor utiliza o Assunto de OUTRAS DEMANDAS para situações que não são referentes ao suporte. Casos do financeiro, contrato, etc. podem ser encaminhados para OUTRAS DEMANDAS e sinalizados de que terão retorno no próximo dia.
+
+Podemos enviar fatura?
+R: Sim
+
+Podemos fazer o desbloqueio de confiança?
+R: Sim, somente mediante comprovante de pagamento
+
+Com quantos dias ocorre o bloqueio?
+R: 16 dias após o vencimento
+
+Possui redução de velocidade?
+R: Não
+
+A redução só ira ocorrer em casos onde o status do cliente está “Aguardando Assinatura”, nesse caso precisa orientar o cliente a acessar a central do assinante e realizar a assinatura, ou entrar em contato via WhatsApp e solicitar a opção “assinar contrato”
+
+Qual métodos de pagamentos da fatura?
+R: Somente via fatura (tem o Código PIX vinculado) 
+
+Qual o procedimento para comprovante de pagamento?
+R: Abrir OS de envio de comprovante e anexar
+
+Informações da empresa
+ 
+
+CENTRAL DO ASSINANTE	
+https://cda.perfectsolucoes.com.br/central_assinante_web/login
+
+Acesso com CPF do cliente
+
+ 
+
+ENDEREÇO	R. QUINTINO BOCAIÚVA, 69 - CENTRO, UNIÃO DA VITÓRIA - PR, 84600-000
+ 
+
+Possui atendimento presencial?
+R: Sim
+
+ 
+
+TELEFONE	 42 35223166
+SITE	https://perfectsolucoes.com.br/
+FACEBOOK	https://it-it.facebook.com/siga.perfect/
+INSTAGRAM	https://www.instagram.com/siga.perfeect/
+ 
+
+HORÁRIO
+
+De Segunda a Sexta	Das 8h30 às 12h e 13h30 às 18h
+Sábado	Das 08:30 às 12h

@@ -1,0 +1,312 @@
+Horário de atendimento da UPCALL (GMT -3)	
+Segunda à Sábado das 20h às 08h
+
+Domingos e Feriados - 24h
+
+UPSOFT - OK
+
+CHAT E LIGAÇÕES
+
+SETORES	HUBSOFT	UPCHAT
+Caso alguém solicite informações sobre vagas de emprego: https://form.jotform.com/223594812558061
+
+Quais as tecnologias oferecidas pela empresa?
+R: Fibra, Telefonia (Não oferece o telefone, somente a linha) e TV (não disponibilizam o aparelho, apenas o aplicativo).
+
+Como prosseguir em casos de contratação?
+R: Transferir o atendimento ao Setor Contratar. Caso seja fora do horário, encaminhar a seguinte mensagem anteriormente:
+Anotei aqui sua solicitação. Já encaminhei seu pedido ao setor responsável, e retornarão em breve.
+
+Não é necessário encaminhar os dados no grupo, somente transferir o atendimento (a menos que seja via ligação)
+
+NÃO FINALIZAR O ATENDIMENTO
+
+Quais os planos vendidos na empresa?
+R: 600, 800 E 1000 MEGAS
+
+Clientes que possuem planos inferiores a 600 Megas pode encaminhar no grupo para verificar viabilidade para fazer a atualização de plano.
+
+Clientes com problemas de conexão com Plano de Rede Neutra, podemos encaminhar no grupo e marcar a Maysa (das 15h às 00h) ou a Larissa e Milena (antes das 15h).
+
+Quais cidades/bairros de atuação?  
+R: Bairro Veneza, Fazenda Rio Grande, Tatuquara (Condomínios), Caximba (Solicitar a localização) , Bairro Novo Mundo, Parolim e Guaíra
+
+Quais os procedimentos para a linha telefônica?
+R: Durante o horário pode transferir para o provedor.
+
+Fazer o primeiro atendimento com o cliente, levantar as informações básicas (se o problema é para receber ou efetuar ligações) e informar que vai transferir.
+
+OBS: Para ligações Interurbanas digitar Somente DDD + Número
+
+Clientes que entrarem pós-horário ou via ligação, encaminhar no grupo do provedor.
+
+Como orientar clientes sobre a TV?
+R: Não fornecem nenhum tipo de aparelho, apenas aplicativo. Técnicos não instalam.
+
+Mensagem sugestiva:
+
+ 
+
+"A Capital agora disponibiliza também, app com canais de televisão 📺💜
+
+ 
+
+Para baixar o app, você deverá procurar por Capital play na loja de app da sua TV, celular, ou computador.
+
+Para acessar, o login e senha será seu CPF.
+
+Nele você terá acesso a canais abertos, canais infantis, rádios, entre outros.
+
+Para baixar o aplicativo basta clicar em um dos links abaixo:
+
+ 
+
+Para Android:
+
+https://play.google.com/store/apps/details?id=br.com.capitalfibra.edge.mobile
+
+ 
+
+Para IOS:
+
+https://apps.apple.com/br/app/capital-play/id6446258972
+
+ 
+
+Duvidas estamos a disposição."
+
+Prestam suporte a repetidores?
+R: Não fornecem suporte a equipamentos adquiridos pelos clientes.
+
+Caso haja necessidade de algum cliente de um segundo ponto realizam um agendamento para estudo técnico para estar instalando a rede mesh. Se o cliente aceitar, podemos encaminhar para VISITA TÉCNICA - {{UPCALL}} e informar no grupo.
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+R: Planilha de Senhas e Manual de cada modelo
+
+EQUIPAMENTO	PORTA	LOGIN	SENHA
+UNEE	 	root	Changeme_123
+ASKEY	/padrao	
+admin
+
+support
+
+askey123
+
+825e3a2a
+
+NOKIA	/login.cgi	telecomadmin	admintelecom
+CAPITAL NET	/padrao	support	825e3a2a
+MITRA	/padrao	
+admin
+
+support
+
+mitra123
+
+825e3a2a
+
+HUAWEI	 	
+telecomadmin
+
+capitalnet
+
+admintelecom
+
+cptnet@huawei
+
+HUAWEI  V5-v2	 	Epadmin	adminEp
+MERCUSYS	8888	 	capitalnet
+TP LINK, INTELBRAS	9929	 	
+99293
+
+capitalnet
+
+admincapitalfibra
+
+84786670
+
+TPlink  xc-220-g3v
+
+TPlink  XX230V
+
+ 	 	C84786670
+Tp link  Archer C5	 	 	84786670
+DATACOM	 	user	Support@1
+DATACOM DM985-424 HW2 	 	support	support
+É possível informar ao cliente a senha do roteador?
+R: Sim, evitar de passar ao cliente, mas caso insista pode informar a senha porém orientar que caso haja algum dano que seja necessário visita técnica, essa visita é cobrada.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+R: Pode abrir OS, a primeira visita não é cobrada, as demais haverá cobrança.
+
+Ao realizar a troca de senha nas redes 2.4G e 5G, a sugestão é também efetuar a troca do nome de rede para: "Capital Fibra - Nome do cliente”
+Deixar a mesma senha nas duas redes, 2.4G e 5G.
+
+Qual DNS padrão?
+R: DNS1: 189.36.252.77 e DNS2: 189.36.252.78
+
+Quais são as tratativas para reset?
+R: Abrir atendimento e orientar o cliente sobre a visita improdutiva ( casos em o cliente se negar é avaliado o financeiro) 
+
+Qual site (padrão da empresa) utilizado para medir velocidade?
+R: https://capitalfibra.speedtestcustom.com/
+
+Existe tratativa N2 e N3?
+R: Sim. SUPORTE N2 (SUPORTE REMOTO - {{UPCALL}}) e SUPORTE N3 (VISITA TÉCNICA - {{UPCALL}})
+
+Ao abrir Ordem de Serviço, solicitar localização fixa e colocar na descrição da O.S.
+
+Ao abrir SUPORTE N2 (SUPORTE REMOTO - {{UPCALL}}) enviar recado no grupo, mesmo fora de expediente, pois geralmente o provedor consegue solucionar.
+
+Como podemos prosseguir com falta de interação para clientes desconectados?
+R: NÃO abrir O.S. sem a confirmação do cliente (casos de falta de interação).
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+R: Após abertura, sempre passar ao cliente a data do agendamento para o mesmo estar ciente e aguardar o técnico. Pode informar a data e que será atendido entre às 09h e às 18h. Em casos específicos, onde cliente não possa atender nesse horário ou solicite o encaixe para o mesmo dia, mandar o caso no grupo.
+
+Necessário agendar a O.S. para o próximo dia útil (Seg a Sab). Clientes que entram no Sábado SEM CONEXÃO pode agendar para o Domingo. Clientes com INSTABILIDADE, QUEDAS agendar para Segunda.
+
+Como prosseguir com agendamentos fora de horário?
+R: Para agendamento de horários específicos ou depois do horário comercial , somente após ter sido verificado todas as possibilidades de visitas dentro do horário estipulado.  Das 08h30 às 17h30. ( Sempre damos sugestões de ver com amigo , parentes (maior de 18 anos). Para estar acompanhando atendimento técnico.
+
+Somente em último caso que é aberto exceções (geralmente clientes atritos / retenção). Nesse caso é necessário que nos informe para verificar e estudar uma maneira para melhor atende-los.
+
+Tem plantão aos finais de semana e feriado?
+R: Sim, Sábado até às 18h e Domingo das 08h às 18h
+
+Clientes SEM CONEXÃO que entram Domingo confirmar com eles a disponibilidade e encaixe no grupo do provedor.
+
+Qual o custo da visita técnica caso seja improdutiva?
+
+Para passagem de cabeamento interna é cobrado o valor da visita (R$30 +R$3,50 por metro de cabo)
+
+Sempre informar na OS o valor repassado ao cliente
+
+Caso o cliente não aceite o valor passado durante o atendimento, não se deve abrir O.S. - Enviar o caso no grupo nessas situações
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+R: A vista, diretamente com o técnico
+
+Dependendo da situação, pode ser cobrada junto com a próxima fatura - Necessário verificar no grupo
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+R: Sim, Mudança de cômodo: R$30,00 caso não precise trocar fibra, R$70,00 caso haja necessidade. 
+
+Ponto Adicional no Mesmo Local é agendado primeiro um orçamento para o técnico ir ao local (Abrir OS com Tipo de OS VISITA TÉCNICA - {{UPCALL}}) e informar o cliente que a equipe irá validar. Caso seja aprovado, além da taxa de instalação é cobrado R$29,99 mensal. 
+
+Ponto Extra em Outro Local (Nova Contratação) - Transferir o atendimento ao Setor Contratar. Caso seja fora do horário, encaminhar a seguinte mensagem anteriormente: Anotei aqui sua solicitação. Já encaminhei seu pedido ao setor responsável, e retornarão em breve.
+
+MUDANÇA DE ENDEREÇO - Dentro do horário comercial, pode transferir para o provedor diretamente.
+
+Fora do horário encaminhar a seguinte mensagem:
+
+Mudança de endereço:
+
+Novo endereço:
+Localização fixa:
+Telefone atualizado:
+Nome de quem solicitou:
+
+Mandar no grupo e informar ao cliente que o setor responsável irá entrar em contato para passar as demais informações. Cliente precisa levar o modem para a nova residência
+
+Como proceder em casos de cancelamento de OS?
+R: Devemos alterar o técnico para CENTRAL e informar no grupo que foi feito o cancelamento da OS do cliente x
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+R: Investigar até o cliente admitir (para deixar registrado no atendimento) que a questão é a na IPTV, após repassar as orientações da ANATEL
+
+Sugestão: Orientar sobre o cabeamento do IPTV,  fornece o cabeamento de graça para o cliente até 1 metro e meio, caso haja necessidade de uma metragem maior, é cobrado.
+
+Registrar no sistema todas as orientações repassadas ao cliente e abrir OS caso solicite o cabeamento. 
+
+A empresa fornece IP Fixo? Qual valor?
+R: Sim, fornece
+
+Valor: 70 reais (mensal) para pessoa física
+
+100 reais (mensal) para jurídico 
+
+FINANCEIRO E COMERCIAL
+ OBS: Fatura do telefone e da internet vem separado
+
+Alguns clientes estão com os juros do boletos alterados como “2% DE MULTA MAIS 2% DE MORA AO MÊS”. O correto é “2% DE MULTA MAIS 0,033% AO DIA”. Quando cliente entrar em contato questionando sobre a divergência no  valor, pode repassar no grupo do provedor para ser alterado.
+
+Podemos enviar fatura?
+R: Sim. Também pode orientar a acessar pela Central do Assinante.
+
+
+Para verificar a fatura no UPSOFT, é necessário clicar no Botão ABRIR BOLETO
+Alguns planos possuem desconto caso o cliente pague em dia (o desconto já é automático na fatura). Ex: Valor de R$119,90 tem desconto de R$20 pagando em dia.
+
+Clientes que estão sem financeiro gerado pode encaminhar no grupo que o provedor gera.
+
+Quando ocorrem os bloqueios?
+R: Provedor tem em sistema os dias de vencimento 10, 15, 20 e 25
+
+Bloqueio ocorre após 15 dias da fatura em atraso.
+
+Podemos fazer o desbloqueio de confiança?
+R: Sim. Não desbloquear com duas ou mais faturas em atraso.
+
+Desbloqueio de Confiança - 5 dias
+
+Desbloqueio Preventivo (cliente já encaminhou o comprovante, mas não foi dada a baixa na fatura) - 3 dias
+
+Em casos onde o cliente encaminha o comprovante e o desbloqueio está indisponível, pode utilizar a opção HABILITAR e informar o cliente de que a conexão ficará liberada até a próxima rotina do financeiro (em torno de 24h) para dar a baixa na fatura. Caso entre em contato por ligação e informe que fez o pagamento, pode HABILITAR e orientar a enviar o comprovante no WhatsApp.
+
+Possui redução de velocidade?
+R: Não
+
+Qual métodos de pagamentos da fatura?
+R: Boleto ou Pix pelo QR Code na própria fatura.
+
+Não trabalham com débito em conta. Se o cliente solicitar, orientar a entrar em contato com o banco dele.
+
+Fornecem carnê para pagamento de faturas?
+R: Sim, podem ser retirado nas lojas. Caso o cliente solicite o carnê, enviar no grupo do provedor.
+
+Caso alguns clientes de CAXIMBA, PAROLIN (PASSO AMARELO), solicitar localização e anexar na OS para o motoboy entregar até o local. 
+
+Qual o procedimento para comprovante de pagamento?
+R:  Anexar no sistema.
+
+Informações da empresa
+ 
+
+CENTRAL DO ASSINANTE	https://central.capitalnet.hubsoft.com.br/
+APLICATIVO	
+App Store: https://apps.apple.com/br/app/capital-fibra/id1638322751
+
+Google Play: https://play.google.com/store/apps/details?id=com.hubsoft_client_app.capitalnet
+
+ 
+
+TELEFONE	0800 941 0094
+SITE	https://capitalfibra.com.br/site/
+EMAIL	sac@capitalfibra.com.br
+ENDEREÇOS	R. João Quirino Leal, 1515 CASA 42, Jardim Veneza, Fazenda Rio Grande - PR
+Av. Cedro, 507, Eucaliptos
+Rua Francisca Beraldi Paolini, 860, Caximba - PR
+ 
+
+HORÁRIOS
+Atendimento presencial Loja do Veneza	De Segunda à Sábado	Das 08h às 12h e das 13h30 às 17h30
+Demais Setores - SAC	De Segunda à Sábado	
+Das 08h 12h e das 13h30 às 16h30
+
+Até às 23h30 para Transferências
+
+Comercial - CONTRATAR	De Segunda à Sexta	
+Das 08h às 16h30
+
+Até às 23h30 para Transferências
+
+Sábados e Feriados	Das 08h às 17h
+Não transferir fora de horário (das 23h30 às 08h), encaminhar os casos no grupo e orientar que o setor responsável retornará o contato. Contratações podemos transferir a qualquer momento.
+
+Como Abrir Ordem de Serviço
+⇒CLIQUE AQUI⇐
+
+Utilizar somente os Diagnósticos: NÃO SOLUCIONADO - {{UPCALL}} e SOLUCIONADO - {{UPCALL}}
+
+Devemos especificar um período de 1h de duração (diferença entre o horário de abertura do horário de término) da O.S. 

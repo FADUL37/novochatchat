@@ -1,0 +1,171 @@
+CENSANET
+ 
+
+Horário de Atendimento da UPCALL (GMT -3)	Segunda à Segunda das 20h às 07h
+UPSOFT - OK
+
+CHAT E LIGAÇÕES
+
+IXC	OPA	SETORES
+Quais as tecnologias oferecidas pela empresa?
+R: Internet banda Larga por FTTH e temos uma tecnologia híbrida em prédios que chamamos de FTTB que a ONU fica no andar e saímos com o UTP para o apartamento.
+
+Quais os planos vendidos na empresa?
+R: 300, 450 e 600 MB
+
+Quais cidades/bairros de atuação?
+R: Temos rede em grande parte da cidade (Campos dos Goytacazes). Apenas alguns bairros que não temos viabilidade. Alguns deles seria: Travessão, Penha, Goytacazes, Ururaí, Tapera, Pq Aldeira, Canaã. Existe outros bairros também. Geralmente é orientado passar o endereço para nossa equipe verificar a viabilidade.
+
+Quais equipamentos utilizados?
+R: Utilizamos como BNG Juniper e ERP IXC. A rede PON é totalmente neutra da Forte Infraco. 
+
+Na ponta com o cliente temos um parque de ONUs dos seguintes vendors:
+* Parks, Huawei …
+
+Temos roteadores e ONT dos seguintes fabricantes:
+* Tplink, intelbras, d-link, multilaser…
+
+Presta suporte a repetidores?
+Não
+
+Presta suporte a câmeras?
+Não
+
+Qual a porta de acesso para acesso aos roteadores?
+Geralmente é 32, 3232, 80 ou 8080
+É o ip do cliente ":" e a porta. Ex: 100.10.10.1:3232
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+Geralmente são os 6 últimos números do MAC, sendo necessário diminuir o último caracter.
+
+Ex: AB:10:15 se esse for o final, vai utilizar AB:10:14. Diminuindo o último e retirando os pontos.
+
+Em alguns casos quando não é o final do MAC, utilizamos a seguinte senha: CN37#123456
+
+Quando for ONT, é necessário colocar o ip + porta + /superadmin
+
+EX: 100.1.1.1:32/superadmin ou em alguns casos só o ip + /superadmin
+
+É possível informar ao cliente a senha do roteador?
+Não, não fornecemos essas informações aos clientes. Até para evitar que altere as configurações e retire nosso acesso remoto.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Nesse caso, só será gerado uma visita caso o roteador seja da empresa. Se for nosso, é gerado uma visita sem custos. Caso seja particular do cliente, é orientado a procurar um técnico para verificar seu equipamento.
+
+Qual o site utilizado para testes de velocidade?
+www.speedtest.net ou www.nperf.com
+
+Garantem toda a banda contratada passada por WiFi?
+Sim, geralmente na rede 5ghz. É sempre bom enfatizar ao cliente que apenas a rede 5ghz é possível fornecer a velocidade contratada (geralmente para planos acima de 100Mbps).
+
+Qual DNS padrão?
+186.237.49.21
+
+8.8.8.8
+
+Quais são as tratativas para reset?
+Caso o equipamento esteja resetado, é necessário uma visita para reconfigurar o equipamento no local.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Caso não seja possível solucionar durante o atendimento, devemos encaminhar ao provedor:
+
+N2: Situações onde é possível solucionar remotamente (PON Piscando, Sem Acesso Remoto, Lentidão)
+Visita Técnica: Situações onde faz-se necessário o encaminhamento da equipe in loco (LOS, Potência Inadequada, Equipamento Danificado)
+
+Como prosseguir em casos de falta de interação?
+Caso esteja desconectado no sistema, podemos gerar um N2 para a equipe do provedor retornar o contato em outro período
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+Residencial: 48h
+Empresarial: 12h
+Corporativo: 4h
+
+Existe setor de Agendamento ou Técnico vai direto ?
+A visita pode ser gerada e mantém como aberto. Nosso setor verifica pela manhã e encaminha para o setor responsável.
+
+Qual o custo da visita técnica caso seja improdutiva?
+Não cobramos manutenção, mesmo que seja improdutiva.
+
+Tem plantão aos finais de semana e feriado?
+Suporte Interno: De seg a dom, 7h as 20h.
+Suporte Externo: Seg a sex, de 8h as 18h e sábado de 8h as 17h. Domingo e feriado o suporte externo não funciona, apenas em casos de emergência. Em casos de necessidade é acionado a equipe de sobreaviso.
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Isso é tratado diretamente com o setor Administrativo.
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Não
+
+A empresa fornece IP Fixo? Qual valor?  
+Sim, em casos de interesse em contratar o ip fixo é necessário acionar o setor administrativo.
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Não, nesse caso pode abrir um atendimento para o setor setor administrativo entrar em contato e realizar o procedimento.
+
+Mudança de Endereço
+Sempre orientar o cliente entrar em contato com o setor administrativo. 
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Sim, basta confirmar o mês que o cliente deseja.
+
+Com quantos dias ocorre o bloqueio?
+Após 40 dias de atraso
+
+Podemos fazer o desbloqueio de confiança?
+Sim, mediante o comprovante.
+
+Por quantos dias a conexão é liberada?
+2 dias
+
+Possui redução de velocidade?
+Sim
+
+Caso o cliente encaminhe o comprovante, podemos efetuar a liberação.
+
+Com quantos dias ocorre a redução?
+No 16º dia após o vencimento. Lembrando que não realizamos bloqueio sexta, sab e dom. Caso o 16º dia seja em um desses dias, vai ser gerado no próximo dia válido (entre seg e quinta).
+
+Qual métodos de pagamentos da fatura?
+Boleto, pix e cartão de crédito (no cartão é direto na loja).
+
+Qual o procedimento para comprovante de pagamento?
+Caso o cliente envie o comprovante, pode efetuar a liberação. Após isso deverá encaminhar um e-mail para o setor administrativo, informando o nome completo do cliente e anexando o comprovante. E-mail: contato@censanet.net.br
+
+Como prosseguir em casos de cancelamento?
+A solicitação de cancelamento só pode ser realizada pessoalmente ou por e-mail (contato@censanet.net.br), contendo nome completo do assinante, CPF, RG e o motivo do cancelamento.
+
+INFORMAÇÕES DA EMPRESA
+ERP 
+IXC Soft
+
+Central do Assinante
+
+https://meu.censanet.net.br/central_assinante_web/login
+
+ENDEREÇOS
+
+Edifício Transamérica - R. Tenente Coronel Cardoso, 1031 - Loja 4 - Parque Tamandaré, Campos dos Goytacazes - RJ, 28035-042
+
+Possui atendimento presencial?
+R: Edifício Transamérica - R. Tenente Coronel Cardoso, 1031 - Loja 4 - Parque Tamandaré
+
+CONTATOS
+
+TELEFONE: (22) 3211-0090
+
+WHATSAPP:  (22) 3518-8420
+
+SITE: https: www.censanet.net.br/
+
+INSTAGRAM: https://www.instagram.com/censanet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+
+ 
+
+HORÁRIOS 
+
+Administrativo: Seg a Sex, 8h as 18h
+Comercial: Seg a Sex, 8h as 18h
+Suporte: Seg a Dom, 7h as 20h

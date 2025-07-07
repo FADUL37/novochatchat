@@ -1,0 +1,225 @@
+Itapoá Fibra Telecomunicações
+ 
+
+Horário de Brasilia	 24/7
+ 
+
+OLT SOFT	UPCHAT
+Login OLT: hiohana.andrade
+Senha OLT: UPCall123@
+
+TUTORIAL OLT SOFT
+
+Quais as tecnologias oferecidas pela empresa?
+Internet Fibra Óptica.
+
+Quais os planos vendidos na empresa?
+💻 Internet rápida e estável para sua casa:
+
+🔹 550MB – Apenas R$ 99,90
+
+ 
+
+📺🎶 Quer mais diversão? Conheça nossos combos com TV e Streaming:
+
+✅ 650MB – R$ 139,90
+
+Inclui 3 aplicativos:
+
+✔️ SKY Light + Paramount (canais abertos, exceto Globo)
+
+✔️ Filmes e séries no app Paramount
+
+✔️ 1 app à sua escolha (Standard ou Advanced) – Recomendamos o Deezer
+
+ 
+
+🔥 Oferta Especial! 🔥
+
+✅ 850MB – De R$ 179,90 por apenas R$ 159,90!
+
+Inclui 3 aplicativos:
+
+✔️ SKY Light + Paramount (canais abertos, exceto Globo)
+
+✔️ Filmes e séries no app Paramount
+
+✔️ 1 app à sua escolha (Premium) – Recomendamos o MAX
+
+ 
+
+Em casos de contratação, devemos abrir um Ticket para o cadastro Cliente Prospecto no OLT Soft, com as informações do solicitante:
+Nome:
+CPF:
+Contato:
+Plano de Interesse:
+Endereço:
+
+Quais cidades/bairros de atuação?
+Itapoá - SC;
+
+Bairro Pontal (Porto) →  bairro Paese (Celesc);
+
+Quais equipamentos utilizados?
+Equipamentos Huawei. ONU Bridge, Roteador AX2S e AX3S e ONT BROADBAND  EG8145X6-10
+
+Presta suporte a repetidores?
+Sim, desde que o serviço solicitado esteja contratado com a Itapoá Fibra.
+
+Presta suporte a câmeras?
+Sim, desde que o serviço solicitado esteja contratado com a Itapoá Fibra.
+
+Qual a porta de acesso para acesso aos roteadores?
+Roteador AX2S e AX3S - 8080;
+
+ ONT BROADBAND  EG8145X6-10 - 80;
+
+Qual usuário e senha padrão para acesso aos equipamentos?
+Roteador AX2S e AX3S - Senha: Itapoa1152 (não possui login);
+
+ONT BROADBAND  EG8145X6-10 - Login: Epadmin - Senha: Itapoa1152
+
+É possível informar ao cliente a senha do roteador?
+Não. Caso o cliente insistir, abrir ticket para equipe de suporte verificar.
+
+Se não tivermos acesso para trocar a senha e seja necessário abrir OS, é cobrado e qual valor?
+Sem taxa de cobrança. Abrir ticket para equipe de suporte verificar.
+
+Qual o site utilizado para testes de velocidade?
+https://fast.com/pt/
+
+Garantem toda a banda contratada passada por WiFi?
+Não. Banda garantida apenas via cabo de rede.
+
+Qual DNS padrão?
+Não configuramos DNS. Salvo exceção inserimos o DNS Google 8.8.8.8 ou 8.8.4.4
+
+Quais são as tratativas para reset?
+Após qualquer configuração realizado nos equipamentos, realizamos o reset remoto para reiniciar o equipamento com as devidas alterações.
+
+Existe tratativa de suporte N2 ou podemos enviar direto para N3?
+Sim, toda demanda não solucionada deve ser direcionada para o N2.
+
+Qual prazo de atendimento do Suporte, residencial e corporativo?
+SLA Residencial 24hrs;
+
+SLA Coorporativo 6hrs;
+
+Existe setor de Agendamento ou Técnico vai direto?
+Sim. OS aberta apenas por equipe interna Itapoá Fibra
+
+Qual o custo da visita técnica caso seja improdutiva?
+R$50,00
+
+Tem plantão aos finais de semana e feriado?
+Sim. 
+
+Qual é a forma de pagamento de serviços como visita técnica e mudança de ponto?
+Pix, dinheiro, cartão de crédito/débito (taxa por conta do cliente)
+
+A empresa trabalha com IPTV? E presta suporte do mesmo?
+Não.
+
+A empresa fornece IP Fixo? Qual valor?  
+Não. 
+
+Mudança de ponto no mesmo local, instalação de novo ponto, a UpCall pode abrir os? Se sim, quais os valores? Se não, para onde enviar?
+Não. Abrir ticket para equipe de suporte verificar.
+
+Mudança de Endereço
+Não. Abrir ticket para equipe de suporte verificar.
+
+FINANCEIRO E COMERCIAL
+ 
+
+Podemos enviar fatura?
+Sim
+
+Com quantos dias ocorre o bloqueio?
+30
+
+Podemos fazer o desbloqueio de confiança?
+Sim, no maximo 3x no mesmo mês para cada cliente.
+
+Por quantos dias a conexão é liberada?
+3~5 dias
+
+Possui redução de velocidade?
+Após 15 dias de inadimplência.
+
+Qual métodos de pagamentos da fatura?
+Pix, dinheiro, boleto, cartão de crédito/débito (taxa por conta do cliente)
+
+Qual o procedimento para comprovante de pagamento?
+Apenas fechar chat.
+
+Como prosseguir em casos de cancelamento?
+Abrir ticket para equipe de suporte verificar.
+
+INFORMAÇÕES DA EMPRESA
+ 
+
+ ERP 
+
+OLTCloud
+
+https://itapoa.oltsoft.com.br/
+
+ 
+
+Central do Assinante
+
+Para sistema Android: https://play.google.com/store/apps/details?id=br.com.itapoafibra
+
+Para sistema IOS: http://central.itapoafibra.com.br/
+
+ 
+
+ENDEREÇOS
+
+Filial 01 - Av Beira Mar 5, nº 1152 - Pontal
+
+Filial 02 - Rua 1400 Pedro Martins Bueno, n° 113, Sala 02 - Centro
+
+ 
+
+Possui atendimento presencial?
+Sim
+
+CONTATOS
+
+Nicolas
+
+Alan
+
+ 
+
+TELEFONE  
+
+Nicolas - 41996190742;
+
+Alan - 4191189917;
+
+Loja - 4734079437
+
+ 
+
+WHATSAPP  
+
+Loja - 4734079437
+
+ 
+
+SITE
+
+https://www.itapoafibra.com.br/
+
+ 
+
+FACEBOOK
+
+HORÁRIOS
+
+Filial 01 - segunda a sexta das 08:30hrs às 12:30hrs e 14:00hrs as 18:00hrs;
+
+Filial 02 - segunda a sexta das 08:30hrs às 11:00hrs e 12:30hrs as 18:00hrs;
